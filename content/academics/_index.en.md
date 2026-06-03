@@ -1,0 +1,4 @@
+---
+title: "Academics"
+layout: redirect
+---

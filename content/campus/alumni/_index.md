@@ -1,0 +1,4 @@
+---
+title: "الخريجون"
+layout: redirect
+---

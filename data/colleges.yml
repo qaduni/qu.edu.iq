@@ -1,0 +1,51 @@
+# Wrapped under `items:` so the CMS (Sveltia) can edit this file via a single
+# `list` widget — CMS schemas can't target a YAML root-level list directly.
+# Templates iterate `hugo.Data.colleges.items`.
+items:
+  - id: "medicine"
+    name_en: "College of Medicine"
+    name_ar: "كلية الطب"
+    desc_en: "Preparing distinguished physicians capable of providing the best healthcare services"
+    desc_ar: "إعداد أطباء متميزين قادرين على تقديم أفضل الخدمات الصحية"
+    url: "https://med.qu.edu.iq"
+    icon: "icon-research"
+
+  - id: "engineering"
+    name_en: "College of Engineering"
+    name_ar: "كلية الهندسة"
+    desc_en: "Graduating qualified engineers to lead development and reconstruction projects"
+    desc_ar: "تخريج مهندسين مؤهلين لقيادة مشاريع التنمية والإعمار"
+    url: "https://eng.qu.edu.iq"
+    icon: "icon-building"
+
+  - id: "science"
+    name_en: "College of Science"
+    name_ar: "كلية العلوم"
+    desc_en: "Scientific research and discovery in basic science fields"
+    desc_ar: "البحث العلمي والاكتشاف في مجالات العلوم الأساسية"
+    url: "https://sci.qu.edu.iq"
+    icon: "icon-research"
+
+  - id: "csit"
+    name_en: "College of CS & IT"
+    name_ar: "كلية علوم الحاسوب"
+    desc_en: "Leading in information technology and artificial intelligence"
+    desc_ar: "الريادة في مجال تكنولوجيا المعلومات والذكاء الاصطناعي"
+    url: "https://cs.qu.edu.iq"
+    icon: "icon-globe"
+
+  - id: "law"
+    name_en: "College of Law"
+    name_ar: "كلية القانون"
+    desc_en: "Preparing specialized lawyers in various branches of law"
+    desc_ar: "إعداد قانونيين متخصصين في مختلف فروع القانون"
+    url: "https://law.qu.edu.iq"
+    icon: "icon-document"
+
+  - id: "education"
+    name_en: "College of Education"
+    name_ar: "كلية التربية"
+    desc_en: "Training teachers and educators to build the future generation"
+    desc_ar: "تأهيل معلمين ومربين لبناء جيل المستقبل"
+    url: "https://edu.qu.edu.iq"
+    icon: "icon-graduation"

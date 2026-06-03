@@ -1,0 +1,4 @@
+---
+title: "القبول"
+layout: redirect
+---

@@ -1,0 +1,4 @@
+---
+title: "Admissions"
+layout: redirect
+---
