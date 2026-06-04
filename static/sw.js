@@ -12,7 +12,6 @@ const ASSETS_TO_CACHE = [
   '/en/',
   '/manifest.webmanifest',
   '/en/manifest.webmanifest',
-  '/images/logo.png',
   '/images/logo.webp',
   // Section shells — pre-cached so offline navigation lands on the right
   // section page instead of bouncing to the language home.

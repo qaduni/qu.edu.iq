@@ -1,4 +1,0 @@
----
-title: "الطلبة"
-layout: redirect
----

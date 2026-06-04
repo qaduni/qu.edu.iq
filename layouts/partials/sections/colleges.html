@@ -1,0 +1,47 @@
+{{/*
+    Colleges & Centres preview — first 8 colleges from data/colleges.yml.
+    Re-uses the theme's .cards-grid + .card classes so styling is free.
+    The full directory lives at /colleges/.
+*/}}
+{{ $isAr := eq .Language.Lang "ar" }}
+{{ with hugo.Data.colleges }}
+{{ with .items }}
+<section class="section section-alt">
+    <div class="container">
+        <div class="section-header reveal">
+            <h2>{{ i18n "our_colleges" }}</h2>
+            <p>{{ i18n "colleges_subtitle" }}</p>
+        </div>
+
+        <div class="cards-grid">
+            {{ range $i, $c := first 8 . }}
+            <div class="card reveal" style="--reveal-delay: {{ mul $i 60 }}ms;">
+                <div class="card-icon">
+                    <svg width="28" height="28" aria-hidden="true">
+                        <use href="#{{ with $c.icon }}{{ . }}{{ else }}icon-building{{ end }}"></use>
+                    </svg>
+                </div>
+                <div class="card-body">
+                    <h3>{{ if $isAr }}{{ $c.name_ar }}{{ else }}{{ $c.name_en }}{{ end }}</h3>
+                    <p>{{ if $isAr }}{{ $c.desc_ar }}{{ else }}{{ $c.desc_en }}{{ end }}</p>
+                    {{ with $c.url }}
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="card-link">
+                        {{ i18n "view_details" }}
+                        <svg width="16" height="16" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="text-center mt-xl">
+            <a href="{{ "/colleges/" | relLangURL }}" class="btn btn-primary btn-lg">
+                {{ i18n "view_all_colleges" }}
+                <svg width="16" height="16" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+            </a>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

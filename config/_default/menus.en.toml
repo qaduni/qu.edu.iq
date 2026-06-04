@@ -1,231 +1,525 @@
 # =============================================================================
-# English menus — qa.qu.edu.iq
+# English menus — qu.edu.iq (Al-Qadisiyah University main portal)
 # =============================================================================
 
 # -----------------------------------------------------------------------------
-# Main navigation
+# Top bar — high-frequency external portals
 # -----------------------------------------------------------------------------
+[[top_bar]]
+  name   = "Student Portal"
+  weight = 10
+  url    = "https://sis.mohesr.gov.iq"
+  [top_bar.params]
+    external = true
+    icon     = "users"
+
+[[top_bar]]
+  name   = "Faculty Directory"
+  weight = 20
+  url    = "https://staff.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "users"
+
+[[top_bar]]
+  name   = "LMS"
+  weight = 25
+  url    = "https://iq-learn.mohesr.gov.iq"
+  [top_bar.params]
+    external = true
+    icon     = "book"
+
+[[top_bar]]
+  name   = "Staff HR"
+  weight = 30
+  url    = "https://hr.mohesr.gov.iq"
+  [top_bar.params]
+    external = true
+    icon     = "building"
+
+[[top_bar]]
+  name   = "Library"
+  weight = 40
+  url    = "https://lib.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "book"
+
+[[top_bar]]
+  name   = "Repository"
+  weight = 50
+  url    = "https://repository.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "document"
+
+[[top_bar]]
+  name   = "Conferences"
+  weight = 60
+  url    = "https://conf.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "calendar"
+
+# -----------------------------------------------------------------------------
+# Main navigation — 8 sections
+# -----------------------------------------------------------------------------
+
+# 1. Home
 [[main]]
   name   = "Home"
   weight = 10
   url    = "/en/"
 
+# 2. About
 [[main]]
   name       = "About"
   identifier = "about"
   weight     = 20
 
 [[main]]
-  name   = "Department Structure"
+  name   = "History"
   parent = "about"
   weight = 21
-  url    = "/en/about/structure/"
+  url    = "/en/about/history/"
 [[main]]
-  name   = "Vision"
+  name   = "Vision & Mission"
   parent = "about"
   weight = 22
   url    = "/en/about/vision-mission/"
 [[main]]
-  name   = "Tasks"
+  name   = "Leadership"
   parent = "about"
   weight = 23
-  url    = "/en/about/tasks/"
-
+  url    = "/en/about/leadership/"
 [[main]]
-  name       = "Rankings"
-  identifier = "classifications"
-  weight     = 30
-
+  name   = "Organizational Structure"
+  parent = "about"
+  weight = 24
+  url    = "/en/about/structure/"
 [[main]]
-  name   = "International"
-  parent = "classifications"
+  name   = "Strategic Plan"
+  parent = "about"
+  weight = 25
+  url    = "/en/about/strategic-plan/"
+[[main]]
+  name   = "Rankings"
+  parent = "about"
+  weight = 26
+  url    = "/en/about/rankings/"
+[[main]]
+  name   = "University Statistics"
+  parent = "about"
+  weight = 27
+  url    = "/en/about/statistics/"
+[[main]]
+  name   = "Sustainable Development Goals"
+  parent = "about"
+  weight = 28
+  url    = "/en/about/sdg/"
+[[main]]
+  name   = "Handbooks & Guides"
+  parent = "about"
+  weight = 29
+  url    = "/en/about/handbooks/"
+[[main]]
+  name   = "Accessibility"
+  parent = "about"
+  weight = 30
+  url    = "/en/about/accessibility/"
+[[main]]
+  name   = "Policies & Privacy"
+  parent = "about"
   weight = 31
-  url    = "/en/classifications/international/"
+  url    = "/en/about/policies/"
 [[main]]
-  name   = "Arab"
-  parent = "classifications"
+  name   = "Related Links"
+  parent = "about"
   weight = 32
-  url    = "/en/classifications/arabic/"
-[[main]]
-  name   = "Iraqi (IRU)"
-  parent = "classifications"
-  weight = 33
-  url    = "/en/classifications/iru/"
+  url    = "/en/about/links/"
 
+# 3. Colleges & Centres (single page)
 [[main]]
-  name       = "Accreditation"
-  identifier = "accreditations"
+  name   = "Colleges & Centres"
+  weight = 30
+  url    = "/en/colleges/"
+
+# 4. Academics
+[[main]]
+  name       = "Academics"
+  identifier = "academics"
   weight     = 40
 
 [[main]]
-  name   = "Institutional"
-  parent = "accreditations"
+  name   = "Programs"
+  parent = "academics"
   weight = 41
-  url    = "/en/accreditations/institutional/"
+  url    = "/en/academics/programs/"
 [[main]]
-  name   = "Programmatic"
-  parent = "accreditations"
+  name   = "Program Specifications"
+  parent = "academics"
   weight = 42
-  url    = "/en/accreditations/programmatic/"
+  url    = "/en/academics/program-specs/"
 [[main]]
-  name   = "ISO"
-  parent = "accreditations"
+  name   = "Courses"
+  parent = "academics"
   weight = 43
-  url    = "/en/accreditations/iso/"
+  url    = "/en/academics/courses/"
 [[main]]
-  name   = "Memberships"
-  parent = "accreditations"
+  name   = "Faculty Directory"
+  parent = "academics"
   weight = 44
-  url    = "/en/accreditations/memberships/"
-
-[[main]]
-  name   = "Sustainability"
-  weight = 50
-  url    = "https://sust.qu.edu.iq"
+  url    = "https://staff.qu.edu.iq"
   [main.params]
     external = true
+[[main]]
+  name   = "Colleges Directory"
+  parent = "academics"
+  weight = 45
+  url    = "/en/academics/colleges/"
+[[main]]
+  name   = "Academic Calendar"
+  parent = "academics"
+  weight = 46
+  url    = "/en/academics/calendar/"
+[[main]]
+  name   = "Regulations"
+  parent = "academics"
+  weight = 47
+  url    = "/en/academics/regulations/"
+
+# 5. Admissions
+[[main]]
+  name       = "Admissions"
+  identifier = "admissions"
+  weight     = 50
 
 [[main]]
-  name       = "Evaluation"
-  identifier = "performance_evaluation"
+  name   = "Apply"
+  parent = "admissions"
+  weight = 51
+  url    = "/en/admissions/apply/"
+[[main]]
+  name   = "Requirements"
+  parent = "admissions"
+  weight = 52
+  url    = "/en/admissions/requirements/"
+[[main]]
+  name   = "Undergraduate"
+  parent = "admissions"
+  weight = 53
+  url    = "/en/admissions/undergraduate/"
+[[main]]
+  name   = "Postgraduate"
+  parent = "admissions"
+  weight = 54
+  url    = "/en/admissions/postgraduate/"
+[[main]]
+  name   = "International Students"
+  parent = "admissions"
+  weight = 55
+  url    = "/en/admissions/international/"
+[[main]]
+  name   = "Admission Plans"
+  parent = "admissions"
+  weight = 56
+  url    = "/en/admissions/plans/"
+
+# 6. Research & Innovation
+[[main]]
+  name       = "Research & Innovation"
+  identifier = "research"
   weight     = 60
 
 [[main]]
-  name   = "Forms 2024-2025"
-  parent = "performance_evaluation"
+  name   = "Research Strategy"
+  parent = "research"
   weight = 61
-  url    = "/en/performance-evaluation/forms-2024-2025/"
+  url    = "/en/research/strategy/"
 [[main]]
-  name   = "Forms 2023-2024"
-  parent = "performance_evaluation"
+  name   = "Research Centres"
+  parent = "research"
   weight = 62
-  url    = "/en/performance-evaluation/forms-2023-2024/"
+  url    = "/en/research/centers/"
 [[main]]
-  name   = "Guidance Manual"
-  parent = "performance_evaluation"
+  name   = "Scientific Journals"
+  parent = "research"
   weight = 63
-  url    = "/en/performance-evaluation/manual/"
+  url    = "/en/research/journals/"
 [[main]]
-  name   = "Surveys"
-  parent = "performance_evaluation"
+  name   = "Publications"
+  parent = "research"
   weight = 64
-  url    = "/en/performance-evaluation/surveys/"
-
+  url    = "/en/research/publications/"
 [[main]]
-  name       = "Labs"
-  identifier = "lab_accreditation"
+  name   = "Patents"
+  parent = "research"
+  weight = 65
+  url    = "/en/research/patents/"
+[[main]]
+  name   = "Innovation & Entrepreneurship"
+  parent = "research"
+  weight = 66
+  url    = "/en/research/innovation/"
+[[main]]
+  name   = "Business Incubators"
+  parent = "research"
+  weight = 67
+  url    = "/en/research/incubators/"
+[[main]]
+  name   = "Digital Repository"
+  parent = "research"
+  weight = 68
+  url    = "https://repository.qu.edu.iq"
+  [main.params]
+    external = true
+[[main]]
+  name   = "Research Statistics"
+  parent = "research"
+  weight = 69
+  url    = "/en/research/statistics/"
+[[main]]
+  name   = "Scientific Conferences"
+  parent = "research"
+  weight = 70
+  url    = "https://conf.qu.edu.iq"
+  [main.params]
+    external = true
+
+# 7. Student Life (consolidates Students + Campus)
+[[main]]
+  name       = "Student Life"
+  identifier = "student_life"
   weight     = 70
 
 [[main]]
-  name   = "Inventory"
-  parent = "lab_accreditation"
+  name   = "Student Portal"
+  parent = "student_life"
   weight = 71
-  url    = "/en/lab-accreditation/inventory/"
+  url    = "https://sis.mohesr.gov.iq"
+  [main.params]
+    external = true
 [[main]]
-  name   = "Documents"
-  parent = "lab_accreditation"
+  name   = "Library"
+  parent = "student_life"
   weight = 72
-  url    = "/en/lab-accreditation/documents/"
+  url    = "https://lib.qu.edu.iq"
+  [main.params]
+    external = true
 [[main]]
-  name   = "Lab Landscape"
-  parent = "lab_accreditation"
+  name   = "Mobile Apps"
+  parent = "student_life"
   weight = 73
-  url    = "/en/lab-accreditation/reality/"
+  url    = "/en/services/apps/"
 [[main]]
-  name   = "Safety"
-  parent = "lab_accreditation"
+  name   = "E-Services"
+  parent = "student_life"
   weight = 74
-  url    = "/en/lab-accreditation/safety/"
-
+  url    = "/en/services/e-services/"
 [[main]]
-  name       = "News"
-  identifier = "news_announcements"
+  name   = "Honour Roll"
+  parent = "student_life"
+  weight = 75
+  url    = "/en/students/honor-roll/"
+[[main]]
+  name   = "Jobs & Careers"
+  parent = "student_life"
+  weight = 76
+  url    = "/en/students/jobs/"
+[[main]]
+  name   = "Study in Iraq"
+  parent = "student_life"
+  weight = 77
+  url    = "/en/students/study-iraq/"
+[[main]]
+  name   = "Graduate Tracking"
+  parent = "student_life"
+  weight = 78
+  url    = "/en/students/graduate-tracking/"
+[[main]]
+  name   = "Alumni Gateway"
+  parent = "student_life"
+  weight = 79
+  url    = "https://alumni.qu.edu.iq"
+  [main.params]
+    external = true
+[[main]]
+  name   = "Distinguished Alumni"
+  parent = "student_life"
+  weight = 80
+  url    = "/en/campus/alumni/distinguished/"
+[[main]]
+  name   = "Career Development"
+  parent = "student_life"
+  weight = 81
+  url    = "/en/campus/alumni/careers/"
+[[main]]
+  name   = "Employer Feedback"
+  parent = "student_life"
+  weight = 82
+  url    = "/en/campus/alumni/feedback/"
+[[main]]
+  name   = "Continuing Education"
+  parent = "student_life"
+  weight = 83
+  url    = "/en/campus/continuing-education/"
+[[main]]
+  name   = "Certificates"
+  parent = "student_life"
+  weight = 84
+  url    = "/en/campus/continuing-education/certificates/"
+[[main]]
+  name   = "MOOCs"
+  parent = "student_life"
+  weight = 85
+  url    = "/en/campus/continuing-education/moocs/"
+[[main]]
+  name   = "Training Schedule"
+  parent = "student_life"
+  weight = 86
+  url    = "/en/campus/continuing-education/schedule/"
+
+# 8. News & Events
+[[main]]
+  name       = "News & Events"
+  identifier = "media"
   weight     = 80
 
 [[main]]
   name   = "News"
-  parent = "news_announcements"
+  parent = "media"
   weight = 81
   url    = "/en/media/news/"
 [[main]]
   name   = "Announcements"
-  parent = "news_announcements"
+  parent = "media"
   weight = 82
   url    = "/en/media/announcements/"
 [[main]]
-  name   = "Podcast"
-  parent = "news_announcements"
+  name   = "Events"
+  parent = "media"
   weight = 83
-  url    = "/en/media/podcast/"
+  url    = "https://events.qu.edu.iq"
+  [main.params]
+    external = true
 [[main]]
-  name   = "Contact"
-  parent = "news_announcements"
+  name   = "Scientific Conferences"
+  parent = "media"
   weight = 84
+  url    = "https://conf.qu.edu.iq"
+  [main.params]
+    external = true
+[[main]]
+  name   = "Gallery"
+  parent = "media"
+  weight = 85
+  url    = "/en/media/gallery/"
+[[main]]
+  name   = "Multimedia"
+  parent = "media"
+  weight = 86
+  url    = "/en/media/multimedia/"
+[[main]]
+  name   = "Publications"
+  parent = "media"
+  weight = 87
+  url    = "/en/media/publications/"
+[[main]]
+  name   = "Contact Us"
+  parent = "media"
+  weight = 88
   url    = "/en/media/contact/"
-
-# -----------------------------------------------------------------------------
-# Top bar
-# -----------------------------------------------------------------------------
-[[top_bar]]
-  name   = "Back to the university site"
-  weight = 10
-  url    = "https://qu.edu.iq"
-  [top_bar.params]
-    external = true
-
-[[top_bar]]
-  name   = "Sustainability"
-  weight = 20
-  url    = "https://sust.qu.edu.iq"
-  [top_bar.params]
-    external = true
 
 # -----------------------------------------------------------------------------
 # Footer — useful links column
 # -----------------------------------------------------------------------------
 [[footer_useful]]
-  name   = "Department Structure"
+  name   = "History"
   weight = 10
-  url    = "/en/about/structure/"
+  url    = "/en/about/history/"
 [[footer_useful]]
-  name   = "Vision"
+  name   = "Vision & Mission"
   weight = 20
   url    = "/en/about/vision-mission/"
 [[footer_useful]]
-  name   = "Tasks"
+  name   = "Leadership"
   weight = 30
-  url    = "/en/about/tasks/"
+  url    = "/en/about/leadership/"
+[[footer_useful]]
+  name   = "University Statistics"
+  weight = 40
+  url    = "/en/about/statistics/"
+[[footer_useful]]
+  name   = "Strategic Plan"
+  weight = 50
+  url    = "/en/about/strategic-plan/"
 
 # -----------------------------------------------------------------------------
-# Footer — related links column
+# Footer — portals & services column
 # -----------------------------------------------------------------------------
 [[footer_services]]
-  name   = "Accreditation"
+  name   = "Student Portal"
   weight = 10
-  url    = "/en/accreditations/"
-[[footer_services]]
-  name   = "Rankings"
-  weight = 20
-  url    = "/en/classifications/"
-[[footer_services]]
-  name   = "Performance Evaluation"
-  weight = 30
-  url    = "/en/performance-evaluation/"
-[[footer_services]]
-  name   = "Lab Accreditation"
-  weight = 40
-  url    = "/en/lab-accreditation/"
-[[footer_services]]
-  name   = "Sustainability"
-  weight = 50
-  url    = "https://sust.qu.edu.iq"
+  url    = "https://sis.mohesr.gov.iq"
   [footer_services.params]
     external = true
 [[footer_services]]
-  name   = "Back to the university site"
-  weight = 60
-  url    = "https://qu.edu.iq"
+  name   = "Faculty Directory"
+  weight = 20
+  url    = "https://staff.qu.edu.iq"
   [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "Staff HR"
+  weight = 30
+  url    = "https://hr.mohesr.gov.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "Library"
+  weight = 40
+  url    = "https://lib.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "Digital Repository"
+  weight = 50
+  url    = "https://repository.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "Events"
+  weight = 60
+  url    = "https://events.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "Scientific Conferences"
+  weight = 65
+  url    = "https://conf.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "Alumni Gateway"
+  weight = 70
+  url    = "https://alumni.qu.edu.iq"
+  [footer_services.params]
+    external = true
+
+# -----------------------------------------------------------------------------
+# Footer — related sites column
+# -----------------------------------------------------------------------------
+[[footer_related]]
+  name   = "Sustainability"
+  weight = 10
+  url    = "https://sust.qu.edu.iq"
+  [footer_related.params]
+    external = true
+[[footer_related]]
+  name   = "Ministry of Higher Education"
+  weight = 20
+  url    = "https://mohesr.gov.iq"
+  [footer_related.params]
     external = true
 
 # -----------------------------------------------------------------------------
@@ -244,89 +538,98 @@
   weight = 30
   url    = "/en/about/policies/privacy-policy/"
 [[footer_bottom]]
-  name   = "Security"
+  name   = "Data Protection"
   weight = 40
+  url    = "/en/about/policies/data-protection/"
+[[footer_bottom]]
+  name   = "Security"
+  weight = 50
   url    = "/en/about/policies/security-policy/"
 
 # -----------------------------------------------------------------------------
 # Homepage — Quick Links
 # -----------------------------------------------------------------------------
 [[quick_links]]
-  name   = "Evaluation forms"
+  name   = "Student Portal"
   weight = 10
-  url    = "/en/performance-evaluation/forms-2024-2025/"
+  url    = "https://sis.mohesr.gov.iq"
   [quick_links.params]
-    icon = "document"
+    icon     = "users"
+    external = true
 [[quick_links]]
-  name   = "Guidance manual"
+  name   = "Apply to the University"
   weight = 20
-  url    = "/en/performance-evaluation/manual/"
-  [quick_links.params]
-    icon = "book"
-[[quick_links]]
-  name   = "Surveys"
-  weight = 30
-  url    = "/en/performance-evaluation/surveys/"
-  [quick_links.params]
-    icon = "users"
-[[quick_links]]
-  name   = "Laboratory safety"
-  weight = 40
-  url    = "/en/lab-accreditation/safety/"
-  [quick_links.params]
-    icon = "award"
-[[quick_links]]
-  name   = "Guides & standards"
-  weight = 50
-  url    = "/en/standards/"
+  url    = "/en/admissions/apply/"
   [quick_links.params]
     icon = "document"
+[[quick_links]]
+  name   = "Library"
+  weight = 30
+  url    = "https://lib.qu.edu.iq"
+  [quick_links.params]
+    icon     = "book"
+    external = true
+[[quick_links]]
+  name   = "Digital Repository"
+  weight = 40
+  url    = "https://repository.qu.edu.iq"
+  [quick_links.params]
+    icon     = "document"
+    external = true
+[[quick_links]]
+  name   = "Colleges & Centres"
+  weight = 50
+  url    = "/en/colleges/"
+  [quick_links.params]
+    icon = "building"
 
 # -----------------------------------------------------------------------------
 # Homepage — Services cards
 # -----------------------------------------------------------------------------
 [[homepage_services]]
-  name   = "Performance Evaluation"
+  name   = "Academics"
   weight = 10
-  url    = "/en/performance-evaluation/"
+  url    = "/en/academics/programs/"
   [homepage_services.params]
     image = "images/labs.webp"
-    description = "Annual forms for evaluating colleges, centres and administrative departments"
+    description = "Programmes, courses, faculty, and everything related to the learning journey"
 [[homepage_services]]
-  name   = "Accreditation"
+  name   = "Research & Innovation"
   weight = 20
-  url    = "/en/accreditations/international/"
+  url    = "/en/research/"
   [homepage_services.params]
     image = "images/labs.webp"
-    description = "Supporting colleges in preparing national and international accreditation files"
+    description = "Research centres, publications, patents, and the university's research strategy"
 [[homepage_services]]
-  name   = "Rankings"
+  name   = "Student Services"
   weight = 30
-  url    = "/en/classifications/"
+  url    = "/en/students/"
   [homepage_services.params]
     image = "images/labs.webp"
-    description = "Tracking the university's position in international and Arab rankings"
+    description = "Student portal, library, jobs, and alumni services"
 [[homepage_services]]
-  name   = "Laboratory Accreditation"
+  name   = "Sustainability"
   weight = 40
-  url    = "/en/lab-accreditation/"
+  url    = "https://sust.qu.edu.iq"
   [homepage_services.params]
-    image = "images/labs.webp"
-    description = "Pursuing ISO/IEC 17025 laboratory accreditation and disseminating safety standards"
+    image    = "images/labs.webp"
+    description = "Al-Qadisiyah University's sustainability portal — SDGs and environmental initiatives"
+    external = true
 
 # -----------------------------------------------------------------------------
 # Hero CTAs
 # -----------------------------------------------------------------------------
 [[hero_buttons]]
-  name   = "About the Department"
+  name   = "Apply Now"
   weight = 10
-  url    = "/en/about/structure/"
+  url    = "/en/admissions/apply/"
   [hero_buttons.params]
-    icon = "building"
+    icon = "document"
     style = "accent"
 [[hero_buttons]]
-  name   = "Our Vision & Mission"
+  name   = "Discover the University"
   weight = 20
-  url    = "/en/about/vision-mission/"
+  url    = "/en/about/history/"
   [hero_buttons.params]
+    icon = "building"
     style = "secondary"

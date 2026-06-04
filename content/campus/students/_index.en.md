@@ -1,4 +1,0 @@
----
-title: "Students"
-layout: redirect
----

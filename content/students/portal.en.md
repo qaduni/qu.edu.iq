@@ -1,49 +1,50 @@
 ---
-title: "Student Portal"
-description: "Student Information System - grades, attendance, and schedule"
+title: "Accessing the Student Portal"
+description: "How to access the Student Portal (Student Information System) hosted by Iraq's Ministry of Higher Education and Scientific Research"
 icon: "users"
 ---
 
-## Student Portal
+## Student Portal (SIS)
 
-The Student Portal is the unified information system that allows students to track their academic and administrative affairs.
+The Student Portal is the official **Student Information System** used by Al-Qadisiyah University and all Iraqi universities. It is centrally managed by the Ministry of Higher Education and Scientific Research.
 
-## Available Services
+> 🔗 **Portal URL:** [sis.mohesr.gov.iq](https://sis.mohesr.gov.iq)
 
-### Academic Affairs
-- **Grades**: View exam and assessment grades
-- **Attendance**: Track attendance records
-- **Schedule**: View lecture and exam schedules
-- **Courses**: View registered courses
+## What You Can Do in the Portal
 
-### Financial Affairs
-- View due tuition fees
-- Track payment status
-- Print payment receipts
+- 📊 View your semester and final grades
+- 📅 See your weekly timetable
+- 📝 Check exam results
+- 📈 Track your cumulative academic record (GPA, credit hours)
+- 💳 View tuition fees and payment receipts
+- 📋 Submit re-examination and study-postponement requests
+- 🎓 Apply for graduation forms and ratification
 
-### Administrative Affairs
-- Submit electronic requests
-- Track request status
-- Print documents and certificates
+## First-Time Login
 
-### E-Learning
-- Access e-learning platform
-- Download lectures and materials
-- Submit assignments electronically
+1. Go to [sis.mohesr.gov.iq](https://sis.mohesr.gov.iq)
+2. Use your **university ID number** as the username (provided by your department)
+3. Default password: **your university ID + year of birth** (you will be prompted to change it on first login)
+4. Update your personal information and password
 
-## Portal Access
+## Forgot Your Password?
 
-[Access Student Portal](https://sis.qu.edu.iq)
+Use the "Forgot password" link inside the portal. If you do not receive a verification email, contact your college's Registration Office.
 
-### Login Credentials
-- **Username**: University ID
-- **Password**: Sent upon initial registration
+## Login Issues?
 
-### Forgot Password?
-You can recover your password via registered email or contact the Registration Department.
+- **Your college's Registration Office** — the first point of contact
+- **Central Registrar:** registrar@qu.edu.iq
+- **Ministry technical support:** via the form inside the SIS portal
 
-## Technical Support
+## Important Notes
 
-For technical assistance:
-- **Email**: support@qu.edu.iq
-- **Phone**: 1234 (extension)
+- The portal is **centrally hosted by the Ministry**, so you will see ministry branding rather than only QU branding — this is expected
+- Availability may be affected during peak times (registration, results announcements) — try again later
+- Do not share your login credentials with anyone
+
+## Related
+
+- [Academic Calendar](/en/academics/calendar/)
+- [Examination Regulations](/en/academics/regulations/)
+- [Student Handbook](/en/about/handbooks/)

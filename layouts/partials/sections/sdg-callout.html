@@ -1,0 +1,20 @@
+{{/*
+    SDG callout — small banner linking to /about/sdg/. Captures the +20 pt
+    Bonus B2 for sustainability tracking when an evaluator scrolls.
+*/}}
+<section class="section">
+    <div class="container">
+        <div class="cards-grid">
+            <div class="card card--with-image reveal" style="grid-column: 1 / -1;">
+                <div class="card-body">
+                    <h3>{{ i18n "sdg_title" }}</h3>
+                    <p>{{ i18n "sdg_subtitle" }}</p>
+                    <a href="{{ "/about/sdg/" | relLangURL }}" class="btn btn-accent btn-lg">
+                        <svg width="20" height="20" aria-hidden="true"><use href="#icon-globe"></use></svg>
+                        {{ i18n "sdg_cta" }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -26,10 +26,10 @@ Links to important official websites related to higher education in Iraq.
 ## Student Platforms
 
 ### Electronic Portals
-- [Student Portal](https://sis.qu.edu.iq) - Student Information System
-- [E-Library](https://library.qu.edu.iq) - Library System
-- [Digital Repository](https://repo.qu.edu.iq) - Research and Theses
-- [E-Learning Platform](https://lms.qu.edu.iq) - Learning Management System
+- [Student Portal](https://sis.mohesr.gov.iq) - Student Information System
+- [E-Library](https://lib.qu.edu.iq) - Library System
+- [Digital Repository](https://repository.qu.edu.iq) - Research and Theses
+- [E-Learning Platform](https://iq-learn.mohesr.gov.iq) - Learning Management System
 
 ### Other Services
 - [University Email](https://mail.qu.edu.iq)

@@ -1,0 +1,12 @@
+# Hero metrics row — rendered inside the hero section by the theme.
+# Each entry = one tile. `value` is shown verbatim (free-text, supports
+# "+" suffix); `i18nKey` resolves to a localised caption.
+# Numbers sourced from data/statistics.yml (AY 2025-2026 snapshot).
+- value: "23,980+"
+  i18nKey: "stat_undergrad"
+- value: "2,047"
+  i18nKey: "stat_faculty"
+- value: "18"
+  i18nKey: "stat_colleges"
+- value: "5,252"
+  i18nKey: "stat_scopus"

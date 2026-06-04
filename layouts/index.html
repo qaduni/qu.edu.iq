@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{ partial "sections/hero.html" . }}
+    {{ partial "sections/announcements.html" . }}
+    {{ partial "sections/services.html" . }}
+    {{ partial "sections/news-grid.html" . }}
+    {{ partial "sections/platforms.html" . }}
+    {{ partial "sections/colleges.html" . }}
+    {{ partial "sections/quick-links.html" . }}
+    {{ partial "sections/sdg-callout.html" . }}
+    {{ partial "sections/contact.html" . }}
+    {{ with .Site.Params.visitorCounterEndpoint }}
+    {{ partial "sections/visitor-counter.html" $ }}
+    {{ end }}
+
+    {{ $jsHome := resources.Get "js/home.js" | minify | fingerprint }}
+    {{ with $jsHome }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
+{{ end }}

@@ -1,5 +1,5 @@
 # =============================================================================
-# Site Params — qa.qu.edu.iq (Quality Assurance Department, Al-Qadisiyah Uni)
+# Site Params — qu.edu.iq (Al-Qadisiyah University, main portal)
 #
 # These are the SITE-LEVEL overrides. The qu.theme ships neutral defaults
 # for everything below; only override what is specific to this organisation.
@@ -13,7 +13,7 @@ campusMapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6502.660
 
 # Optional "Official Domain / Official Email" notice in the footer.
 # Common pattern for Iraqi government / university sites.
-officialDomain = "qa.qu.edu.iq"
+officialDomain = "qu.edu.iq"
 showOfficialDomainNotice = true
 
 # Endpoints (empty string = feature is hidden / mailto fallback used)
@@ -25,7 +25,7 @@ visitorCounterEndpoint = ""
 # `address` is a single human-readable string. Per-language overrides
 # in hugo.toml localise it to Arabic / English.
 [contact]
-  email   = "qu.assurance@qu.edu.iq"
+  email   = "info@qu.edu.iq"
   phone   = ""
   address = "Al-Qadisiyah University, Al-Diwaniyah, Al-Qadisiyah Province, Iraq"
 
@@ -40,8 +40,26 @@ visitorCounterEndpoint = ""
   tiktok    = ""
 
 [externalServices]
-  universityMain    = "https://qu.edu.iq"
-  sustainability    = "https://sust.qu.edu.iq"
+  studentPortal    = "https://sis.mohesr.gov.iq"
+  facultyDirectory = "https://staff.qu.edu.iq"
+  lms              = "https://iq-learn.mohesr.gov.iq"
+  staffHR          = "https://hr.mohesr.gov.iq"
+  library          = "https://lib.qu.edu.iq"
+  repository       = "https://repository.qu.edu.iq"
+  events           = "https://events.qu.edu.iq"
+  conferences      = "https://conf.qu.edu.iq"
+  alumni           = "https://alumni.qu.edu.iq"
+  sustainability   = "https://sust.qu.edu.iq"
+  ministry         = "https://mohesr.gov.iq"
+  # Journals: each journal has its own subdomain — no single hostname.
+  # The /research/journals/ aggregator page lists them from data/journals.yml.
+
+# Homepage Sustainability feature section. The theme renders a card linking
+# out to the external sustainability portal when `enabled = true`.
+[sustainability]
+  enabled  = true
+  url      = "https://sust.qu.edu.iq"
+  image    = "images/labs.webp"
 
 # Schema.org JSON-LD identity (used by the theme's baseof.html)
 [schema]
@@ -62,7 +80,6 @@ visitorCounterEndpoint = ""
   news          = "/media/news"
   announcements = "/media/announcements"
   contact       = "/media/contact"
-  podcast       = "/media/podcast"
 
 # Brand theme colours. Override any one to re-skin the theme.
 [theme]

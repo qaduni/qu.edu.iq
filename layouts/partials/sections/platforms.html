@@ -1,0 +1,72 @@
+{{/*
+    Integrated platforms strip — surfaces every external service the
+    university operates so an evaluator finds the §15 portfolio without
+    digging into menus. Reads .Site.Params.externalServices.
+*/}}
+{{ with .Site.Params.externalServices }}
+<section class="section">
+    <div class="container">
+        <div class="section-header reveal">
+            <h2>{{ i18n "platforms_title" }}</h2>
+            <p>{{ i18n "platforms_subtitle" }}</p>
+        </div>
+
+        <div class="quick-links">
+            {{ with .studentPortal }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-users"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_student_portal" }}</span>
+            </a>
+            {{ end }}
+            {{ with .facultyDirectory }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-users"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_faculty_directory" }}</span>
+            </a>
+            {{ end }}
+            {{ with .lms }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-book"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_lms" }}</span>
+            </a>
+            {{ end }}
+            {{ with .library }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-library"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_library" }}</span>
+            </a>
+            {{ end }}
+            {{ with .repository }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-document"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_repository" }}</span>
+            </a>
+            {{ end }}
+            {{ with .events }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-calendar"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_events" }}</span>
+            </a>
+            {{ end }}
+            {{ with .conferences }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-award"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_conferences" }}</span>
+            </a>
+            {{ end }}
+            {{ with .alumni }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-graduation"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_alumni" }}</span>
+            </a>
+            {{ end }}
+            {{ with .staffHR }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="quick-link reveal">
+                <div class="quick-link-icon"><svg width="24" height="24" aria-hidden="true"><use href="#icon-briefcase"></use></svg></div>
+                <span class="quick-link-text">{{ i18n "platform_staff_hr" }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

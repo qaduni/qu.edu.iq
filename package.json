@@ -1,7 +1,7 @@
 {
-  "name": "qa.qu.edu.iq",
+  "name": "qu.edu.iq",
   "version": "1.0.0",
-  "description": "Al-Qadisiyah University QA Department website.",
+  "description": "Al-Qadisiyah University Website.",
   "devDependencies": {
     "pagefind": "^1.5.2"
   }

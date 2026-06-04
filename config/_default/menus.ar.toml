@@ -1,5 +1,5 @@
 # =============================================================================
-# Arabic menus — qa.qu.edu.iq
+# Arabic menus — qu.edu.iq (Al-Qadisiyah University main portal)
 #
 # Hugo loads this automatically as `[languages.ar.menus]` because of the
 # `menus.<LANG>.toml` filename convention.
@@ -16,229 +16,523 @@
 # =============================================================================
 
 # -----------------------------------------------------------------------------
-# Main navigation (top header)
+# Top bar — high-frequency external portals
 # -----------------------------------------------------------------------------
-[[main]]
-  name       = "الرئيسية"
-  weight     = 10
-  url        = "/"
+[[top_bar]]
+  name   = "بوابة الطالب"
+  weight = 10
+  url    = "https://sis.mohesr.gov.iq"
+  [top_bar.params]
+    external = true
+    icon     = "users"
 
+[[top_bar]]
+  name   = "دليل أعضاء هيئة التدريس"
+  weight = 20
+  url    = "https://staff.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "users"
+
+[[top_bar]]
+  name   = "نظام إدارة التعلم"
+  weight = 25
+  url    = "https://iq-learn.mohesr.gov.iq"
+  [top_bar.params]
+    external = true
+    icon     = "book"
+
+[[top_bar]]
+  name   = "الموارد البشرية"
+  weight = 30
+  url    = "https://hr.mohesr.gov.iq"
+  [top_bar.params]
+    external = true
+    icon     = "building"
+
+[[top_bar]]
+  name   = "المكتبة"
+  weight = 40
+  url    = "https://lib.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "book"
+
+[[top_bar]]
+  name   = "المستودع الرقمي"
+  weight = 50
+  url    = "https://repository.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "document"
+
+[[top_bar]]
+  name   = "المؤتمرات العلمية"
+  weight = 60
+  url    = "https://conf.qu.edu.iq"
+  [top_bar.params]
+    external = true
+    icon     = "calendar"
+
+# -----------------------------------------------------------------------------
+# Main navigation — 8 sections
+# -----------------------------------------------------------------------------
+
+# 1. Home
 [[main]]
-  name       = "عن القسم"
+  name   = "الرئيسية"
+  weight = 10
+  url    = "/"
+
+# 2. About
+[[main]]
+  name       = "عن الجامعة"
   identifier = "about"
   weight     = 20
 
 [[main]]
-  name   = "هيكلية القسم"
+  name   = "نبذة تاريخية"
   parent = "about"
   weight = 21
-  url    = "/about/structure/"
+  url    = "/about/history/"
 [[main]]
-  name   = "رؤية القسم"
+  name   = "الرؤية والرسالة"
   parent = "about"
   weight = 22
   url    = "/about/vision-mission/"
 [[main]]
-  name   = "مهام القسم"
+  name   = "القيادة"
   parent = "about"
   weight = 23
-  url    = "/about/tasks/"
-
+  url    = "/about/leadership/"
 [[main]]
-  name       = "التصنيفات"
-  identifier = "classifications"
-  weight     = 30
-
+  name   = "الهيكل التنظيمي"
+  parent = "about"
+  weight = 24
+  url    = "/about/structure/"
 [[main]]
-  name   = "التصنيفات العالمية"
-  parent = "classifications"
+  name   = "الخطة الاستراتيجية"
+  parent = "about"
+  weight = 25
+  url    = "/about/strategic-plan/"
+[[main]]
+  name   = "التصنيفات"
+  parent = "about"
+  weight = 26
+  url    = "/about/rankings/"
+[[main]]
+  name   = "إحصاءات الجامعة"
+  parent = "about"
+  weight = 27
+  url    = "/about/statistics/"
+[[main]]
+  name   = "أهداف التنمية المستدامة"
+  parent = "about"
+  weight = 28
+  url    = "/about/sdg/"
+[[main]]
+  name   = "الأدلة والكتيبات"
+  parent = "about"
+  weight = 29
+  url    = "/about/handbooks/"
+[[main]]
+  name   = "إمكانية الوصول"
+  parent = "about"
+  weight = 30
+  url    = "/about/accessibility/"
+[[main]]
+  name   = "السياسات والخصوصية"
+  parent = "about"
   weight = 31
-  url    = "/classifications/international/"
+  url    = "/about/policies/"
 [[main]]
-  name   = "التصنيفات العربية"
-  parent = "classifications"
+  name   = "روابط ذات صلة"
+  parent = "about"
   weight = 32
-  url    = "/classifications/arabic/"
-[[main]]
-  name   = "التصنيف العراقي IRU"
-  parent = "classifications"
-  weight = 33
-  url    = "/classifications/iru/"
+  url    = "/about/links/"
 
+# 3. Colleges & Centres (single page)
 [[main]]
-  name       = "الاعتمادات"
-  identifier = "accreditations"
+  name   = "الكليات والمراكز"
+  weight = 30
+  url    = "/colleges/"
+
+# 4. Academics
+[[main]]
+  name       = "الشؤون الأكاديمية"
+  identifier = "academics"
   weight     = 40
 
 [[main]]
-  name   = "الاعتماد المؤسسي"
-  parent = "accreditations"
+  name   = "البرامج الأكاديمية"
+  parent = "academics"
   weight = 41
-  url    = "/accreditations/institutional/"
+  url    = "/academics/programs/"
 [[main]]
-  name   = "الاعتماد البرامجي"
-  parent = "accreditations"
+  name   = "مواصفات البرامج"
+  parent = "academics"
   weight = 42
-  url    = "/accreditations/programmatic/"
+  url    = "/academics/program-specs/"
 [[main]]
-  name   = "اعتمادات ISO"
-  parent = "accreditations"
+  name   = "المقررات الدراسية"
+  parent = "academics"
   weight = 43
-  url    = "/accreditations/iso/"
+  url    = "/academics/courses/"
 [[main]]
-  name   = "العضويات"
-  parent = "accreditations"
+  name   = "دليل أعضاء هيئة التدريس"
+  parent = "academics"
   weight = 44
-  url    = "/accreditations/memberships/"
-
-[[main]]
-  name   = "موقع الاستدامة"
-  weight = 50
-  url    = "https://sust.qu.edu.iq"
+  url    = "https://staff.qu.edu.iq"
   [main.params]
     external = true
+[[main]]
+  name   = "دليل الكليات"
+  parent = "academics"
+  weight = 45
+  url    = "/academics/colleges/"
+[[main]]
+  name   = "التقويم الأكاديمي"
+  parent = "academics"
+  weight = 46
+  url    = "/academics/calendar/"
+[[main]]
+  name   = "الأنظمة والتعليمات"
+  parent = "academics"
+  weight = 47
+  url    = "/academics/regulations/"
+
+# 5. Admissions
+[[main]]
+  name       = "القبول"
+  identifier = "admissions"
+  weight     = 50
 
 [[main]]
-  name       = "تقويم الأداء"
-  identifier = "performance_evaluation"
+  name   = "التقديم"
+  parent = "admissions"
+  weight = 51
+  url    = "/admissions/apply/"
+[[main]]
+  name   = "متطلبات القبول"
+  parent = "admissions"
+  weight = 52
+  url    = "/admissions/requirements/"
+[[main]]
+  name   = "البكالوريوس"
+  parent = "admissions"
+  weight = 53
+  url    = "/admissions/undergraduate/"
+[[main]]
+  name   = "الدراسات العليا"
+  parent = "admissions"
+  weight = 54
+  url    = "/admissions/postgraduate/"
+[[main]]
+  name   = "الطلبة الدوليون"
+  parent = "admissions"
+  weight = 55
+  url    = "/admissions/international/"
+[[main]]
+  name   = "الخطط الدراسية"
+  parent = "admissions"
+  weight = 56
+  url    = "/admissions/plans/"
+
+# 6. Research & Innovation
+[[main]]
+  name       = "البحث والابتكار"
+  identifier = "research"
   weight     = 60
 
 [[main]]
-  name   = "استمارات 2024-2025"
-  parent = "performance_evaluation"
+  name   = "الاستراتيجية البحثية"
+  parent = "research"
   weight = 61
-  url    = "/performance-evaluation/forms-2024-2025/"
+  url    = "/research/strategy/"
 [[main]]
-  name   = "استمارات 2023-2024"
-  parent = "performance_evaluation"
+  name   = "المراكز البحثية"
+  parent = "research"
   weight = 62
-  url    = "/performance-evaluation/forms-2023-2024/"
+  url    = "/research/centers/"
 [[main]]
-  name   = "الدليل الإرشادي"
-  parent = "performance_evaluation"
+  name   = "المجلات العلمية"
+  parent = "research"
   weight = 63
-  url    = "/performance-evaluation/manual/"
+  url    = "/research/journals/"
 [[main]]
-  name   = "الاستبانات"
-  parent = "performance_evaluation"
+  name   = "المنشورات العلمية"
+  parent = "research"
   weight = 64
-  url    = "/performance-evaluation/surveys/"
-
+  url    = "/research/publications/"
 [[main]]
-  name       = "اعتماد المختبرات"
-  identifier = "lab_accreditation"
+  name   = "براءات الاختراع"
+  parent = "research"
+  weight = 65
+  url    = "/research/patents/"
+[[main]]
+  name   = "الابتكار وريادة الأعمال"
+  parent = "research"
+  weight = 66
+  url    = "/research/innovation/"
+[[main]]
+  name   = "حاضنات الأعمال"
+  parent = "research"
+  weight = 67
+  url    = "/research/incubators/"
+[[main]]
+  name   = "المستودع الرقمي"
+  parent = "research"
+  weight = 68
+  url    = "https://repository.qu.edu.iq"
+  [main.params]
+    external = true
+[[main]]
+  name   = "الإحصائيات البحثية"
+  parent = "research"
+  weight = 69
+  url    = "/research/statistics/"
+[[main]]
+  name   = "المؤتمرات العلمية"
+  parent = "research"
+  weight = 70
+  url    = "https://conf.qu.edu.iq"
+  [main.params]
+    external = true
+
+# 7. Student Life (consolidates Students + Campus)
+[[main]]
+  name       = "الحياة الجامعية"
+  identifier = "student_life"
   weight     = 70
 
 [[main]]
-  name   = "جرد المختبرات"
-  parent = "lab_accreditation"
+  name   = "بوابة الطالب"
+  parent = "student_life"
   weight = 71
-  url    = "/lab-accreditation/inventory/"
+  url    = "https://sis.mohesr.gov.iq"
+  [main.params]
+    external = true
 [[main]]
-  name   = "وثائق ومستندات"
-  parent = "lab_accreditation"
+  name   = "المكتبة"
+  parent = "student_life"
   weight = 72
-  url    = "/lab-accreditation/documents/"
+  url    = "https://lib.qu.edu.iq"
+  [main.params]
+    external = true
 [[main]]
-  name   = "واقع المختبرات"
-  parent = "lab_accreditation"
+  name   = "تطبيقات الجوال"
+  parent = "student_life"
   weight = 73
-  url    = "/lab-accreditation/reality/"
+  url    = "/services/apps/"
 [[main]]
-  name   = "السلامة المختبرية"
-  parent = "lab_accreditation"
+  name   = "الخدمات الإلكترونية"
+  parent = "student_life"
   weight = 74
-  url    = "/lab-accreditation/safety/"
-
+  url    = "/services/e-services/"
 [[main]]
-  name       = "الأخبار"
-  identifier = "news_announcements"
+  name   = "لوحة الشرف"
+  parent = "student_life"
+  weight = 75
+  url    = "/students/honor-roll/"
+[[main]]
+  name   = "الوظائف والتوظيف"
+  parent = "student_life"
+  weight = 76
+  url    = "/students/jobs/"
+[[main]]
+  name   = "ادرس في العراق"
+  parent = "student_life"
+  weight = 77
+  url    = "/students/study-iraq/"
+[[main]]
+  name   = "متابعة الخريجين"
+  parent = "student_life"
+  weight = 78
+  url    = "/students/graduate-tracking/"
+[[main]]
+  name   = "بوابة الخريجين"
+  parent = "student_life"
+  weight = 79
+  url    = "https://alumni.qu.edu.iq"
+  [main.params]
+    external = true
+[[main]]
+  name   = "الخريجون المتميزون"
+  parent = "student_life"
+  weight = 80
+  url    = "/campus/alumni/distinguished/"
+[[main]]
+  name   = "تطوير المسار المهني"
+  parent = "student_life"
+  weight = 81
+  url    = "/campus/alumni/careers/"
+[[main]]
+  name   = "آراء أصحاب العمل"
+  parent = "student_life"
+  weight = 82
+  url    = "/campus/alumni/feedback/"
+[[main]]
+  name   = "التعليم المستمر"
+  parent = "student_life"
+  weight = 83
+  url    = "/campus/continuing-education/"
+[[main]]
+  name   = "الشهادات والتأهيل"
+  parent = "student_life"
+  weight = 84
+  url    = "/campus/continuing-education/certificates/"
+[[main]]
+  name   = "المساقات المفتوحة (MOOCs)"
+  parent = "student_life"
+  weight = 85
+  url    = "/campus/continuing-education/moocs/"
+[[main]]
+  name   = "جدول الدورات التدريبية"
+  parent = "student_life"
+  weight = 86
+  url    = "/campus/continuing-education/schedule/"
+
+# 8. News & Events
+[[main]]
+  name       = "الأخبار والفعاليات"
+  identifier = "media"
   weight     = 80
 
 [[main]]
   name   = "الأخبار"
-  parent = "news_announcements"
+  parent = "media"
   weight = 81
   url    = "/media/news/"
 [[main]]
   name   = "الإعلانات"
-  parent = "news_announcements"
+  parent = "media"
   weight = 82
   url    = "/media/announcements/"
 [[main]]
-  name   = "البودكاست"
-  parent = "news_announcements"
+  name   = "الفعاليات"
+  parent = "media"
   weight = 83
-  url    = "/media/podcast/"
+  url    = "https://events.qu.edu.iq"
+  [main.params]
+    external = true
+[[main]]
+  name   = "المؤتمرات العلمية"
+  parent = "media"
+  weight = 84
+  url    = "https://conf.qu.edu.iq"
+  [main.params]
+    external = true
+[[main]]
+  name   = "المعرض"
+  parent = "media"
+  weight = 85
+  url    = "/media/gallery/"
+[[main]]
+  name   = "الوسائط المتعددة"
+  parent = "media"
+  weight = 86
+  url    = "/media/multimedia/"
+[[main]]
+  name   = "المنشورات"
+  parent = "media"
+  weight = 87
+  url    = "/media/publications/"
 [[main]]
   name   = "تواصلوا معنا"
-  parent = "news_announcements"
-  weight = 84
+  parent = "media"
+  weight = 88
   url    = "/media/contact/"
-
-# -----------------------------------------------------------------------------
-# Top bar (left side)
-# -----------------------------------------------------------------------------
-[[top_bar]]
-  name   = "العودة إلى موقع الجامعة"
-  weight = 10
-  url    = "https://qu.edu.iq"
-  [top_bar.params]
-    external = true
-
-[[top_bar]]
-  name   = "موقع الاستدامة"
-  weight = 20
-  url    = "https://sust.qu.edu.iq"
-  [top_bar.params]
-    external = true
 
 # -----------------------------------------------------------------------------
 # Footer — useful links column
 # -----------------------------------------------------------------------------
 [[footer_useful]]
-  name   = "هيكلية القسم"
+  name   = "نبذة تاريخية"
   weight = 10
-  url    = "/about/structure/"
+  url    = "/about/history/"
 [[footer_useful]]
-  name   = "رؤية القسم"
+  name   = "الرؤية والرسالة"
   weight = 20
   url    = "/about/vision-mission/"
 [[footer_useful]]
-  name   = "مهام القسم"
+  name   = "القيادة"
   weight = 30
-  url    = "/about/tasks/"
+  url    = "/about/leadership/"
+[[footer_useful]]
+  name   = "إحصاءات الجامعة"
+  weight = 40
+  url    = "/about/statistics/"
+[[footer_useful]]
+  name   = "الخطة الاستراتيجية"
+  weight = 50
+  url    = "/about/strategic-plan/"
 
 # -----------------------------------------------------------------------------
-# Footer — related links column
+# Footer — portals & services column
 # -----------------------------------------------------------------------------
 [[footer_services]]
-  name   = "الاعتمادات"
+  name   = "بوابة الطالب"
   weight = 10
-  url    = "/accreditations/"
-[[footer_services]]
-  name   = "التصنيفات"
-  weight = 20
-  url    = "/classifications/"
-[[footer_services]]
-  name   = "تقويم الأداء"
-  weight = 30
-  url    = "/performance-evaluation/"
-[[footer_services]]
-  name   = "اعتماد المختبرات"
-  weight = 40
-  url    = "/lab-accreditation/"
-[[footer_services]]
-  name   = "موقع الاستدامة"
-  weight = 50
-  url    = "https://sust.qu.edu.iq"
+  url    = "https://sis.mohesr.gov.iq"
   [footer_services.params]
     external = true
 [[footer_services]]
-  name   = "العودة إلى موقع الجامعة"
-  weight = 60
-  url    = "https://qu.edu.iq"
+  name   = "دليل أعضاء هيئة التدريس"
+  weight = 20
+  url    = "https://staff.qu.edu.iq"
   [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "الموارد البشرية"
+  weight = 30
+  url    = "https://hr.mohesr.gov.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "المكتبة"
+  weight = 40
+  url    = "https://lib.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "المستودع الرقمي"
+  weight = 50
+  url    = "https://repository.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "الفعاليات"
+  weight = 60
+  url    = "https://events.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "المؤتمرات العلمية"
+  weight = 65
+  url    = "https://conf.qu.edu.iq"
+  [footer_services.params]
+    external = true
+[[footer_services]]
+  name   = "بوابة الخريجين"
+  weight = 70
+  url    = "https://alumni.qu.edu.iq"
+  [footer_services.params]
+    external = true
+
+# -----------------------------------------------------------------------------
+# Footer — related sites column
+# -----------------------------------------------------------------------------
+[[footer_related]]
+  name   = "موقع الاستدامة"
+  weight = 10
+  url    = "https://sust.qu.edu.iq"
+  [footer_related.params]
+    external = true
+[[footer_related]]
+  name   = "وزارة التعليم العالي والبحث العلمي"
+  weight = 20
+  url    = "https://mohesr.gov.iq"
+  [footer_related.params]
     external = true
 
 # -----------------------------------------------------------------------------
@@ -257,89 +551,98 @@
   weight = 30
   url    = "/about/policies/privacy-policy/"
 [[footer_bottom]]
-  name   = "الأمان"
+  name   = "حماية البيانات"
   weight = 40
+  url    = "/about/policies/data-protection/"
+[[footer_bottom]]
+  name   = "الأمان"
+  weight = 50
   url    = "/about/policies/security-policy/"
 
 # -----------------------------------------------------------------------------
 # Homepage — Quick Links section
 # -----------------------------------------------------------------------------
 [[quick_links]]
-  name   = "استمارات تقويم الأداء"
+  name   = "بوابة الطالب"
   weight = 10
-  url    = "/performance-evaluation/forms-2024-2025/"
+  url    = "https://sis.mohesr.gov.iq"
   [quick_links.params]
-    icon = "document"
+    icon     = "users"
+    external = true
 [[quick_links]]
-  name   = "الدليل الإرشادي"
+  name   = "التقديم على الجامعة"
   weight = 20
-  url    = "/performance-evaluation/manual/"
-  [quick_links.params]
-    icon = "book"
-[[quick_links]]
-  name   = "الاستبانات"
-  weight = 30
-  url    = "/performance-evaluation/surveys/"
-  [quick_links.params]
-    icon = "users"
-[[quick_links]]
-  name   = "السلامة المختبرية"
-  weight = 40
-  url    = "/lab-accreditation/safety/"
-  [quick_links.params]
-    icon = "award"
-[[quick_links]]
-  name   = "أدلة ومعايير"
-  weight = 50
-  url    = "/standards/"
+  url    = "/admissions/apply/"
   [quick_links.params]
     icon = "document"
+[[quick_links]]
+  name   = "المكتبة"
+  weight = 30
+  url    = "https://lib.qu.edu.iq"
+  [quick_links.params]
+    icon     = "book"
+    external = true
+[[quick_links]]
+  name   = "المستودع الرقمي"
+  weight = 40
+  url    = "https://repository.qu.edu.iq"
+  [quick_links.params]
+    icon     = "document"
+    external = true
+[[quick_links]]
+  name   = "الكليات والمراكز"
+  weight = 50
+  url    = "/colleges/"
+  [quick_links.params]
+    icon = "building"
 
 # -----------------------------------------------------------------------------
 # Homepage — Services cards section (4 large feature cards)
 # -----------------------------------------------------------------------------
 [[homepage_services]]
-  name   = "تقويم الأداء"
+  name   = "الشؤون الأكاديمية"
   weight = 10
-  url    = "/performance-evaluation/"
+  url    = "/academics/programs/"
   [homepage_services.params]
     image = "images/labs.webp"
-    description = "استمارات سنوية لتقويم أداء الكليات والمراكز والأقسام الإدارية"
+    description = "البرامج الدراسية والمقررات وأعضاء هيئة التدريس وكل ما يخص العملية التعليمية"
 [[homepage_services]]
-  name   = "الاعتماد"
+  name   = "البحث والابتكار"
   weight = 20
-  url    = "/accreditations/"
+  url    = "/research/"
   [homepage_services.params]
     image = "images/labs.webp"
-    description = "دعم الكليات في إعداد ملفات الاعتماد الوطني والدولي"
+    description = "المراكز البحثية والمنشورات العلمية وبراءات الاختراع والاستراتيجية البحثية"
 [[homepage_services]]
-  name   = "التصنيفات"
+  name   = "خدمات الطلبة"
   weight = 30
-  url    = "/classifications/international/"
+  url    = "/students/"
   [homepage_services.params]
     image = "images/labs.webp"
-    description = "متابعة موقع الجامعة في التصنيفات العالمية والعربية"
+    description = "بوابة الطالب والمكتبة والوظائف وخدمات الخريجين"
 [[homepage_services]]
-  name   = "اعتماد المختبرات"
+  name   = "الاستدامة"
   weight = 40
-  url    = "/lab-accreditation/"
+  url    = "https://sust.qu.edu.iq"
   [homepage_services.params]
-    image = "images/labs.webp"
-    description = "متابعة اعتماد المختبرات وفق ISO/IEC 17025 ونشر معايير السلامة"
+    image    = "images/labs.webp"
+    description = "موقع الاستدامة في جامعة القادسية - أهداف التنمية المستدامة والمبادرات البيئية"
+    external = true
 
 # -----------------------------------------------------------------------------
 # Hero CTAs (2 buttons)
 # -----------------------------------------------------------------------------
 [[hero_buttons]]
-  name   = "تعرف على القسم"
+  name   = "التقديم على الجامعة"
   weight = 10
-  url    = "/about/structure/"
+  url    = "/admissions/apply/"
   [hero_buttons.params]
-    icon = "building"
+    icon = "document"
     style = "accent"
 [[hero_buttons]]
-  name   = "رؤيتنا ورسالتنا"
+  name   = "تعرف على الجامعة"
   weight = 20
-  url    = "/about/vision-mission/"
+  url    = "/about/history/"
   [hero_buttons.params]
+    icon = "building"
     style = "secondary"
