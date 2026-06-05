@@ -84,72 +84,96 @@
   weight = 10
   url    = "/"
 
-# 2. About
+# 2. About — مجمَّعة في ثلاث مجموعات فرعية
 [[main]]
   name       = "عن الجامعة"
   identifier = "about"
   weight     = 20
 
+# 2a. الهوية والقيادة
+[[main]]
+  name       = "الهوية والقيادة"
+  identifier = "about_identity"
+  parent     = "about"
+  weight     = 21
 [[main]]
   name   = "نبذة تاريخية"
-  parent = "about"
-  weight = 21
+  parent = "about_identity"
+  weight = 1
   url    = "/about/history/"
 [[main]]
   name   = "الرؤية والرسالة"
-  parent = "about"
-  weight = 22
+  parent = "about_identity"
+  weight = 2
   url    = "/about/vision-mission/"
 [[main]]
   name   = "القيادة"
-  parent = "about"
-  weight = 23
+  parent = "about_identity"
+  weight = 3
   url    = "/about/leadership/"
 [[main]]
   name   = "الهيكل التنظيمي"
-  parent = "about"
-  weight = 24
+  parent = "about_identity"
+  weight = 4
   url    = "/about/structure/"
+
+# 2b. الأداء والاستراتيجية
+[[main]]
+  name       = "الأداء والاستراتيجية"
+  identifier = "about_performance"
+  parent     = "about"
+  weight     = 22
 [[main]]
   name   = "الخطة الاستراتيجية"
-  parent = "about"
-  weight = 25
+  parent = "about_performance"
+  weight = 1
   url    = "/about/strategic-plan/"
 [[main]]
   name   = "التصنيفات"
-  parent = "about"
-  weight = 26
+  parent = "about_performance"
+  weight = 2
   url    = "/about/rankings/"
 [[main]]
   name   = "إحصاءات الجامعة"
-  parent = "about"
-  weight = 27
+  parent = "about_performance"
+  weight = 3
   url    = "/about/statistics/"
+
+# 2c. المعلومات والسياسات
 [[main]]
-  name   = "أهداف التنمية المستدامة"
-  parent = "about"
-  weight = 28
-  url    = "/about/sdg/"
+  name       = "المعلومات والسياسات"
+  identifier = "about_info"
+  parent     = "about"
+  weight     = 23
 [[main]]
   name   = "الأدلة والكتيبات"
-  parent = "about"
-  weight = 29
+  parent = "about_info"
+  weight = 1
   url    = "/about/handbooks/"
 [[main]]
   name   = "إمكانية الوصول"
-  parent = "about"
-  weight = 30
+  parent = "about_info"
+  weight = 2
   url    = "/about/accessibility/"
 [[main]]
   name   = "السياسات والخصوصية"
-  parent = "about"
-  weight = 31
+  parent = "about_info"
+  weight = 3
   url    = "/about/policies/"
 [[main]]
   name   = "روابط ذات صلة"
-  parent = "about"
-  weight = 32
+  parent = "about_info"
+  weight = 4
   url    = "/about/links/"
+
+# 2d. الاستدامة — رابط مباشر إلى موقع الاستدامة المخصص
+[[main]]
+  name   = "الاستدامة (SDGs)"
+  parent = "about"
+  weight = 24
+  url    = "https://sust.qu.edu.iq"
+  [main.params]
+    external = true
 
 # 3. Colleges & Centres (single page)
 [[main]]
@@ -238,158 +262,212 @@
   weight = 56
   url    = "/admissions/plans/"
 
-# 6. Research & Innovation
+# 6. Research & Innovation — مجمَّعة (الاستراتيجية/الإصدارات/الابتكار/المؤشرات)
 [[main]]
   name       = "البحث والابتكار"
   identifier = "research"
   weight     = 60
 
+# 6a. الاستراتيجية والمراكز
+[[main]]
+  name       = "الاستراتيجية والمراكز"
+  identifier = "research_strategy"
+  parent     = "research"
+  weight     = 61
 [[main]]
   name   = "الاستراتيجية البحثية"
-  parent = "research"
-  weight = 61
+  parent = "research_strategy"
+  weight = 1
   url    = "/research/strategy/"
 [[main]]
   name   = "المراكز البحثية"
-  parent = "research"
-  weight = 62
+  parent = "research_strategy"
+  weight = 2
   url    = "/research/centers/"
+
+# 6b. الإصدارات والمستودع
+[[main]]
+  name       = "الإصدارات والمستودع"
+  identifier = "research_output"
+  parent     = "research"
+  weight     = 62
 [[main]]
   name   = "المجلات العلمية"
-  parent = "research"
-  weight = 63
+  parent = "research_output"
+  weight = 1
   url    = "/research/journals/"
 [[main]]
   name   = "المنشورات العلمية"
-  parent = "research"
-  weight = 64
+  parent = "research_output"
+  weight = 2
   url    = "/research/publications/"
 [[main]]
   name   = "براءات الاختراع"
-  parent = "research"
-  weight = 65
+  parent = "research_output"
+  weight = 3
   url    = "/research/patents/"
 [[main]]
-  name   = "الابتكار وريادة الأعمال"
-  parent = "research"
-  weight = 66
-  url    = "/research/innovation/"
-[[main]]
-  name   = "حاضنات الأعمال"
-  parent = "research"
-  weight = 67
-  url    = "/research/incubators/"
-[[main]]
   name   = "المستودع الرقمي"
-  parent = "research"
-  weight = 68
+  parent = "research_output"
+  weight = 4
   url    = "https://repository.qu.edu.iq"
   [main.params]
     external = true
+
+# 6c. الابتكار وريادة الأعمال
+[[main]]
+  name       = "الابتكار وريادة الأعمال"
+  identifier = "research_innovation"
+  parent     = "research"
+  weight     = 63
+[[main]]
+  name   = "الابتكار وريادة الأعمال"
+  parent = "research_innovation"
+  weight = 1
+  url    = "/research/innovation/"
+[[main]]
+  name   = "حاضنات الأعمال"
+  parent = "research_innovation"
+  weight = 2
+  url    = "/research/incubators/"
+
+# 6d. المؤشرات والفعاليات
+[[main]]
+  name       = "المؤشرات والفعاليات"
+  identifier = "research_insights"
+  parent     = "research"
+  weight     = 64
 [[main]]
   name   = "الإحصائيات البحثية"
-  parent = "research"
-  weight = 69
+  parent = "research_insights"
+  weight = 1
   url    = "/research/statistics/"
 [[main]]
   name   = "المؤتمرات العلمية"
-  parent = "research"
-  weight = 70
+  parent = "research_insights"
+  weight = 2
   url    = "https://conf.qu.edu.iq"
   [main.params]
     external = true
 
-# 7. Student Life (consolidates Students + Campus)
+# 7. Student Life — مجمَّعة (الخدمات/المسار المهني/الخريجون/التعليم المستمر)
 [[main]]
   name       = "الحياة الجامعية"
   identifier = "student_life"
   weight     = 70
 
+# 7a. الخدمات والأدوات
+[[main]]
+  name       = "الخدمات والأدوات"
+  identifier = "student_services"
+  parent     = "student_life"
+  weight     = 71
 [[main]]
   name   = "بوابة الطالب"
-  parent = "student_life"
-  weight = 71
+  parent = "student_services"
+  weight = 1
   url    = "https://sis.mohesr.gov.iq"
   [main.params]
     external = true
 [[main]]
   name   = "المكتبة"
-  parent = "student_life"
-  weight = 72
+  parent = "student_services"
+  weight = 2
   url    = "https://lib.qu.edu.iq"
   [main.params]
     external = true
 [[main]]
   name   = "تطبيقات الجوال"
-  parent = "student_life"
-  weight = 73
+  parent = "student_services"
+  weight = 3
   url    = "/services/apps/"
 [[main]]
   name   = "الخدمات الإلكترونية"
-  parent = "student_life"
-  weight = 74
+  parent = "student_services"
+  weight = 4
   url    = "/services/e-services/"
+
+# 7b. المسار المهني والتميّز
+[[main]]
+  name       = "المسار المهني والتميّز"
+  identifier = "student_career"
+  parent     = "student_life"
+  weight     = 72
 [[main]]
   name   = "لوحة الشرف"
-  parent = "student_life"
-  weight = 75
+  parent = "student_career"
+  weight = 1
   url    = "/students/honor-roll/"
 [[main]]
   name   = "الوظائف والتوظيف"
-  parent = "student_life"
-  weight = 76
+  parent = "student_career"
+  weight = 2
   url    = "/students/jobs/"
 [[main]]
   name   = "ادرس في العراق"
-  parent = "student_life"
-  weight = 77
+  parent = "student_career"
+  weight = 3
   url    = "/students/study-iraq/"
 [[main]]
   name   = "متابعة الخريجين"
-  parent = "student_life"
-  weight = 78
+  parent = "student_career"
+  weight = 4
   url    = "/students/graduate-tracking/"
+
+# 7c. الخريجون
+[[main]]
+  name       = "الخريجون"
+  identifier = "student_alumni"
+  parent     = "student_life"
+  weight     = 73
 [[main]]
   name   = "بوابة الخريجين"
-  parent = "student_life"
-  weight = 79
+  parent = "student_alumni"
+  weight = 1
   url    = "https://alumni.qu.edu.iq"
   [main.params]
     external = true
 [[main]]
   name   = "الخريجون المتميزون"
-  parent = "student_life"
-  weight = 80
+  parent = "student_alumni"
+  weight = 2
   url    = "/campus/alumni/distinguished/"
 [[main]]
   name   = "تطوير المسار المهني"
-  parent = "student_life"
-  weight = 81
+  parent = "student_alumni"
+  weight = 3
   url    = "/campus/alumni/careers/"
 [[main]]
   name   = "آراء أصحاب العمل"
-  parent = "student_life"
-  weight = 82
+  parent = "student_alumni"
+  weight = 4
   url    = "/campus/alumni/feedback/"
+
+# 7d. التعليم المستمر
 [[main]]
-  name   = "التعليم المستمر"
-  parent = "student_life"
-  weight = 83
+  name       = "التعليم المستمر"
+  identifier = "student_continuing"
+  parent     = "student_life"
+  weight     = 74
+[[main]]
+  name   = "نظرة عامة"
+  parent = "student_continuing"
+  weight = 1
   url    = "/campus/continuing-education/"
 [[main]]
   name   = "الشهادات والتأهيل"
-  parent = "student_life"
-  weight = 84
+  parent = "student_continuing"
+  weight = 2
   url    = "/campus/continuing-education/certificates/"
 [[main]]
   name   = "المساقات المفتوحة (MOOCs)"
-  parent = "student_life"
-  weight = 85
+  parent = "student_continuing"
+  weight = 3
   url    = "/campus/continuing-education/moocs/"
 [[main]]
   name   = "جدول الدورات التدريبية"
-  parent = "student_life"
-  weight = 86
+  parent = "student_continuing"
+  weight = 4
   url    = "/campus/continuing-education/schedule/"
 
 # 8. News & Events

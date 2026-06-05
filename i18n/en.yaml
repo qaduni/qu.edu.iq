@@ -67,9 +67,10 @@ platform_staff_hr: "Staff HR"
 # Homepage — SDG callout (site partial)
 # Site-level SDG banner
 # ============================================================================
+sdg_badge: "Sustainability"
 sdg_title: "Sustainable Development Goals"
-sdg_subtitle: "Tracking Al-Qadisiyah University's contribution to the UN 2030 agenda"
-sdg_cta: "Explore Our SDG Work"
+sdg_subtitle: "Discover Al-Qadisiyah University's contribution to the UN 2030 agenda on our dedicated sustainability portal."
+sdg_cta: "Visit sust.qu.edu.iq"
 
 # ============================================================================
 # News grid + list page
@@ -193,3 +194,13 @@ graduate_form_unavailable: "The graduate survey is not currently enabled. To par
 # Misc
 # ============================================================================
 map_title: "Campus location map"
+
+# ============================================================================
+# Org-chart shortcode (themes/qu.theme/layouts/shortcodes/org-chart.html)
+# Interactive Mermaid-based organisational hierarchy
+# ============================================================================
+org_chart_aria_label: "Organizational chart"
+org_chart_zoom_in: "Zoom in"
+org_chart_zoom_out: "Zoom out"
+org_chart_reset: "Reset zoom"
+org_chart_noscript: "Enable JavaScript to view the interactive chart. The structure is shown below as text."

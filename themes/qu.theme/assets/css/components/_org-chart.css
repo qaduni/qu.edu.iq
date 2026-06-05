@@ -1,0 +1,267 @@
+/* ============================================================================
+ * Org-Chart shortcode — interactive Mermaid-based organizational hierarchy.
+ * See layouts/shortcodes/org-chart.html and partials/org-chart-assets.html.
+ * ============================================================================ */
+
+.org-chart {
+    /* Width comes from the parent's grid `full` column (set by
+       _content.css). No layout-overflow tricks needed. */
+    position: relative;
+    width: 100%;
+    margin-block: var(--spacing-2xl);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-xl);
+    background:
+        radial-gradient(circle at 0% 0%, color-mix(in srgb, var(--color-primary) 6%, transparent), transparent 55%),
+        var(--color-background);
+    border: 1px solid var(--color-border-light);
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+}
+
+.org-chart__header {
+    margin-bottom: var(--spacing-md);
+}
+
+.org-chart__title {
+    margin: 0;
+    font-size: 1.25rem;
+    color: var(--color-primary-dark);
+    letter-spacing: -0.01em;
+}
+
+.org-chart__viewport {
+    position: relative;
+    overflow: auto;
+    border-radius: var(--radius-lg);
+    background:
+        linear-gradient(180deg, color-mix(in srgb, var(--color-primary) 3%, transparent), transparent 30%),
+        var(--color-background-alt, #f7f9fc);
+    border: 1px solid var(--color-border-light);
+    min-height: 420px;
+    max-height: 80vh;
+    padding: var(--spacing-lg);
+    cursor: grab;
+    touch-action: pan-x pan-y;
+    /* `smooth` interferes with drag-to-pan (every JS scroll animates). */
+    scroll-behavior: auto;
+    overscroll-behavior: contain;
+}
+
+.org-chart.is-dragging .org-chart__viewport {
+    cursor: grabbing;
+    user-select: none;
+}
+
+.org-chart__viewport:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Stage — actual layout width/height = natural × scale (JS sets the two
+   custom properties after Mermaid finishes rendering). The SVG inside
+   fills the stage via the rule further down, so the rendered diagram
+   matches the stage's box exactly. `margin-inline: auto` centres the
+   stage horizontally when it's narrower than the viewport, in both LTR
+   and RTL; when wider, the auto margins collapse to 0 and the viewport
+   becomes pan-scrollable. */
+.org-chart__stage {
+    width: calc(var(--natural-w, 100%) * var(--scale, 1));
+    height: auto;
+    margin-inline: auto;
+    transition: width var(--transition-base);
+}
+
+.org-chart__stage > pre.mermaid {
+    margin: 0;
+    background: transparent;
+    border: none;
+    padding: 0;
+    overflow: visible;
+    color: var(--color-text);
+    font-family: inherit;
+    text-align: center;
+    width: 100%;
+}
+
+/* Force the rendered SVG to fill the stage regardless of any inline
+   width/height Mermaid set on it. Aspect ratio is preserved via the
+   SVG's own viewBox. */
+.org-chart__stage svg {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+}
+
+/* Mermaid renders the diagram as SVG inside the <pre>. Style the nodes
+   to lift on hover and match the site's rounded-card aesthetic. */
+.org-chart svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.org-chart svg .node rect,
+.org-chart svg .node polygon,
+.org-chart svg .node circle,
+.org-chart svg .node ellipse,
+.org-chart svg .node path {
+    rx: 12;
+    ry: 12;
+    filter: drop-shadow(0 4px 10px color-mix(in srgb, var(--color-primary) 18%, transparent));
+    transition: transform var(--transition-base), filter var(--transition-base);
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.org-chart svg .node:hover rect,
+.org-chart svg .node:hover polygon,
+.org-chart svg .node:hover circle,
+.org-chart svg .node:hover ellipse,
+.org-chart svg .node:hover path {
+    transform: translateY(-2px);
+    filter: drop-shadow(0 8px 18px color-mix(in srgb, var(--color-primary) 30%, transparent));
+}
+
+.org-chart svg .edgePath .path,
+.org-chart svg .flowchart-link {
+    stroke-width: 1.75px;
+    opacity: 0.85;
+}
+
+.org-chart svg .node .label,
+.org-chart svg .nodeLabel {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    padding: 6px 4px;
+}
+
+@media (min-width: 769px) {
+    .org-chart svg .node .label,
+    .org-chart svg .nodeLabel {
+        font-size: 1.0625rem;
+    }
+}
+
+/* Zoom controls — pill toolbar floating bottom-end of the card. */
+.org-chart__controls {
+    position: absolute;
+    bottom: var(--spacing-lg);
+    inset-inline-end: var(--spacing-lg);
+    display: none; /* shown only when JS is enabled — see html.js rule below */
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    background: var(--color-background);
+    border: 1px solid var(--color-border-light);
+    border-radius: 999px;
+    box-shadow: var(--shadow-md);
+    z-index: 2;
+}
+
+html.js .org-chart__controls {
+    display: inline-flex;
+}
+
+.org-chart__btn {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1;
+    transition: background var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+}
+
+.org-chart__btn:hover,
+.org-chart__btn:focus-visible {
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    outline: none;
+}
+
+.org-chart__btn:active {
+    transform: scale(0.95);
+}
+
+.org-chart__btn--reset {
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+}
+
+.org-chart__caption {
+    margin-top: var(--spacing-md);
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.org-chart__noscript {
+    margin-top: var(--spacing-md);
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+}
+
+.org-chart__fallback {
+    margin-top: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: var(--color-background-alt, #f7f9fc);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-md);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.8125rem;
+    overflow-x: auto;
+    white-space: pre;
+}
+
+/* RTL — defensively force LTR direction on diagram text so Mermaid's
+   own coordinate math is unaffected; Arabic glyph shaping still works. */
+[dir="rtl"] .org-chart svg text {
+    direction: rtl;
+}
+
+/* ----------------------------------------------------------------------------
+ * Small screens — compact card, smaller chrome, horizontal scrolling diagram.
+ * ---------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .org-chart {
+        margin-block: var(--spacing-xl);
+        padding: var(--spacing-md);
+        border-radius: var(--radius-lg);
+    }
+
+    .org-chart__title {
+        font-size: 1.0625rem;
+    }
+
+    .org-chart__viewport {
+        padding: var(--spacing-md);
+        min-height: 320px;
+        max-height: 70vh;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .org-chart__controls {
+        bottom: var(--spacing-md);
+        inset-inline-end: var(--spacing-md);
+    }
+
+    .org-chart__btn {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .org-chart__caption {
+        font-size: 0.8125rem;
+    }
+}

@@ -1,0 +1,208 @@
+{{/*
+    org-chart-assets — loaded once per page that contains the org-chart
+    shortcode (gated by .Page.Scratch in shortcodes/org-chart.html).
+
+    Pulls Mermaid as an ES module from esm.sh, initialises it with theme
+    colors that mirror assets/css/_variables.css, then wires the zoom
+    controls. Pure inline JS so the global JS bundle is unaffected on
+    pages that never use the shortcode.
+
+    NOTE: if the palette in _variables.css changes, update the hex values
+    in `themeVariables` below — Mermaid reads its config at init time and
+    cannot resolve `var(--…)`.
+*/}}
+<link rel="preconnect" href="https://esm.sh">
+
+<script type="module">
+    import mermaid from "https://esm.sh/mermaid@10";
+
+    mermaid.initialize({
+        startOnLoad: false,
+        theme: "base",
+        securityLevel: "strict",
+        fontFamily: "Cairo, Inter, system-ui, sans-serif",
+        flowchart: {
+            htmlLabels: true,
+            curve: "stepBefore",
+            useMaxWidth: false,
+            padding: 28,
+            nodeSpacing: 70,
+            rankSpacing: 90,
+        },
+        themeVariables: {
+            primaryColor: "#0f4c81",
+            primaryTextColor: "#ffffff",
+            primaryBorderColor: "#0a3459",
+            secondaryColor: "#1a6bb5",
+            tertiaryColor: "#f3f6fb",
+            tertiaryTextColor: "#1a1a2e",
+            lineColor: "#1a6bb5",
+            edgeLabelBackground: "#ffffff",
+            mainBkg: "#0f4c81",
+            nodeBorder: "#0a3459",
+            clusterBkg: "#f3f6fb",
+            clusterBorder: "#cfd9e8",
+            fontSize: "18px",
+        },
+    });
+
+    await mermaid.run({ querySelector: ".org-chart pre.mermaid" });
+
+    const STEP    = 0.1;
+    const MIN     = 0.5;
+    const MAX     = 2.5;
+    const DEFAULT = 1.3;
+    const clamp = (n) => Math.min(MAX, Math.max(MIN, Math.round(n * 10) / 10));
+
+    document.querySelectorAll(".org-chart").forEach((chart) => {
+        const stage    = chart.querySelector(".org-chart__stage");
+        const viewport = chart.querySelector(".org-chart__viewport");
+        const svg      = chart.querySelector(".org-chart svg");
+        if (!stage || !viewport) return;
+
+        const measure = () => {
+            // Pull the unscaled natural pixel size from Mermaid's emitted
+            // width/height attributes (Mermaid sets these when
+            // useMaxWidth: false). Fall back to the viewBox, then to a
+            // direct bounding-rect measurement divided by the current
+            // scale if neither attribute is present.
+            let w = 0, h = 0;
+            if (svg) {
+                w = parseFloat(svg.getAttribute("width"))  || 0;
+                h = parseFloat(svg.getAttribute("height")) || 0;
+                if ((!w || !h) && svg.hasAttribute("viewBox")) {
+                    const [, , vbW, vbH] = svg.getAttribute("viewBox").split(/\s+/).map(Number);
+                    if (vbW) w = vbW;
+                    if (vbH) h = vbH;
+                }
+            }
+            if (!w || !h) {
+                const target = svg || stage;
+                const scale  = parseFloat(getComputedStyle(stage).getPropertyValue("--scale")) || DEFAULT;
+                const rect   = target.getBoundingClientRect();
+                w = rect.width  / scale;
+                h = rect.height / scale;
+            }
+            stage.style.setProperty("--natural-w", w + "px");
+            stage.style.setProperty("--natural-h", h + "px");
+            stage.dataset.naturalW = w;
+            stage.dataset.naturalH = h;
+        };
+
+        measure();
+        requestAnimationFrame(() => requestAnimationFrame(measure));
+        if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(measure);
+        }
+        window.addEventListener("resize", measure);
+
+        // RTL note: modern browsers use the "negative" convention for
+        // scrollLeft on RTL elements — the scroll range is
+        // [-scrollLeftMax, 0] with 0 at the inline-start (right edge).
+        // Setting scrollLeft = +N clamps to 0 and silently does nothing.
+        // signX flips the conversion so the same arithmetic works for both
+        // directions: in RTL we negate computed scrollLeft values.
+        const isRTL = getComputedStyle(viewport).direction === "rtl";
+        const signX = isRTL ? -1 : 1;
+
+        // Stage's layout-left in viewport coordinates. Mirrors what CSS
+        // margin-inline: auto resolves to: centred when stage fits, 0 when
+        // it overflows. In RTL the stage hugs the right edge instead of
+        // the left when overflowing — but since we always measure the
+        // visible centre in viewport coords (clientWidth/2), the offset
+        // is the same: the relevant edge is the inline-start, which is
+        // the visible-left edge after we apply signX to scrollLeft.
+        const stageLeft = (stageW) => (stageW < viewport.clientWidth)
+            ? (viewport.clientWidth - stageW) / 2 : 0;
+        const stageTop  = (stageH) => 0; // top-aligned (height: auto)
+
+        // Centre the chart horizontally on first paint when it overflows.
+        const recentre = () => {
+            const overflowX = viewport.scrollWidth - viewport.clientWidth;
+            if (overflowX > 0) viewport.scrollLeft = signX * overflowX / 2;
+        };
+        requestAnimationFrame(recentre);
+
+        const setScale = (next) => {
+            const current = parseFloat(getComputedStyle(stage).getPropertyValue("--scale")) || DEFAULT;
+            next = clamp(next);
+            if (Math.abs(next - current) < 0.001) return;
+
+            const natW = parseFloat(stage.dataset.naturalW) || 0;
+            const natH = parseFloat(stage.dataset.naturalH) || 0;
+            const cW   = viewport.clientWidth;
+            const cH   = viewport.clientHeight;
+
+            // Diagram-natural coordinate currently at the viewport's centre.
+            const stageWOld   = natW * current;
+            const stageHOld   = natH * current;
+            const offsetXOld  = stageLeft(stageWOld);
+            const offsetYOld  = stageTop(stageHOld);
+            const sLeftOld    = signX * viewport.scrollLeft; // normalise RTL
+            const dCentreXNat = natW ? (cW / 2 - offsetXOld + sLeftOld) / current : 0;
+            const dCentreYNat = natH ? (cH / 2 - offsetYOld + viewport.scrollTop) / current : 0;
+
+            stage.style.setProperty("--scale", next);
+            chart.dataset.zoomed = (next === DEFAULT) ? "false" : "true";
+
+            requestAnimationFrame(() => {
+                const stageWNew  = natW * next;
+                const stageHNew  = natH * next;
+                const offsetXNew = stageLeft(stageWNew);
+                const offsetYNew = stageTop(stageHNew);
+                const sLeftNew   = Math.max(0, offsetXNew + dCentreXNat * next - cW / 2);
+                viewport.scrollLeft = signX * sLeftNew;
+                viewport.scrollTop  = Math.max(0, offsetYNew + dCentreYNat * next - cH / 2);
+            });
+        };
+
+        chart.querySelectorAll(".org-chart__btn").forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const current = parseFloat(getComputedStyle(stage).getPropertyValue("--scale")) || DEFAULT;
+                switch (btn.dataset.action) {
+                    case "zoom-in":  setScale(current + STEP); break;
+                    case "zoom-out": setScale(current - STEP); break;
+                    case "reset":    setScale(DEFAULT);        break;
+                }
+            });
+        });
+
+        // Click-and-drag panning across the viewport.
+        let dragging = false;
+        let startX = 0, startY = 0, startLeft = 0, startTop = 0;
+
+        const onDown = (e) => {
+            if (e.target.closest(".org-chart__btn")) return;
+            // Ignore right-clicks / middle-clicks for mouse.
+            if (e.pointerType === "mouse" && e.button !== 0) return;
+            dragging = true;
+            startX = e.clientX;
+            startY = e.clientY;
+            startLeft = viewport.scrollLeft;
+            startTop  = viewport.scrollTop;
+            chart.classList.add("is-dragging");
+            try { viewport.setPointerCapture(e.pointerId); } catch (_) {}
+            e.preventDefault();
+        };
+        const onMove = (e) => {
+            if (!dragging) return;
+            // signX flip: in RTL, a rightward drag (positive deltaX) should
+            // reveal content on the right of the viewport, which means
+            // scrollLeft must increase in magnitude in the negative
+            // direction. signX handles that.
+            viewport.scrollLeft = startLeft - signX * (e.clientX - startX);
+            viewport.scrollTop  = startTop  - (e.clientY - startY);
+        };
+        const onUp = (e) => {
+            if (!dragging) return;
+            dragging = false;
+            chart.classList.remove("is-dragging");
+            try { viewport.releasePointerCapture(e.pointerId); } catch (_) {}
+        };
+
+        viewport.addEventListener("pointerdown",   onDown);
+        viewport.addEventListener("pointermove",   onMove);
+        viewport.addEventListener("pointerup",     onUp);
+        viewport.addEventListener("pointercancel", onUp);
+    });
+</script>

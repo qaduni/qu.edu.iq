@@ -4,6 +4,21 @@ description: "Administrative and organizational structure of Al-Qadisiyah Univer
 icon: "chart"
 ---
 
+{{< org-chart title="Al-Qadisiyah University — Leadership" direction="TB" caption="High-level hierarchy" >}}
+flowchart TB
+    PR[President]
+    PR --> VPS[VP for Scientific Affairs]
+    PR --> VPA[VP for Administrative Affairs]
+    VPS --> RSRCH[Research Office]
+    VPS --> GRAD[Graduate Studies]
+    VPS --> MED[Medical Colleges]
+    VPS --> ENG[Engineering & Science Colleges]
+    VPS --> HUM[Humanities Colleges]
+    VPA --> HR[Human Resources]
+    VPA --> FIN[Finance]
+    VPA --> OPS[Campus Operations]
+{{< /org-chart >}}
+
 ## University Leadership
 
 ### University Presidency

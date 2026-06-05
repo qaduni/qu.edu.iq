@@ -7,7 +7,25 @@
 }
 
 .article-content {
-    max-width: 80ch;
+    /* CSS-Grid breakout: text stays at the inline-start edge (left in LTR,
+       right in RTL) capped at 80ch for readable line length; the
+       org-chart claims the `full` column that spans the whole article
+       and is therefore centred against the container. Avoids the
+       layout-overflow hazard of margin/transform tricks. */
+    display: grid;
+    grid-template-columns:
+        [full-start content-start] min(80ch, 100%) [content-end]
+        minmax(0, 1fr) [full-end];
+    max-width: 100%;
+}
+
+.article-content > * {
+    grid-column: content;
+    min-width: 0;
+}
+
+.article-content > .org-chart {
+    grid-column: full;
 }
 
 .article-content h2 {
