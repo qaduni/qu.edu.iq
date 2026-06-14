@@ -81,7 +81,6 @@ news_subtitle: "Stay updated with the latest news and events at Al-Qadisiyah Uni
 coming_soon: "Coming Soon"
 stay_tuned: "Stay tuned for latest news and events"
 all_news: "All News"
-news_label: "News"
 search_news_placeholder: "Search news…"
 
 # ============================================================================
@@ -96,8 +95,6 @@ stay_tuned_announcements: "Stay tuned for upcoming announcements"
 all_announcements: "All Announcements"
 announcement_label: "Announcement"
 search_announcements_placeholder: "Search announcements…"
-type_label: "Type"
-category_label: "Category"
 
 # ============================================================================
 # Contact section

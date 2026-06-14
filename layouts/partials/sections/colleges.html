@@ -1,8 +1,3 @@
-{{/*
-    Colleges & Centres preview — first 8 colleges from data/colleges.yml.
-    Re-uses the theme's .cards-grid + .card classes so styling is free.
-    The full directory lives at /colleges/.
-*/}}
 {{ $isAr := eq .Language.Lang "ar" }}
 {{ with hugo.Data.colleges }}
 {{ with .items }}

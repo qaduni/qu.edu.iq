@@ -1,16 +1,5 @@
 # =============================================================================
 # Arabic menus — qu.edu.iq (Al-Qadisiyah University main portal)
-#
-# Hugo loads this automatically as `[languages.ar.menus]` because of the
-# `menus.<LANG>.toml` filename convention.
-#
-# Per-item params:
-#   weight       — sort order (lower = earlier)
-#   identifier   — referenced by child items via `parent =`
-#   url          — for external links or special paths
-#   parent       — identifier of the parent menu item (nested dropdown)
-#   icon  — icon name (matches an <symbol id="icon-…"> in icons.html)
-#   external = true — opens in new tab
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -137,9 +126,9 @@
   weight = 3
   url    = "/about/statistics/"
 
-# 2c. المعلومات والسياسات
+# 2c. المعلومات
 [[main]]
-  name       = "المعلومات والسياسات"
+  name       = "المعلومات"
   identifier = "about_info"
   parent     = "about"
   weight     = 23
@@ -149,19 +138,9 @@
   weight = 1
   url    = "/about/handbooks/"
 [[main]]
-  name   = "إمكانية الوصول"
-  parent = "about_info"
-  weight = 2
-  url    = "/about/accessibility/"
-[[main]]
-  name   = "السياسات والخصوصية"
-  parent = "about_info"
-  weight = 3
-  url    = "/about/policies/"
-[[main]]
   name   = "روابط ذات صلة"
   parent = "about_info"
-  weight = 4
+  weight = 2
   url    = "/about/links/"
 
 # 2d. الاستدامة — رابط مباشر إلى موقع الاستدامة المخصص
@@ -621,19 +600,19 @@
 [[footer_bottom]]
   name   = "إمكانية الوصول"
   weight = 20
-  url    = "/about/accessibility/"
+  url    = "/policies/accessibility/"
 [[footer_bottom]]
   name   = "سياسة الخصوصية"
   weight = 30
-  url    = "/about/policies/privacy-policy/"
+  url    = "/policies/privacy-policy/"
 [[footer_bottom]]
   name   = "حماية البيانات"
   weight = 40
-  url    = "/about/policies/data-protection/"
+  url    = "/policies/data-protection/"
 [[footer_bottom]]
   name   = "الأمان"
   weight = 50
-  url    = "/about/policies/security-policy/"
+  url    = "/policies/security-policy/"
 
 # -----------------------------------------------------------------------------
 # Homepage — Quick Links section

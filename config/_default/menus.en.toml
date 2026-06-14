@@ -126,9 +126,9 @@
   weight = 3
   url    = "/en/about/statistics/"
 
-# 2c. Information & Policies
+# 2c. Information
 [[main]]
-  name       = "Information & Policies"
+  name       = "Information"
   identifier = "about_info"
   parent     = "about"
   weight     = 23
@@ -138,19 +138,9 @@
   weight = 1
   url    = "/en/about/handbooks/"
 [[main]]
-  name   = "Accessibility"
-  parent = "about_info"
-  weight = 2
-  url    = "/en/about/accessibility/"
-[[main]]
-  name   = "Policies & Privacy"
-  parent = "about_info"
-  weight = 3
-  url    = "/en/about/policies/"
-[[main]]
   name   = "Related Links"
   parent = "about_info"
-  weight = 4
+  weight = 2
   url    = "/en/about/links/"
 
 # 2d. Sustainability — links straight to the dedicated SUST portal
@@ -610,19 +600,19 @@
 [[footer_bottom]]
   name   = "Accessibility"
   weight = 20
-  url    = "/en/about/accessibility/"
+  url    = "/en/policies/accessibility/"
 [[footer_bottom]]
   name   = "Privacy Policy"
   weight = 30
-  url    = "/en/about/policies/privacy-policy/"
+  url    = "/en/policies/privacy-policy/"
 [[footer_bottom]]
   name   = "Data Protection"
   weight = 40
-  url    = "/en/about/policies/data-protection/"
+  url    = "/en/policies/data-protection/"
 [[footer_bottom]]
   name   = "Security"
   weight = 50
-  url    = "/en/about/policies/security-policy/"
+  url    = "/en/policies/security-policy/"
 
 # -----------------------------------------------------------------------------
 # Homepage — Quick Links
