@@ -28,7 +28,7 @@
                 </span>
                 <h3>{{ i18n "sdg_title" }}</h3>
                 <p>{{ i18n "sdg_subtitle" }}</p>
-                <a href="https://sust.qu.edu.iq" class="btn sdg-btn btn-lg" target="_blank" rel="noopener">
+                <a href="{{ .Site.Params.sustainability.url | safeURL}}" class="btn sdg-btn btn-lg" target="_blank" rel="noopener">
                     <svg width="20" height="20" aria-hidden="true"><use href="#icon-globe"></use></svg>
                     {{ i18n "sdg_cta" }}
                 </a>

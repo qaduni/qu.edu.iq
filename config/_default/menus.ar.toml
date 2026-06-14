@@ -7,12 +7,10 @@
 # Per-item params:
 #   weight       — sort order (lower = earlier)
 #   identifier   — referenced by child items via `parent =`
-#   pageRef      — preferred when linking to a page in this site
 #   url          — for external links or special paths
 #   parent       — identifier of the parent menu item (nested dropdown)
-#   pre          — appended to the rendered link's `data-icon` via the template
-#   params.icon  — icon name (matches an <symbol id="icon-…"> in icons.html)
-#   params.external = true — opens in new tab
+#   icon  — icon name (matches an <symbol id="icon-…"> in icons.html)
+#   external = true — opens in new tab
 # =============================================================================
 
 # -----------------------------------------------------------------------------

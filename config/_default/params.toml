@@ -11,8 +11,6 @@
 
 campusMapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6502.660195112489!2d44.883365968265096!3d32.00224502089407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1558afd2a592f539%3A0x61917012d800ef85!2z2KzYp9mF2LnYqSDYp9mE2YLYp9iv2LPZitip!5e0!3m2!1sar!2siq!4v1768745727385!5m2!1sar!2siq"
 
-# Optional "Official Domain / Official Email" notice in the footer.
-# Common pattern for Iraqi government / university sites.
 officialDomain = "qu.edu.iq"
 showOfficialDomainNotice = true
 
@@ -54,12 +52,9 @@ visitorCounterEndpoint = ""
   # Journals: each journal has its own subdomain — no single hostname.
   # The /research/journals/ aggregator page lists them from data/journals.yml.
 
-# Homepage Sustainability feature section. The theme renders a card linking
-# out to the external sustainability portal when `enabled = true`.
 [sustainability]
   enabled  = true
   url      = "https://sust.qu.edu.iq"
-  image    = "images/labs.webp"
 
 # Schema.org JSON-LD identity (used by the theme's baseof.html)
 [schema]
@@ -73,9 +68,6 @@ visitorCounterEndpoint = ""
     region   = "Al-Qadisiyah Province"
     country  = "Iraq"
 
-# Content section paths — drive where the homepage news/announcement
-# widgets pull from and where the news list page reads its companion
-# announcements section from. Change these if you reorganise content.
 [contentSections]
   news          = "/media/news"
   announcements = "/media/announcements"

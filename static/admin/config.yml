@@ -22,8 +22,6 @@ media_libraries:
       raster_image:
         format: webp     # Converts images (PNG, JPG, etc.) to WebP
         quality: 85      # Optional: set WebP compression quality (default is 85)
-        # width: 2048    # Optional: uncomment to set a max width
-        # height: 2048   # Optional: uncomment to set a max height
       svg:
         optimize: true
 
