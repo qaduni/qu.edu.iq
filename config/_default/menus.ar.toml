@@ -73,7 +73,7 @@
 
 # 2. About — مجمَّعة في ثلاث مجموعات فرعية
 [[main]]
-  name       = "عن الجامعة"
+  name       = "حول الجامعة"
   identifier = "about"
   weight     = 20
 
@@ -87,22 +87,22 @@
   name   = "نبذة تاريخية"
   parent = "about_identity"
   weight = 1
-  url    = "/about/history/"
+  url    = "/about/identity_and_leadership/history/"
 [[main]]
   name   = "الرؤية والرسالة"
   parent = "about_identity"
   weight = 2
-  url    = "/about/vision-mission/"
+  url    = "/about/identity_and_leadership/vision-mission/"
 [[main]]
   name   = "القيادة"
   parent = "about_identity"
   weight = 3
-  url    = "/about/leadership/"
+  url    = "/about/identity_and_leadership/leadership/"
 [[main]]
   name   = "الهيكل التنظيمي"
   parent = "about_identity"
   weight = 4
-  url    = "/about/structure/"
+  url    = "/about/identity_and_leadership/structure/"
 
 # 2b. الأداء والاستراتيجية
 [[main]]
@@ -114,17 +114,17 @@
   name   = "الخطة الاستراتيجية"
   parent = "about_performance"
   weight = 1
-  url    = "/about/strategic-plan/"
+  url    = "/about/performance_and_strategy/strategic-plan/"
 [[main]]
   name   = "التصنيفات"
   parent = "about_performance"
   weight = 2
-  url    = "/about/rankings/"
+  url    = "/about/performance_and_strategy/rankings/"
 [[main]]
   name   = "إحصاءات الجامعة"
   parent = "about_performance"
   weight = 3
-  url    = "/about/statistics/"
+  url    = "/about/performance_and_strategy/statistics/"
 
 # 2c. المعلومات
 [[main]]
@@ -136,12 +136,12 @@
   name   = "الأدلة والكتيبات"
   parent = "about_info"
   weight = 1
-  url    = "/about/handbooks/"
+  url    = "/about/information/handbooks/"
 [[main]]
   name   = "روابط ذات صلة"
   parent = "about_info"
   weight = 2
-  url    = "/about/links/"
+  url    = "/about/information/links/"
 
 # 2d. الاستدامة — رابط مباشر إلى موقع الاستدامة المخصص
 [[main]]
@@ -156,7 +156,7 @@
 [[main]]
   name   = "الكليات والمراكز"
   weight = 30
-  url    = "/colleges/"
+  url    = "/colleges_and_centres/"
 
 # 4. Academics
 [[main]]
@@ -647,7 +647,7 @@
 [[quick_links]]
   name   = "الكليات والمراكز"
   weight = 50
-  url    = "/colleges/"
+  url    = "/colleges_and_centres/"
   [quick_links.params]
     icon = "building"
 

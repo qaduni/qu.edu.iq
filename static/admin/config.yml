@@ -95,7 +95,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown", required: false, i18n: true }
       - name: "colleges_index"
         label: "الكليات / Colleges"
-        file: "content/colleges/_index.md"
+        file: "content/colleges_and_centres/_index.md"
         i18n: true
         fields:
           - { label: "Title", name: "title", widget: "string", i18n: true }
@@ -117,7 +117,7 @@ collections:
   # through the CMS.
   # ---------------------------------------------------------------------------
   - name: "about_pages"
-    label: "عن الجامعة"
+    label: "حول الجامعة"
     folder: "content/about"
     create: true
     i18n: true

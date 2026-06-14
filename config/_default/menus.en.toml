@@ -87,22 +87,22 @@
   name   = "History"
   parent = "about_identity"
   weight = 1
-  url    = "/en/about/history/"
+  url    = "/en/about/identity_and_leadership/history/"
 [[main]]
   name   = "Vision & Mission"
   parent = "about_identity"
   weight = 2
-  url    = "/en/about/vision-mission/"
+  url    = "/en/about/identity_and_leadership/vision-mission/"
 [[main]]
   name   = "Leadership"
   parent = "about_identity"
   weight = 3
-  url    = "/en/about/leadership/"
+  url    = "/en/about/identity_and_leadership/leadership/"
 [[main]]
   name   = "Organizational Structure"
   parent = "about_identity"
   weight = 4
-  url    = "/en/about/structure/"
+  url    = "/en/about/identity_and_leadership/structure/"
 
 # 2b. Performance & Strategy
 [[main]]
@@ -114,17 +114,17 @@
   name   = "Strategic Plan"
   parent = "about_performance"
   weight = 1
-  url    = "/en/about/strategic-plan/"
+  url    = "/en/about/performance_and_strategy/strategic-plan/"
 [[main]]
   name   = "Rankings"
   parent = "about_performance"
   weight = 2
-  url    = "/en/about/rankings/"
+  url    = "/en/about/performance_and_strategy/rankings/"
 [[main]]
   name   = "University Statistics"
   parent = "about_performance"
   weight = 3
-  url    = "/en/about/statistics/"
+  url    = "/en/about/performance_and_strategy/statistics/"
 
 # 2c. Information
 [[main]]
@@ -136,12 +136,12 @@
   name   = "Handbooks & Guides"
   parent = "about_info"
   weight = 1
-  url    = "/en/about/handbooks/"
+  url    = "/en/about/information/handbooks/"
 [[main]]
   name   = "Related Links"
   parent = "about_info"
   weight = 2
-  url    = "/en/about/links/"
+  url    = "/en/about/information/links/"
 
 # 2d. Sustainability — links straight to the dedicated SUST portal
 [[main]]
@@ -156,7 +156,7 @@
 [[main]]
   name   = "Colleges & Centres"
   weight = 30
-  url    = "/en/colleges/"
+  url    = "/en/colleges_and_centres/"
 
 # 4. Academics
 [[main]]
@@ -647,7 +647,7 @@
 [[quick_links]]
   name   = "Colleges & Centres"
   weight = 50
-  url    = "/en/colleges/"
+  url    = "/en/colleges_and_centres/"
   [quick_links.params]
     icon = "building"
 
