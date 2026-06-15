@@ -1,7 +1,6 @@
 ---
 title: "Accessing the Student Portal"
 description: "How to access the Student Portal (Student Information System) hosted by Iraq's Ministry of Higher Education and Scientific Research"
-icon: "users"
 ---
 
 ## Student Portal (SIS)

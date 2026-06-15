@@ -1,4 +1,4 @@
 ---
 title: "Admissions"
-layout: redirect
+description: ""
 ---

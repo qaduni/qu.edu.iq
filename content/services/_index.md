@@ -1,4 +1,4 @@
 ---
 title: "الخدمات"
-layout: redirect
+description: ""
 ---

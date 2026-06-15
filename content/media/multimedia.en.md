@@ -1,7 +1,6 @@
 ---
 title: "Multimedia"
 description: "Photo gallery and video content"
-icon: "image"
 ---
 
 ## Photo & Video Gallery

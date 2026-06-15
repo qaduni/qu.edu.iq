@@ -1,7 +1,6 @@
 ---
 title: "Rankings & Accreditations"
 description: "Al-Qadisiyah University rankings in international classifications and academic accreditations"
-icon: "award"
 ---
 
 ## International Rankings

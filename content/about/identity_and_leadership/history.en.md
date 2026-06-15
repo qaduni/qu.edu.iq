@@ -1,7 +1,6 @@
 ---
 title: "Historical Overview"
 description: "The history of Al-Qadisiyah University's establishment and development"
-icon: "building"
 ---
 
 ## University Establishment

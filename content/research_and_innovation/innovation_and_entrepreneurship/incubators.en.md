@@ -1,7 +1,6 @@
 ---
 title: "Business Incubators"
 description: "Al-Qadisiyah University's business incubator — supporting startups and connecting graduates with industry"
-icon: "building"
 ---
 
 ## Al-Qadisiyah University Business Incubator

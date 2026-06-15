@@ -1,4 +1,4 @@
 ---
 title: "التعليم المستمر"
-layout: redirect
+description: ""
 ---

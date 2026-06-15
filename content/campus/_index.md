@@ -1,4 +1,4 @@
 ---
 title: "الحياة الجامعية"
-layout: redirect
+description: ""
 ---

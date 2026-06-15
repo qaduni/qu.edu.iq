@@ -1,7 +1,6 @@
 ---
 title: "Mobile Apps"
 description: "Al-Qadisiyah University's official apps on iOS and Android — student portal, news, and e-services on the go"
-icon: "document"
 ---
 
 ## Al-Qadisiyah University Apps

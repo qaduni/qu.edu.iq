@@ -1,7 +1,6 @@
 ---
 title: "Study in Iraq"
 description: "International student program - Study at Al-Qadisiyah University"
-icon: "globe"
 ---
 
 ## Study in Iraq Program

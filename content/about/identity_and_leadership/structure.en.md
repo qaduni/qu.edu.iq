@@ -1,7 +1,6 @@
 ---
 title: "Organizational Structure"
 description: "Administrative and organizational structure of Al-Qadisiyah University"
-icon: "chart"
 ---
 
 ## University Leadership

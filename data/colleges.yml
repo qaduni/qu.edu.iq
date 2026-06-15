@@ -1,6 +1,3 @@
-# Wrapped under `items:` so the CMS (Sveltia) can edit this file via a single
-# `list` widget — CMS schemas can't target a YAML root-level list directly.
-# Templates iterate `hugo.Data.colleges.items`.
 items:
   - id: "medicine"
     name_en: "College of Medicine"

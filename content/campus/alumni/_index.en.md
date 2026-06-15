@@ -1,4 +1,4 @@
 ---
 title: "Alumni"
-layout: redirect
+description: ""
 ---

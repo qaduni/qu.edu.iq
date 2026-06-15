@@ -1,4 +1,4 @@
 ---
 title: "السياسات واللوائح"
-layout: redirect
+description: ""
 ---

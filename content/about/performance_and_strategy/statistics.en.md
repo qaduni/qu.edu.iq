@@ -1,7 +1,6 @@
 ---
 title: "University Statistics"
 description: "A comprehensive overview of Al-Qadisiyah University by the numbers — colleges, faculty, students, and research output"
-icon: "document"
 ---
 
 ## Overview

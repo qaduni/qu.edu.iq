@@ -1,7 +1,6 @@
 ---
 title: "Vision, Mission & Goals"
 description: "Al-Qadisiyah University's vision, mission, and strategic goals"
-icon: "award"
 ---
 
 ## Vision

@@ -1,4 +1,4 @@
 ---
 title: "Campus Life"
-layout: redirect
+description: ""
 ---

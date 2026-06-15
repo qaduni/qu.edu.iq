@@ -1,7 +1,6 @@
 ---
 title: "Scientific Journals"
 description: "Peer-reviewed scientific journals published by Al-Qadisiyah University — issue index and submission links"
-icon: "book"
 ---
 
 ## University Journals

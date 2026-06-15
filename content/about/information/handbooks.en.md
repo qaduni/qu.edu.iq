@@ -1,7 +1,6 @@
 ---
 title: "Handbooks & Guides"
 description: "Official handbooks and regulatory guides for students, faculty, and administrative staff"
-icon: "book"
 ---
 
 ## Official Handbooks

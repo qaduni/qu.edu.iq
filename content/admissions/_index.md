@@ -1,4 +1,4 @@
 ---
 title: "القبول"
-layout: redirect
+description: ""
 ---

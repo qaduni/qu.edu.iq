@@ -1,4 +1,4 @@
 ---
 title: "الخريجون"
-layout: redirect
+description: ""
 ---

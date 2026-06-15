@@ -1,4 +1,4 @@
 ---
 title: "Academics"
-layout: redirect
+description: ""
 ---

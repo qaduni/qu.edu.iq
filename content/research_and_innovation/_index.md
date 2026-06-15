@@ -1,4 +1,4 @@
 ---
 title: "البحث والابتكار"
-layout: redirect
+description: ""
 ---

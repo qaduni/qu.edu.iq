@@ -1,7 +1,6 @@
 ---
 title: "Alumni Affairs"
 description: "Alumni network and career opportunities"
-icon: "briefcase"
 ---
 
 ## Alumni Affairs

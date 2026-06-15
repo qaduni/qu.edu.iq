@@ -1,7 +1,6 @@
 ---
 title: "Training Schedule"
 description: "Upcoming training courses and qualifying workshops at Al-Qadisiyah University's Continuing Education Centre — updated monthly"
-icon: "document"
 ---
 
 ## Upcoming Training Courses

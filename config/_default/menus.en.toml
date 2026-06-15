@@ -255,12 +255,12 @@
   name   = "Research Strategy"
   parent = "research_strategy"
   weight = 1
-  url    = "/en/research/strategy/"
+  url    = "/en/research_and_innovation/strategy_and_centres/strategy/"
 [[main]]
   name   = "Research Centres"
   parent = "research_strategy"
   weight = 2
-  url    = "/en/research/centers/"
+  url    = "/en/research_and_innovation/strategy_and_centres/centers/"
 
 # 6b. Publications & Repository
 [[main]]
@@ -272,17 +272,17 @@
   name   = "Scientific Journals"
   parent = "research_output"
   weight = 1
-  url    = "/en/research/journals/"
+  url    = "/en/research_and_innovation/publications_and_repository/journals/"
 [[main]]
   name   = "Publications"
   parent = "research_output"
   weight = 2
-  url    = "/en/research/publications/"
+  url    = "/en/research_and_innovation/publications_and_repository/publications/"
 [[main]]
   name   = "Patents"
   parent = "research_output"
   weight = 3
-  url    = "/en/research/patents/"
+  url    = "/en/research_and_innovation/publications_and_repository/patents/"
 [[main]]
   name   = "Digital Repository"
   parent = "research_output"
@@ -301,12 +301,12 @@
   name   = "Innovation & Entrepreneurship"
   parent = "research_innovation"
   weight = 1
-  url    = "/en/research/innovation/"
+  url    = "/en/research_and_innovation/innovation_and_entrepreneurship/innovation/"
 [[main]]
   name   = "Business Incubators"
   parent = "research_innovation"
   weight = 2
-  url    = "/en/research/incubators/"
+  url    = "/en/research_and_innovation/innovation_and_entrepreneurship/incubators/"
 
 # 6d. Insights & Events
 [[main]]
@@ -318,7 +318,7 @@
   name   = "Research Statistics"
   parent = "research_insights"
   weight = 1
-  url    = "/en/research/statistics/"
+  url    = "/en/research_and_innovation/insights_and_events/statistics/"
 [[main]]
   name   = "Scientific Conferences"
   parent = "research_insights"

@@ -255,12 +255,12 @@
   name   = "الاستراتيجية البحثية"
   parent = "research_strategy"
   weight = 1
-  url    = "/research/strategy/"
+  url    = "/research_and_innovation/strategy_and_centres/strategy/"
 [[main]]
   name   = "المراكز البحثية"
   parent = "research_strategy"
   weight = 2
-  url    = "/research/centers/"
+  url    = "/research_and_innovation/strategy_and_centres/centers/"
 
 # 6b. الإصدارات والمستودع
 [[main]]
@@ -272,17 +272,17 @@
   name   = "المجلات العلمية"
   parent = "research_output"
   weight = 1
-  url    = "/research/journals/"
+  url    = "/research_and_innovation/publications_and_repository/journals/"
 [[main]]
   name   = "المنشورات العلمية"
   parent = "research_output"
   weight = 2
-  url    = "/research/publications/"
+  url    = "/research_and_innovation/publications_and_repository/publications/"
 [[main]]
   name   = "براءات الاختراع"
   parent = "research_output"
   weight = 3
-  url    = "/research/patents/"
+  url    = "/research_and_innovation/publications_and_repository/patents/"
 [[main]]
   name   = "المستودع الرقمي"
   parent = "research_output"
@@ -301,12 +301,12 @@
   name   = "الابتكار وريادة الأعمال"
   parent = "research_innovation"
   weight = 1
-  url    = "/research/innovation/"
+  url    = "/research_and_innovation/innovation_and_entrepreneurship/innovation/"
 [[main]]
   name   = "حاضنات الأعمال"
   parent = "research_innovation"
   weight = 2
-  url    = "/research/incubators/"
+  url    = "/research_and_innovation/innovation_and_entrepreneurship/incubators/"
 
 # 6d. المؤشرات والفعاليات
 [[main]]
@@ -318,7 +318,7 @@
   name   = "الإحصائيات البحثية"
   parent = "research_insights"
   weight = 1
-  url    = "/research/statistics/"
+  url    = "/research_and_innovation/insights_and_events/statistics/"
 [[main]]
   name   = "المؤتمرات العلمية"
   parent = "research_insights"
