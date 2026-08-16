@@ -26,8 +26,8 @@ media_libraries:
       svg:
         optimize: true
 
-site_url: "https://qu.edu.iq/"
-display_url: "https://qu.edu.iq/"
+site_url: "https://test.qu.edu.iq/"
+display_url: "https://test.qu.edu.iq/"
 
 collections:
   # ==========================================
