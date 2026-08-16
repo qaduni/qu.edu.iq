@@ -8,6 +8,24 @@ hero:
     secondary_name: "تعرف على الجامعة"
     secondary_url: "/ar/about/history/"
 
+hero_stats:
+  - name: "الكليات"
+    value: 18
+  - name: "طلبة الدراسات الاولية"
+    value: 23980
+  - name: "طلبة الدراسات العليا"
+    value: 3388
+  - name: "الأساتذة"
+    value: 2047
+  - name: "الموظفين"
+    value: 8000
+  - name: "آبحاث سكوباس"
+    value: 5252
+  - name: "آبحاث كلارافيت"
+    value: 3525
+  - name: "H Index"
+    value: 77
+
 quick_links:
   title: "روابط سريعة"
   sub_title: "الوصول السريع إلى الخدمات والمنصات الأكثر استخداماً"
@@ -53,26 +71,26 @@ services:
       weight: 10
       url: "/ar/academics/programs/"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "البرامج الدراسية والمقررات وأعضاء هيئة التدريس وكل ما يخص العملية التعليمية"
 
     - name: "البحث والابتكار"
       weight: 20
       url: "/ar/research/"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "المراكز البحثية والمنشورات العلمية وبراءات الاختراع والاستراتيجية البحثية"
 
     - name: "خدمات الطلبة"
       weight: 30
       url: "/ar/students/"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "بوابة الطالب والمكتبة والوظائف وخدمات الخريجين"
 
     - name: "الاستدامة"
       weight: 40
       url: "https://sust.qu.edu.iq"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "موقع الاستدامة في جامعة القادسية - أهداف التنمية المستدامة والمبادرات البيئية"

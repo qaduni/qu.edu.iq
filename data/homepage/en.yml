@@ -8,6 +8,23 @@ hero:
     secondary_name: "Discover the University"
     secondary_url: "/en/about/history/"
 
+hero_stats:
+  - name: "Colleges"
+    value: 18
+  - name: "Undergraduate Students"
+    value: 23980
+  - name: "Postgraduate Students"
+    value: 3388
+  - name: "Faculty"
+    value: 2047
+  - name: "Staff"
+    value: 8000
+  - name: "Scopus Publications"
+    value: 5252
+  - name: "Clarivate Publications"
+    value: 3525
+  - name: "H Index"
+    value: 77
 
 quick_links:
   title: "Quick Links"
@@ -54,26 +71,26 @@ services:
       weight: 10
       url: "/en/academics/programs/"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "Programmes, courses, faculty, and everything related to the learning journey"
 
     - name: "Research & Innovation"
       weight: 20
       url: "/en/research/"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "Research centres, publications, patents, and the university's research strategy"
 
     - name: "Student Services"
       weight: 30
       url: "/en/students/"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "Student portal, library, jobs, and alumni services"
 
     - name: "Sustainability"
       weight: 40
       url: "https://sust.qu.edu.iq"
       params:
-        image: "images/labs.webp"
+        image: ""
         description: "Al-Qadisiyah University's sustainability portal — SDGs and environmental initiatives"
