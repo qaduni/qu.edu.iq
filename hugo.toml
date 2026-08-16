@@ -1,4 +1,4 @@
-baseURL = 'https://qu.edu.iq/'
+baseURL = 'https://test.qu.edu.iq/'
 locale = 'ar'
 defaultContentLanguage = 'ar'
 defaultContentLanguageInSubdir = true
