@@ -1,0 +1,79 @@
+hero:
+  badge: "Al-Qadisiyah University"
+  title: "Welcome to Al-Qadisiyah University"
+  description: "Discover our academic programmes, research initiatives, and vibrant campus life. We empower learners and innovators through continuous academic excellence."
+  buttons:
+    primary_name: "Apply Now"
+    primary_url: "/en/admissions/apply/"
+    secondary_name: "Discover the University"
+    secondary_url: "/en/about/history/"
+
+
+quick_links:
+  title: "Quick Links"
+  sub_title: "Fast access to our most frequently used services and portals"
+  items:
+    - name: "Student Portal"
+      weight: 10
+      url: "https://sis.mohesr.gov.iq"
+      params:
+        icon: "users"
+        external: true
+
+    - name: "Apply to the University"
+      weight: 20
+      url: "/en/admissions/apply/"
+      params:
+        icon: "document"
+
+    - name: "Library"
+      weight: 30
+      url: "https://lib.qu.edu.iq"
+      params:
+        icon: "book"
+        external: true
+
+    - name: "Digital Repository"
+      weight: 40
+      url: "https://repository.qu.edu.iq"
+      params:
+        icon: "document"
+        external: true
+
+    - name: "Colleges & Centres"
+      weight: 50
+      url: "/en/colleges_and_centres/"
+      params:
+        icon: "building"
+
+services:
+  title: "Services"
+  sub_title: "Explore the main operational areas and portal services"
+  items:
+    - name: "Academics"
+      weight: 10
+      url: "/en/academics/programs/"
+      params:
+        image: "images/labs.webp"
+        description: "Programmes, courses, faculty, and everything related to the learning journey"
+
+    - name: "Research & Innovation"
+      weight: 20
+      url: "/en/research/"
+      params:
+        image: "images/labs.webp"
+        description: "Research centres, publications, patents, and the university's research strategy"
+
+    - name: "Student Services"
+      weight: 30
+      url: "/en/students/"
+      params:
+        image: "images/labs.webp"
+        description: "Student portal, library, jobs, and alumni services"
+
+    - name: "Sustainability"
+      weight: 40
+      url: "https://sust.qu.edu.iq"
+      params:
+        image: "images/labs.webp"
+        description: "Al-Qadisiyah University's sustainability portal — SDGs and environmental initiatives"

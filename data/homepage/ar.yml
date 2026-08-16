@@ -1,0 +1,78 @@
+hero:
+  badge: "جامعة القادسية"
+  title: "أهلاً بكم في جامعة القادسية"
+  description: "نسعى لتقديم تعليم أكاديمي متميز وبحث علمي رائد يخدم المجتمع ويدعم التنمية المستدامة."
+  buttons:
+    primary_name: "التقديم على الجامعة"
+    primary_url: "/ar/admissions/apply/"
+    secondary_name: "تعرف على الجامعة"
+    secondary_url: "/ar/about/history/"
+
+quick_links:
+  title: "روابط سريعة"
+  sub_title: "الوصول السريع إلى الخدمات والمنصات الأكثر استخداماً"
+  items:
+    - name: "بوابة الطالب"
+      weight: 10
+      url: "https://sis.mohesr.gov.iq"
+      params:
+        icon: "users"
+        external: true
+
+    - name: "التقديم على الجامعة"
+      weight: 20
+      url: "/ar/admissions/apply/"
+      params:
+        icon: "document"
+
+    - name: "المكتبة"
+      weight: 30
+      url: "https://lib.qu.edu.iq"
+      params:
+        icon: "book"
+        external: true
+
+    - name: "المستودع الرقمي"
+      weight: 40
+      url: "https://repository.qu.edu.iq"
+      params:
+        icon: "document"
+        external: true
+
+    - name: "الكليات والمراكز"
+      weight: 50
+      url: "/ar/colleges_and_centres/"
+      params:
+        icon: "building"
+
+services:
+  title: "الخدمات"
+  sub_title: "تعرف على أهم القطاعات والخدمات في جامعة القادسية"
+  items:
+    - name: "الشؤون الأكاديمية"
+      weight: 10
+      url: "/ar/academics/programs/"
+      params:
+        image: "images/labs.webp"
+        description: "البرامج الدراسية والمقررات وأعضاء هيئة التدريس وكل ما يخص العملية التعليمية"
+
+    - name: "البحث والابتكار"
+      weight: 20
+      url: "/ar/research/"
+      params:
+        image: "images/labs.webp"
+        description: "المراكز البحثية والمنشورات العلمية وبراءات الاختراع والاستراتيجية البحثية"
+
+    - name: "خدمات الطلبة"
+      weight: 30
+      url: "/ar/students/"
+      params:
+        image: "images/labs.webp"
+        description: "بوابة الطالب والمكتبة والوظائف وخدمات الخريجين"
+
+    - name: "الاستدامة"
+      weight: 40
+      url: "https://sust.qu.edu.iq"
+      params:
+        image: "images/labs.webp"
+        description: "موقع الاستدامة في جامعة القادسية - أهداف التنمية المستدامة والمبادرات البيئية"

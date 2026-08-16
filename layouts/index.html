@@ -8,10 +8,7 @@
     {{ partial "sections/quick-links.html" . }}
     {{ partial "sections/sdg-callout.html" . }}
     {{ partial "sections/contact.html" . }}
-    {{ with .Site.Params.visitorCounterEndpoint }}
-    {{ partial "sections/visitor-counter.html" $ }}
+    {{ if hugo.Data.site.global.visitor_counter_endpoint }}
+        {{ partial "sections/visitor-counter.html" . }}
     {{ end }}
-
-    {{ $jsHome := resources.Get "js/home.js" | minify | fingerprint }}
-    {{ with $jsHome }}<script src="{{ .RelPermalink }}" defer></script>{{ end }}
 {{ end }}

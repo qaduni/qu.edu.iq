@@ -1,0 +1,103 @@
+footer_useful:
+  - name: "History"
+    weight: 10
+    url: "/en/about/history/"
+
+  - name: "Vision & Mission"
+    weight: 20
+    url: "/en/about/vision-mission/"
+
+  - name: "Leadership"
+    weight: 30
+    url: "/en/about/leadership/"
+
+  - name: "University Statistics"
+    weight: 40
+    url: "/en/about/statistics/"
+
+  - name: "Strategic Plan"
+    weight: 50
+    url: "/en/about/strategic-plan/"
+
+footer_services:
+  - name: "Student Portal"
+    weight: 10
+    url: "https://sis.mohesr.gov.iq"
+    params:
+      external: true
+
+  - name: "Faculty Directory"
+    weight: 20
+    url: "https://staff.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Staff HR"
+    weight: 30
+    url: "https://hr.mohesr.gov.iq"
+    params:
+      external: true
+
+  - name: "Library"
+    weight: 40
+    url: "https://lib.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Digital Repository"
+    weight: 50
+    url: "https://repository.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Events"
+    weight: 60
+    url: "https://events.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Scientific Conferences"
+    weight: 65
+    url: "https://conf.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Alumni Gateway"
+    weight: 70
+    url: "https://alumni.qu.edu.iq"
+    params:
+      external: true
+
+footer_related:
+  - name: "Sustainability"
+    weight: 10
+    url: "https://sust.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Ministry of Higher Education"
+    weight: 20
+    url: "https://mohesr.gov.iq"
+    params:
+      external: true
+
+footer_bottom:
+  - name: "Sitemap"
+    weight: 10
+    url: "/sitemap.xml"
+
+  - name: "Accessibility"
+    weight: 20
+    url: "/en/policies/accessibility/"
+
+  - name: "Privacy Policy"
+    weight: 30
+    url: "/en/policies/privacy-policy/"
+
+  - name: "Data Protection"
+    weight: 40
+    url: "/en/policies/data-protection/"
+
+  - name: "Security"
+    weight: 50
+    url: "/en/policies/security-policy/"

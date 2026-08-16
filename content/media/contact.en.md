@@ -30,8 +30,6 @@ Iraq
 
 To contact us, please fill out the form below and we will respond as soon as possible.
 
-{{< contact-form >}}
-
 ---
 
 ## Location

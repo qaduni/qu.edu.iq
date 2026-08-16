@@ -13,8 +13,6 @@ Al-Qadisiyah University aims to track its graduates and maintain continuous comm
 
 All graduates are kindly requested to complete the following survey to help us improve our academic programs and track your career progress.
 
-{{< graduate-form >}}
-
 ---
 
 ## Statistics

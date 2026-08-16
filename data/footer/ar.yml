@@ -1,0 +1,103 @@
+footer_useful:
+  - name: "نبذة تاريخية"
+    weight: 10
+    url: "/ar/about/history/"
+
+  - name: "الرؤية والرسالة"
+    weight: 20
+    url: "/ar/about/vision-mission/"
+
+  - name: "القيادة"
+    weight: 30
+    url: "/ar/about/leadership/"
+
+  - name: "إحصاءات الجامعة"
+    weight: 40
+    url: "/ar/about/statistics/"
+
+  - name: "الخطة الاستراتيجية"
+    weight: 50
+    url: "/ar/about/strategic-plan/"
+
+footer_services:
+  - name: "بوابة الطالب"
+    weight: 10
+    url: "https://sis.mohesr.gov.iq"
+    params:
+      external: true
+
+  - name: "دليل أعضاء هيئة التدريس"
+    weight: 20
+    url: "https://staff.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "الموارد البشرية"
+    weight: 30
+    url: "https://hr.mohesr.gov.iq"
+    params:
+      external: true
+
+  - name: "المكتبة"
+    weight: 40
+    url: "https://lib.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "المستودع الرقمي"
+    weight: 50
+    url: "https://repository.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "الفعاليات"
+    weight: 60
+    url: "https://events.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "المؤتمرات العلمية"
+    weight: 65
+    url: "https://conf.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "بوابة الخريجين"
+    weight: 70
+    url: "https://alumni.qu.edu.iq"
+    params:
+      external: true
+
+footer_related:
+  - name: "موقع الاستدامة"
+    weight: 10
+    url: "https://sust.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "وزارة التعليم العالي والبحث العلمي"
+    weight: 20
+    url: "https://mohesr.gov.iq"
+    params:
+      external: true
+
+footer_bottom:
+  - name: "خريطة الموقع"
+    weight: 10
+    url: "/ar/sitemap.xml"
+
+  - name: "إمكانية الوصول"
+    weight: 20
+    url: "/ar/policies/accessibility/"
+
+  - name: "سياسة الخصوصية"
+    weight: 30
+    url: "/ar/policies/privacy-policy/"
+
+  - name: "حماية البيانات"
+    weight: 40
+    url: "/ar/policies/data-protection/"
+
+  - name: "الأمان"
+    weight: 50
+    url: "/ar/policies/security-policy/"

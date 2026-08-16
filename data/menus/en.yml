@@ -1,0 +1,440 @@
+main:
+  - name: "Home"
+    weight: 10
+    url: "/en/"
+
+  - name: "About"
+    identifier: "about"
+    weight: 20
+
+  - name: "Identity & Leadership"
+    identifier: "about_identity"
+    parent: "about"
+    weight: 21
+
+  - name: "History"
+    parent: "about_identity"
+    weight: 1
+    url: "/en/about/identity_and_leadership/history/"
+
+  - name: "Vision & Mission"
+    parent: "about_identity"
+    weight: 2
+    url: "/en/about/identity_and_leadership/vision-mission/"
+
+  - name: "Leadership"
+    parent: "about_identity"
+    weight: 3
+    url: "/en/about/identity_and_leadership/leadership/"
+
+  - name: "Organizational Structure"
+    parent: "about_identity"
+    weight: 4
+    url: "/en/about/identity_and_leadership/structure/"
+
+  - name: "Performance & Strategy"
+    identifier: "about_performance"
+    parent: "about"
+    weight: 22
+
+  - name: "Strategic Plan"
+    parent: "about_performance"
+    weight: 1
+    url: "/en/about/performance_and_strategy/strategic-plan/"
+
+  - name: "Rankings"
+    parent: "about_performance"
+    weight: 2
+    url: "/en/about/performance_and_strategy/rankings/"
+
+  - name: "University Statistics"
+    parent: "about_performance"
+    weight: 3
+    url: "/en/about/performance_and_strategy/statistics/"
+
+  - name: "Information"
+    identifier: "about_info"
+    parent: "about"
+    weight: 23
+
+  - name: "Handbooks & Guides"
+    parent: "about_info"
+    weight: 1
+    url: "/en/about/information/handbooks/"
+
+  - name: "Related Links"
+    parent: "about_info"
+    weight: 2
+    url: "/en/about/information/links/"
+
+  - name: "Sustainability (SDGs)"
+    parent: "about"
+    weight: 24
+    url: "https://sust.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Colleges & Centres"
+    weight: 30
+    url: "/en/colleges_and_centres/"
+
+  - name: "Academics"
+    identifier: "academics"
+    weight: 40
+
+  - name: "Programs"
+    parent: "academics"
+    weight: 41
+    url: "/en/academics/programs/"
+
+  - name: "Program Specifications"
+    parent: "academics"
+    weight: 42
+    url: "/en/academics/program-specs/"
+
+  - name: "Courses"
+    parent: "academics"
+    weight: 43
+    url: "/en/academics/courses/"
+
+  - name: "Faculty Directory"
+    parent: "academics"
+    weight: 44
+    url: "https://staff.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Colleges Directory"
+    parent: "academics"
+    weight: 45
+    url: "/en/academics/colleges/"
+
+  - name: "Academic Calendar"
+    parent: "academics"
+    weight: 46
+    url: "/en/academics/calendar/"
+
+  - name: "Regulations"
+    parent: "academics"
+    weight: 47
+    url: "/en/academics/regulations/"
+
+  - name: "Admissions"
+    identifier: "admissions"
+    weight: 50
+
+  - name: "Apply"
+    parent: "admissions"
+    weight: 51
+    url: "/en/admissions/apply/"
+
+  - name: "Requirements"
+    parent: "admissions"
+    weight: 52
+    url: "/en/admissions/requirements/"
+
+  - name: "Undergraduate"
+    parent: "admissions"
+    weight: 53
+    url: "/en/admissions/undergraduate/"
+
+  - name: "Postgraduate"
+    parent: "admissions"
+    weight: 54
+    url: "/en/admissions/postgraduate/"
+
+  - name: "International Students"
+    parent: "admissions"
+    weight: 55
+    url: "/en/admissions/international/"
+
+  - name: "Admission Plans"
+    parent: "admissions"
+    weight: 56
+    url: "/en/admissions/plans/"
+
+  - name: "Research & Innovation"
+    identifier: "research"
+    weight: 60
+
+  - name: "Strategy & Centres"
+    identifier: "research_strategy"
+    parent: "research"
+    weight: 61
+
+  - name: "Research Strategy"
+    parent: "research_strategy"
+    weight: 1
+    url: "/en/research_and_innovation/strategy_and_centres/strategy/"
+
+  - name: "Research Centres"
+    parent: "research_strategy"
+    weight: 2
+    url: "/en/research_and_innovation/strategy_and_centres/centers/"
+
+  - name: "Publications & Repository"
+    identifier: "research_output"
+    parent: "research"
+    weight: 62
+
+  - name: "Scientific Journals"
+    parent: "research_output"
+    weight: 1
+    url: "/en/research_and_innovation/publications_and_repository/journals/"
+
+  - name: "Publications"
+    parent: "research_output"
+    weight: 2
+    url: "/en/research_and_innovation/publications_and_repository/publications/"
+
+  - name: "Patents"
+    parent: "research_output"
+    weight: 3
+    url: "/en/research_and_innovation/publications_and_repository/patents/"
+
+  - name: "Digital Repository"
+    parent: "research_output"
+    weight: 4
+    url: "https://repository.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Innovation & Enterprise"
+    identifier: "research_innovation"
+    parent: "research"
+    weight: 63
+
+  - name: "Innovation & Entrepreneurship"
+    parent: "research_innovation"
+    weight: 1
+    url: "/en/research_and_innovation/innovation_and_entrepreneurship/innovation/"
+
+  - name: "Business Incubators"
+    parent: "research_innovation"
+    weight: 2
+    url: "/en/research_and_innovation/innovation_and_entrepreneurship/incubators/"
+
+  - name: "Insights & Events"
+    identifier: "research_insights"
+    parent: "research"
+    weight: 64
+
+  - name: "Research Statistics"
+    parent: "research_insights"
+    weight: 1
+    url: "/en/research_and_innovation/insights_and_events/statistics/"
+
+  - name: "Scientific Conferences"
+    parent: "research_insights"
+    weight: 2
+    url: "https://conf.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Student Life"
+    identifier: "student_life"
+    weight: 70
+
+  - name: "Services & Tools"
+    identifier: "student_services"
+    parent: "student_life"
+    weight: 71
+
+  - name: "Student Portal"
+    parent: "student_services"
+    weight: 1
+    url: "https://sis.mohesr.gov.iq"
+    params:
+      external: true
+
+  - name: "Library"
+    parent: "student_services"
+    weight: 2
+    url: "https://lib.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Mobile Apps"
+    parent: "student_services"
+    weight: 3
+    url: "/en/services/apps/"
+
+  - name: "E-Services"
+    parent: "student_services"
+    weight: 4
+    url: "/en/services/e-services/"
+
+  - name: "Career & Recognition"
+    identifier: "student_career"
+    parent: "student_life"
+    weight: 72
+
+  - name: "Honour Roll"
+    parent: "student_career"
+    weight: 1
+    url: "/en/students/honor-roll/"
+
+  - name: "Jobs & Careers"
+    parent: "student_career"
+    weight: 2
+    url: "/en/students/jobs/"
+
+  - name: "Study in Iraq"
+    parent: "student_career"
+    weight: 3
+    url: "/en/students/study-iraq/"
+
+  - name: "Graduate Tracking"
+    parent: "student_career"
+    weight: 4
+    url: "/en/students/graduate-tracking/"
+
+  - name: "Alumni"
+    identifier: "student_alumni"
+    parent: "student_life"
+    weight: 73
+
+  - name: "Alumni Gateway"
+    parent: "student_alumni"
+    weight: 1
+    url: "https://alumni.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Distinguished Alumni"
+    parent: "student_alumni"
+    weight: 2
+    url: "/en/campus/alumni/distinguished/"
+
+  - name: "Career Development"
+    parent: "student_alumni"
+    weight: 3
+    url: "/en/campus/alumni/careers/"
+
+  - name: "Employer Feedback"
+    parent: "student_alumni"
+    weight: 4
+    url: "/en/campus/alumni/feedback/"
+
+  - name: "Continuing Education"
+    identifier: "student_continuing"
+    parent: "student_life"
+    weight: 74
+
+  - name: "Overview"
+    parent: "student_continuing"
+    weight: 1
+    url: "/en/campus/continuing-education/"
+
+  - name: "Certificates"
+    parent: "student_continuing"
+    weight: 2
+    url: "/en/campus/continuing-education/certificates/"
+
+  - name: "MOOCs"
+    parent: "student_continuing"
+    weight: 3
+    url: "/en/campus/continuing-education/moocs/"
+
+  - name: "Training Schedule"
+    parent: "student_continuing"
+    weight: 4
+    url: "/en/campus/continuing-education/schedule/"
+
+  - name: "News & Events"
+    identifier: "media"
+    weight: 80
+
+  - name: "News"
+    parent: "media"
+    weight: 81
+    url: "/en/media/news/"
+
+  - name: "Announcements"
+    parent: "media"
+    weight: 82
+    url: "/en/media/announcements/"
+
+  - name: "Events"
+    parent: "media"
+    weight: 83
+    url: "https://events.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Scientific Conferences"
+    parent: "media"
+    weight: 84
+    url: "https://conf.qu.edu.iq"
+    params:
+      external: true
+
+  - name: "Gallery"
+    parent: "media"
+    weight: 85
+    url: "/en/media/gallery/"
+
+  - name: "Multimedia"
+    parent: "media"
+    weight: 86
+    url: "/en/media/multimedia/"
+
+  - name: "Publications"
+    parent: "media"
+    weight: 87
+    url: "/en/media/publications/"
+
+  - name: "Contact Us"
+    parent: "media"
+    weight: 88
+    url: "/en/media/contact/"
+
+top_bar:
+  - name: "Student Portal"
+    weight: 10
+    url: "https://sis.mohesr.gov.iq"
+    params:
+      external: true
+      icon: "users"
+
+  - name: "Faculty Directory"
+    weight: 20
+    url: "https://staff.qu.edu.iq"
+    params:
+      external: true
+      icon: "users"
+
+  - name: "LMS"
+    weight: 25
+    url: "https://iq-learn.mohesr.gov.iq"
+    params:
+      external: true
+      icon: "book"
+
+  - name: "Staff HR"
+    weight: 30
+    url: "https://hr.mohesr.gov.iq"
+    params:
+      external: true
+      icon: "building"
+
+  - name: "Library"
+    weight: 40
+    url: "https://lib.qu.edu.iq"
+    params:
+      external: true
+      icon: "book"
+
+  - name: "Repository"
+    weight: 50
+    url: "https://repository.qu.edu.iq"
+    params:
+      external: true
+      icon: "document"
+
+  - name: "Conferences"
+    weight: 60
+    url: "https://conf.qu.edu.iq"
+    params:
+      external: true
+      icon: "calendar"
