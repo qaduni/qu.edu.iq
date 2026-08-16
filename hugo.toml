@@ -64,9 +64,9 @@ enableRobotsTXT = true
   notAlternative = true
 
 [mediaTypes."text/yaml"]
-  suffixes = ["yml"]
+  suffixes = ["yaml"]
 
-[outputFormats.ConfigYML]
+[outputFormats.ConfigYAML]
   mediaType = "text/yaml"
   baseName = "config"
   isPlainText = true
@@ -75,4 +75,4 @@ enableRobotsTXT = true
   root = true
 
 [outputs]
-  home = ["HTML", "RSS", "WebManifest", "ConfigYML"]
+  home = ["HTML", "RSS", "WebManifest", "ConfigYAML"]
