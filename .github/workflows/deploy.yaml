@@ -33,7 +33,7 @@ jobs:
 
       # 2. Cache Pagefind binary to avoid downloading it every time via npx
       - name: Pagefind Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v7
         with:
           path: ~/.npm/_npx
           key: ${{ runner.os }}-pagefind-${{ hashFiles('package-lock.json') }}
