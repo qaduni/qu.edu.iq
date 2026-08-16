@@ -22,7 +22,7 @@ jobs:
 
       # 1. Cache Hugo modules and build cache
       - name: Hugo Cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             ~/.cache/hugo_cache
