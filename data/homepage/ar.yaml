@@ -76,7 +76,7 @@ services:
 
     - name: "البحث والابتكار"
       weight: 20
-      url: "/ar/research/"
+      url: "/ar/research_and_innovation/"
       params:
         image: ""
         description: "المراكز البحثية والمنشورات العلمية وبراءات الاختراع والاستراتيجية البحثية"

@@ -76,7 +76,7 @@ services:
 
     - name: "Research & Innovation"
       weight: 20
-      url: "/en/research/"
+      url: "/en/research_and_innovation/"
       params:
         image: ""
         description: "Research centres, publications, patents, and the university's research strategy"
