@@ -6,6 +6,9 @@ title = "جامعة القادسية"
 buildFuture = true
 theme = "qu.theme"
 
+uglyURLs = false
+canonifyURLs = false
+
 [Params]
   cms_repo = "qaduni/qu.edu.iq"
   cms_branch = "main"
