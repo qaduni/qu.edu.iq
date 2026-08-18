@@ -61,8 +61,11 @@ theme = "qu.theme"
   path = "admin"
   root = true
 
+[mediaTypes."text/llm"]
+  suffixes = ["txt"]
+
 [outputFormats.LLM]
-  mediaType = "text/plain"
+  mediaType = "text/llm"
   baseName = "llms"
   isPlainText = true
   notAlternative = true
