@@ -6,14 +6,9 @@ title = "جامعة القادسية"
 buildFuture = true
 theme = "qu.theme"
 
-uglyURLs = false
-canonifyURLs = false
-
 [Params]
   cms_repo = "qaduni/qu.edu.iq"
   cms_branch = "main"
-
-enableRobotsTXT = true
 
 [module]
   [[module.mounts]]
@@ -66,5 +61,11 @@ enableRobotsTXT = true
   path = "admin"
   root = true
 
+[outputFormats.LLM]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home = ["HTML", "RSS", "WebManifest", "ConfigYAML"]
+  home = ["HTML", "RSS", "WebManifest", "ConfigYAML", "Robots", "LLM"]
