@@ -1,0 +1,64 @@
+# جامعة القادسية
+
+## Overview & Core Pages
+
+- [Academic Calendar](https://test.qu.edu.iq/en/academics/calendar/): Academic calendar for the academic year
+- [Academic Programs](https://test.qu.edu.iq/en/academics/programs/): Academic programs at Al-Qadisiyah University
+- [Academic Regulations](https://test.qu.edu.iq/en/academics/regulations/): Academic rules and regulations
+- [Accessibility](https://test.qu.edu.iq/en/policies/accessibility/): Accessibility statement for users with special needs
+- [Accessing the Student Portal](https://test.qu.edu.iq/en/students/portal/): How to access the Student Portal (Student Information System) hosted by Iraq's Ministry of Higher Education and Scientific Research
+- [Admission Plans](https://test.qu.edu.iq/en/admissions/plans/): Annual admission plans and archive
+- [Admission Plans](https://test.qu.edu.iq/en/students/admission-plans/): Annual admission plans and archives from previous years
+- [Admission Requirements](https://test.qu.edu.iq/en/admissions/requirements/): Admission requirements at Al-Qadisiyah University
+- [Admission Requirements](https://test.qu.edu.iq/en/students/admission/): Comprehensive information about admission requirements and registration at Al-Qadisiyah University
+- [Alumni Affairs](https://test.qu.edu.iq/en/students/alumni/): Alumni network and career opportunities
+- [Alumni Network](https://test.qu.edu.iq/en/campus/alumni/network/): Join Al-Qadisiyah University alumni network
+- [Annual Statistics](https://test.qu.edu.iq/en/services/administrative/statistics/): University annual statistics
+- [Business Incubators](https://test.qu.edu.iq/en/research_and_innovation/innovation_and_entrepreneurship/incubators/): Al-Qadisiyah University's business incubator — supporting startups and connecting graduates with industry
+- [Career Opportunities](https://test.qu.edu.iq/en/campus/alumni/careers/): Job opportunities for graduates
+- [Career Opportunities](https://test.qu.edu.iq/en/students/jobs/): Job announcements and employment opportunities for graduates
+- [Centers & Labs](https://test.qu.edu.iq/en/research_and_innovation/strategy_and_centres/centers/): Research centers and laboratories
+- [Colleges & Centers](https://test.qu.edu.iq/en/academics/colleges/): Colleges and centers at Al-Qadisiyah University
+- [Course Catalog](https://test.qu.edu.iq/en/academics/courses/): Course catalog
+- [Data Protection](https://test.qu.edu.iq/en/policies/data-protection/): Personal data protection policy
+- [Distinguished Alumni](https://test.qu.edu.iq/en/campus/alumni/distinguished/): Distinguished alumni from Al-Qadisiyah University
+- [Employer Feedback](https://test.qu.edu.iq/en/campus/alumni/feedback/): Employer feedback on university graduates
+- [Graduate Tracer](https://test.qu.edu.iq/en/campus/alumni/tracer/): Graduate tracking system
+- [Graduate Tracking](https://test.qu.edu.iq/en/students/graduate-tracking/): Graduate tracking system and career follow-up
+- [Handbooks & Guides](https://test.qu.edu.iq/en/about/information/handbooks/): Official handbooks and regulatory guides for students, faculty, and administrative staff
+- [Historical Overview](https://test.qu.edu.iq/en/about/identity_and_leadership/history/): The history of Al-Qadisiyah University's establishment and development
+- [Honor Roll](https://test.qu.edu.iq/en/students/honor-roll/): Outstanding and top students at Al-Qadisiyah University
+- [Important Links](https://test.qu.edu.iq/en/about/information/links/): Links to official bodies and partner universities
+- [Innovation & Incubator](https://test.qu.edu.iq/en/research_and_innovation/innovation_and_entrepreneurship/innovation/): Business incubator and innovation
+- [International Students](https://test.qu.edu.iq/en/admissions/international/): Admission information for international students - Study in Iraq
+- [Leadership](https://test.qu.edu.iq/en/about/identity_and_leadership/leadership/): University presidency and administrative leadership
+- [Lifelong Learning](https://test.qu.edu.iq/en/campus/continuing-education/lifelong/): Continuous learning programs
+- [Mobile Apps](https://test.qu.edu.iq/en/services/apps/): Al-Qadisiyah University's official apps on iOS and Android — student portal, news, and e-services on the go
+- [Online Application](https://test.qu.edu.iq/en/admissions/apply/): Online admission application system
+- [Open Courses](https://test.qu.edu.iq/en/campus/continuing-education/moocs/): Massive open online courses
+- [Organizational Structure](https://test.qu.edu.iq/en/about/identity_and_leadership/structure/): Administrative and organizational structure of Al-Qadisiyah University
+- [Patents & IP](https://test.qu.edu.iq/en/research_and_innovation/publications_and_repository/patents/): Patents and intellectual property
+- [Postgraduate Admissions](https://test.qu.edu.iq/en/admissions/postgraduate/): Admission information for master's and doctoral students
+- [Privacy Policy](https://test.qu.edu.iq/en/policies/privacy-policy/): Privacy and Data Protection Policy at Al-Qadisiyah University
+- [Professional Certificates](https://test.qu.edu.iq/en/campus/continuing-education/certificates/): Professional certificate programs
+- [Program Specifications](https://test.qu.edu.iq/en/academics/program-specs/): Academic program specifications according to Bologna system
+- [Publications & Journals](https://test.qu.edu.iq/en/research_and_innovation/publications_and_repository/publications/): Scientific journals and publications
+- [Rankings & Accreditations](https://test.qu.edu.iq/en/about/performance_and_strategy/rankings/): Al-Qadisiyah University rankings in international classifications and academic accreditations
+- [Research Statistics](https://test.qu.edu.iq/en/research_and_innovation/insights_and_events/statistics/): Research statistics
+- [Research Strategy](https://test.qu.edu.iq/en/research_and_innovation/strategy_and_centres/strategy/): Research strategy at Al-Qadisiyah University
+- [Scientific Journals](https://test.qu.edu.iq/en/research_and_innovation/publications_and_repository/journals/): Peer-reviewed scientific journals published by Al-Qadisiyah University — issue index and submission links
+- [Security Policy](https://test.qu.edu.iq/en/policies/security-policy/): Information Security and Data Protection Policy at Al-Qadisiyah University
+- [Strategic Plan](https://test.qu.edu.iq/en/about/performance_and_strategy/strategic-plan/): Strategic plan and annual reports of Al-Qadisiyah University
+- [Study in Iraq](https://test.qu.edu.iq/en/students/study-iraq/): International student program - Study at Al-Qadisiyah University
+- [Training Schedule](https://test.qu.edu.iq/en/campus/continuing-education/schedule/): Upcoming training courses and qualifying workshops at Al-Qadisiyah University's Continuing Education Centre — updated monthly
+- [Undergraduate Admissions](https://test.qu.edu.iq/en/admissions/undergraduate/): Admission information for bachelor's students
+- [University Statistics](https://test.qu.edu.iq/en/about/performance_and_strategy/statistics/): A comprehensive overview of Al-Qadisiyah University by the numbers — colleges, faculty, students, and research output
+- [Vision, Mission & Goals](https://test.qu.edu.iq/en/about/identity_and_leadership/vision-mission/): Al-Qadisiyah University's vision, mission, and strategic goals
+
+## News
+
+
+## Important Announcements
+
+
+## General Announcements

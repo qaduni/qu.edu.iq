@@ -1,0 +1,64 @@
+# جامعة القادسية
+
+## Overview & Core Pages
+
+- [آراء أصحاب العمل](https://test.qu.edu.iq/ar/campus/alumni/feedback/): آراء أصحاب العمل حول خريجي الجامعة
+- [إحصاءات الجامعة](https://test.qu.edu.iq/ar/about/performance_and_strategy/statistics/): نظرة شاملة على جامعة القادسية بالأرقام - الكليات، أعضاء هيئة التدريس، الطلبة، والإنتاج العلمي
+- [إحصائيات البحث](https://test.qu.edu.iq/ar/research_and_innovation/insights_and_events/statistics/): إحصائيات البحث العلمي
+- [إمكانية الوصول](https://test.qu.edu.iq/ar/policies/accessibility/): بيان إمكانية الوصول لذوي الاحتياجات الخاصة
+- [ادرس في العراق](https://test.qu.edu.iq/ar/students/study-iraq/): برنامج الطلبة الدوليين - ادرس في جامعة القادسية
+- [استراتيجية البحث](https://test.qu.edu.iq/ar/research_and_innovation/strategy_and_centres/strategy/): استراتيجية البحث العلمي في جامعة القادسية
+- [الأدلة والكتيبات](https://test.qu.edu.iq/ar/about/information/handbooks/): الأدلة الرسمية والكتيبات التنظيمية للطلبة وأعضاء هيئة التدريس والموظفين الإداريين
+- [الإحصائيات السنوية](https://test.qu.edu.iq/ar/services/administrative/statistics/): إحصائيات الجامعة السنوية
+- [الابتكار وريادة الأعمال](https://test.qu.edu.iq/ar/research_and_innovation/innovation_and_entrepreneurship/innovation/): حاضنة الأعمال والابتكار
+- [البرامج الأكاديمية](https://test.qu.edu.iq/ar/academics/programs/): البرامج الأكاديمية في جامعة القادسية
+- [التصنيفات والاعتمادات](https://test.qu.edu.iq/ar/about/performance_and_strategy/rankings/): تصنيفات جامعة القادسية في التصنيفات الدولية والاعتمادات الأكاديمية
+- [التعلم مدى الحياة](https://test.qu.edu.iq/ar/campus/continuing-education/lifelong/): برامج التعلم المستمر
+- [التقديم الإلكتروني](https://test.qu.edu.iq/ar/admissions/apply/): نظام التقديم الإلكتروني للقبول
+- [التقويم الأكاديمي](https://test.qu.edu.iq/ar/academics/calendar/): التقويم الأكاديمي للعام الدراسي
+- [الخطة الاستراتيجية](https://test.qu.edu.iq/ar/about/performance_and_strategy/strategic-plan/): الخطة الاستراتيجية والتقارير السنوية لجامعة القادسية
+- [الدورات المفتوحة](https://test.qu.edu.iq/ar/campus/continuing-education/moocs/): دورات مفتوحة عبر الإنترنت
+- [الرؤية والرسالة والأهداف](https://test.qu.edu.iq/ar/about/identity_and_leadership/vision-mission/): رؤية جامعة القادسية ورسالتها وأهدافها الاستراتيجية
+- [الشهادات المهنية](https://test.qu.edu.iq/ar/campus/continuing-education/certificates/): برامج الشهادات المهنية
+- [الطلبة الدوليين](https://test.qu.edu.iq/ar/admissions/international/): معلومات القبول للطلبة الدوليين - ادرس في العراق
+- [القبول للدراسات العليا](https://test.qu.edu.iq/ar/admissions/postgraduate/): معلومات القبول لطلبة الماجستير والدكتوراه
+- [القبول للدراسة الأولية](https://test.qu.edu.iq/ar/admissions/undergraduate/): معلومات القبول لطلبة البكالوريوس
+- [القيادة الجامعية](https://test.qu.edu.iq/ar/about/identity_and_leadership/leadership/): رئاسة الجامعة والقيادة الإدارية
+- [الكليات والمراكز](https://test.qu.edu.iq/ar/academics/colleges/): كليات ومراكز جامعة القادسية
+- [اللوائح الأكاديمية](https://test.qu.edu.iq/ar/academics/regulations/): اللوائح والأنظمة الأكاديمية
+- [المجلات العلمية](https://test.qu.edu.iq/ar/research_and_innovation/publications_and_repository/journals/): المجلات العلمية المحكّمة الصادرة عن جامعة القادسية - فهرس الإصدارات وروابط النشر
+- [المجلات والنشر](https://test.qu.edu.iq/ar/research_and_innovation/publications_and_repository/publications/): المجلات العلمية والنشر
+- [المراكز والمختبرات](https://test.qu.edu.iq/ar/research_and_innovation/strategy_and_centres/centers/): المراكز والمختبرات البحثية
+- [الهيكل التنظيمي](https://test.qu.edu.iq/ar/about/identity_and_leadership/structure/): الهيكل الإداري والتنظيمي لجامعة القادسية
+- [الوصول إلى بوابة الطالب](https://test.qu.edu.iq/ar/students/portal/): كيفية الوصول إلى بوابة الطالب (نظام المعلومات الطلابية) المُستضافة لدى وزارة التعليم العالي والبحث العلمي
+- [براءات الاختراع](https://test.qu.edu.iq/ar/research_and_innovation/publications_and_repository/patents/): براءات الاختراع والملكية الفكرية
+- [تطبيقات الجوال](https://test.qu.edu.iq/ar/services/apps/): تطبيقات جامعة القادسية الرسمية على متاجر iOS وAndroid - بوابة الطالب، الأخبار، الخدمات الإلكترونية
+- [جدول الدورات التدريبية](https://test.qu.edu.iq/ar/campus/continuing-education/schedule/): جدول الدورات التدريبية والورش التأهيلية في مركز التعليم المستمر بجامعة القادسية - يُحدَّث شهرياً
+- [حاضنات الأعمال](https://test.qu.edu.iq/ar/research_and_innovation/innovation_and_entrepreneurship/incubators/): حاضنات الأعمال في جامعة القادسية - دعم الشركات الناشئة وربط الخريجين بالقطاع الصناعي
+- [حماية البيانات](https://test.qu.edu.iq/ar/policies/data-protection/): سياسة حماية البيانات الشخصية
+- [خريجون متميزون](https://test.qu.edu.iq/ar/campus/alumni/distinguished/): خريجون متميزون من جامعة القادسية
+- [خطط القبول](https://test.qu.edu.iq/ar/admissions/plans/): خطط القبول السنوية والأرشيف
+- [خطط القبول](https://test.qu.edu.iq/ar/students/admission-plans/): خطط القبول السنوية والأرشيف للسنوات السابقة
+- [دليل المقررات](https://test.qu.edu.iq/ar/academics/courses/): دليل المقررات الدراسية
+- [روابط مهمة](https://test.qu.edu.iq/ar/about/information/links/): روابط للجهات الرسمية والجامعات الشريكة
+- [سياسة الأمان](https://test.qu.edu.iq/ar/policies/security-policy/): سياسة أمن المعلومات وحماية البيانات في جامعة القادسية
+- [سياسة الخصوصية](https://test.qu.edu.iq/ar/policies/privacy-policy/): سياسة الخصوصية وحماية البيانات في جامعة القادسية
+- [شؤون الخريجين](https://test.qu.edu.iq/ar/students/alumni/): شبكة الخريجين وفرص التوظيف والتطوير المهني
+- [شبكة الخريجين](https://test.qu.edu.iq/ar/campus/alumni/network/): انضم لشبكة خريجي جامعة القادسية
+- [شروط القبول](https://test.qu.edu.iq/ar/admissions/requirements/): شروط ومتطلبات القبول في جامعة القادسية
+- [شروط القبول والتسجيل](https://test.qu.edu.iq/ar/students/admission/): معلومات شاملة حول شروط القبول ومتطلبات التسجيل في جامعة القادسية
+- [فرص العمل](https://test.qu.edu.iq/ar/campus/alumni/careers/): فرص العمل للخريجين
+- [فرص العمل والتوظيف](https://test.qu.edu.iq/ar/students/jobs/): إعلانات الوظائف وفرص العمل للخريجين
+- [لوحة الشرف](https://test.qu.edu.iq/ar/students/honor-roll/): الطلبة المتفوقون والأوائل في جامعة القادسية
+- [متابعة الخريجين](https://test.qu.edu.iq/ar/campus/alumni/tracer/): نظام متابعة الخريجين
+- [متابعة الخريجين](https://test.qu.edu.iq/ar/students/graduate-tracking/): نظام متابعة الخريجين والتواصل مع سوق العمل
+- [مواصفات البرامج](https://test.qu.edu.iq/ar/academics/program-specs/): مواصفات البرامج الأكاديمية وفق نظام بولونيا
+- [نبذة تاريخية](https://test.qu.edu.iq/ar/about/identity_and_leadership/history/): تاريخ تأسيس جامعة القادسية ومراحل تطورها
+
+## News
+
+
+## Important Announcements
+
+
+## General Announcements
