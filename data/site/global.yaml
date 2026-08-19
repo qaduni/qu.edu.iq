@@ -3,6 +3,7 @@ campus_map_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6502.66
 official_domain: "scr.qu.edu.iq"
 show_official_domain_notice: true
 visitor_counter_endpoint: ""
+measurement_id: "G-56MTR8F9P3"
 email: "info@qu.edu.iq"
 phone: "+964 XXX XXXX XXX"
 
