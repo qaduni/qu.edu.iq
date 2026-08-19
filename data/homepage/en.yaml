@@ -26,6 +26,11 @@ hero_stats:
   - name: "H Index"
     value: 77
 
+search:
+  title: "Global Search"
+  sub_title: "Search across courses, academic programs, campus news, and university directories."
+  placeholder: "Type to search (e.g., Computer Science, Tuition Fees)..."
+
 quick_links:
   title: "Quick Links"
   sub_title: "Fast access to our most frequently used services and portals"
