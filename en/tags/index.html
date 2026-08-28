@@ -27,7 +27,117 @@ Career & Recognition</button><ul class=nav-sub-dropdown><li><a href=/en/students
 Alumni</button><ul class=nav-sub-dropdown><li><a href=https://alumni.qu.edu.iq target=_blank rel=noopener>Alumni Gateway</a></li><li><a href=/en/campus/alumni/distinguished/>Distinguished Alumni</a></li><li><a href=/en/campus/alumni/careers/>Career Development</a></li><li><a href=/en/campus/alumni/feedback/>Employer Feedback</a></li></ul></li><li class="nav-dropdown-parent nav-item-has-children"><button type=button class="nav-label nav-dropdown-toggle" aria-expanded=false aria-haspopup=true>
 Continuing Education</button><ul class=nav-sub-dropdown><li><a href=/en/campus/continuing-education/>Overview</a></li><li><a href=/en/campus/continuing-education/certificates/>Certificates</a></li><li><a href=/en/campus/continuing-education/moocs/>MOOCs</a></li><li><a href=/en/campus/continuing-education/schedule/>Training Schedule</a></li></ul></li></ul></li><li class=nav-item-has-children><button type=button class="nav-label nav-dropdown-toggle" aria-expanded=false aria-haspopup=true>
 News & Events
-<svg class="chevron-icon" width="12" height="12" aria-hidden="true"><use href="#icon-chevron-down"/></svg></button><ul class=nav-dropdown><li><a href=/en/media/news/>News</a></li><li><a href=/en/media/announcements/>Announcements</a></li><li><a href=https://events.qu.edu.iq target=_blank rel=noopener>Events</a></li><li><a href=https://conf.qu.edu.iq target=_blank rel=noopener>Scientific Conferences</a></li><li><a href=/en/media/gallery/>Gallery</a></li><li><a href=/en/media/multimedia/>Multimedia</a></li><li><a href=/en/media/publications/>Publications</a></li><li><a href=/en/media/contact/>Contact Us</a></li></ul></li></ul></nav><div class=lang-switcher><a href=https://test.qu.edu.iq/ar/tags/ data-lang-switch=ar hreflang=ar lang=ar>العربية</a></div></div></header><main><link href=/pagefind/pagefind-component-ui.css rel=stylesheet><script src=/pagefind/pagefind-component-ui.js type=module></script><section class=page-header><div class=container><h1 data-pagefind-body data-pagefind-weight=20 data-pagefind-meta=title>Tags</h1><nav aria-label=Breadcrumb><ol class=breadcrumb><li><a href=/en/>Home</a></li><li>Tags</li></ol></nav></div></section><section class=list-page data-pagefind-ignore=all><div class=container><div class=searchbox><pagefind-searchbox style="width: 100%;" placeholder="Search news..." aria-label="Search news..." max-results=10></pagefind-searchbox><pagefind-filter-dropdown filter=category label=Filter></pagefind-filter-dropdown></div><div class=list-items></div></div></section></main><footer class=site-footer><div class=container><div class=footer-main><div class=footer-about><a href=/en/ class=logo aria-label="جامعة القادسية — Home"><img src=/images/logo_hu_1ecdbb9dd563113a.webp srcset="/images/logo_hu_1ecdbb9dd563113a.webp 1x, /images/logo_hu_d351f53651549c89.webp 2x" width=63 height=63 class=header-logo-img alt=Logo fetchpriority=high>
+<svg class="chevron-icon" width="12" height="12" aria-hidden="true"><use href="#icon-chevron-down"/></svg></button><ul class=nav-dropdown><li><a href=/en/media/news/>News</a></li><li><a href=/en/media/announcements/>Announcements</a></li><li><a href=https://events.qu.edu.iq target=_blank rel=noopener>Events</a></li><li><a href=https://conf.qu.edu.iq target=_blank rel=noopener>Scientific Conferences</a></li><li><a href=/en/media/gallery/>Gallery</a></li><li><a href=/en/media/multimedia/>Multimedia</a></li><li><a href=/en/media/publications/>Publications</a></li><li><a href=/en/media/contact/>Contact Us</a></li></ul></li></ul></nav><div class=lang-switcher><a href=https://test.qu.edu.iq/ar/tags/ data-lang-switch=ar hreflang=ar lang=ar>العربية</a></div></div></header><main><section class=page-header><div class=container><h1 data-pagefind-body data-pagefind-weight=20 data-pagefind-meta=title>Tags</h1><nav aria-label=Breadcrumb><ol class=breadcrumb><li><a href=/en/>Home</a></li><li>Tags</li></ol></nav></div></section><section class=list-page data-pagefind-ignore=all><div class=container><div class=searchbox><div class="searchbox custom-search-wrapper" style="position:relative;width:100%;max-width:700px;margin:2rem auto"><input type=search id=section-search-input placeholder="Search news..." autocomplete=off style="width:100%;height:48px;padding:0 1rem;border-radius:8px;border:1px solid #cbd5e1;font-family:cairo,sans-serif;font-size:1rem;outline:none;box-sizing:border-box"><div id=section-search-dropdown style="display:none;position:absolute;top:52px;left:0;right:0;background:#fff;border:1px solid #e2e8f0;border-radius:8px;box-shadow:0 10px 15px -3px rgba(0,0,0,.1);max-height:400px;overflow-y:auto;z-index:50;padding:.5rem 0"></div></div><style>.search-result-item{display:block;padding:.75rem 1rem;text-decoration:none;color:inherit;border-bottom:1px solid #f8fafc;transition:background .15s ease;font-family:cairo,sans-serif}.search-result-item:last-child{border-bottom:none}.search-result-item:hover,.search-result-item.active{background-color:#f1f5f9;outline:none}.search-result-title{font-weight:700;color:#0f172a;margin-bottom:4px;font-size:.95rem}.search-result-excerpt{font-size:.85rem;color:#64748b;line-height:1.4}</style><script type=module>
+                const pagefind = await import("/pagefind/pagefind.js");
+                await pagefind.init();
+
+                const input = document.getElementById("section-search-input");
+                const dropdown = document.getElementById("section-search-dropdown");
+                const targetFilter = "News";
+
+                let debounceTimer = null;
+                let selectedIndex = -1;
+
+                
+                function updateActiveItem(items) {
+                    items.forEach((item, idx) => {
+                        if (idx === selectedIndex) {
+                            item.classList.add("active");
+                            item.scrollIntoView({ block: "nearest" });
+                        } else {
+                            item.classList.remove("active");
+                        }
+                    });
+                }
+
+                
+                function closeDropdown() {
+                    dropdown.style.display = "none";
+                    dropdown.innerHTML = "";
+                    selectedIndex = -1;
+                }
+
+                
+                input.addEventListener("input", (e) => {
+                    clearTimeout(debounceTimer);
+                    const query = e.target.value.trim();
+
+                    if (!query) {
+                        closeDropdown();
+                        return;
+                    }
+
+                    debounceTimer = setTimeout(async () => {
+                        const search = await pagefind.search(query, {
+                            filters: {
+                                category: targetFilter
+                            }
+                        });
+
+                        const results = await Promise.all(search.results.slice(0, 8).map(r => r.data()));
+                        selectedIndex = -1;
+
+                        if (results.length === 0) {
+                            dropdown.innerHTML = `<div style="padding: 1rem; color: #64748b; font-family: 'Cairo', sans-serif; text-align: center;">لا توجد نتائج</div>`;
+                            dropdown.style.display = "block";
+                            return;
+                        }
+
+                        dropdown.innerHTML = results.map(item => `
+                            <a href="${item.url}" class="search-result-item" tabindex="-1">
+                                <div class="search-result-title">${item.meta.title || "بدون عنوان"}</div>
+                                <div class="search-result-excerpt">${item.excerpt}</div>
+                            </a>
+                        `).join("");
+
+                        dropdown.style.display = "block";
+                    }, 150); 
+                });
+
+                
+                input.addEventListener("keydown", (e) => {
+                    const items = dropdown.querySelectorAll(".search-result-item");
+                    if (dropdown.style.display === "none" || items.length === 0) {
+                        if (e.key === "Escape") closeDropdown();
+                        return;
+                    }
+
+                    switch (e.key) {
+                        case "ArrowDown":
+                            e.preventDefault();
+                            selectedIndex = (selectedIndex + 1) % items.length;
+                            updateActiveItem(items);
+                            break;
+
+                        case "ArrowUp":
+                            e.preventDefault();
+                            selectedIndex = (selectedIndex - 1 + items.length) % items.length;
+                            updateActiveItem(items);
+                            break;
+
+                        case "Enter":
+                            e.preventDefault();
+                            if (selectedIndex >= 0 && items[selectedIndex]) {
+                                items[selectedIndex].click();
+                            } else if (items.length > 0) {
+                                items[0].click(); 
+                            }
+                            break;
+
+                        case "Escape":
+                            e.preventDefault();
+                            closeDropdown();
+                            break;
+                    }
+                });
+
+                
+                document.addEventListener("click", (e) => {
+                    if (!e.target.closest(".custom-search-wrapper")) {
+                        closeDropdown();
+                    }
+                });
+            </script></div><div class=list-items></div></div></section></main><footer class=site-footer><div class=container><div class=footer-main><div class=footer-about><a href=/en/ class=logo aria-label="جامعة القادسية — Home"><img src=/images/logo_hu_1ecdbb9dd563113a.webp srcset="/images/logo_hu_1ecdbb9dd563113a.webp 1x, /images/logo_hu_d351f53651549c89.webp 2x" width=63 height=63 class=header-logo-img alt=Logo fetchpriority=high>
 <span aria-hidden=true style=font-size:1.1rem>جامعة القادسية</span></a><p>Al-Qadisiyah University</p><div class=footer-social><a href=https://facebook.com/qu.edu.iq target=_blank rel=noopener aria-label=Facebook><svg width="20" height="20"><use href="#icon-facebook"/></svg></a>
 <a href=https://twitter.com/qu_edu_iq target=_blank rel=noopener aria-label=Twitter><svg width="20" height="20"><use href="#icon-twitter"/></svg></a>
 <a href=https://youtube.com/qu_edu_iq target=_blank rel=noopener aria-label=YouTube><svg width="20" height="20"><use href="#icon-youtube"/></svg></a>
