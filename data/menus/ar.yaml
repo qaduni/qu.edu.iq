@@ -87,27 +87,12 @@ main:
     weight: 41
     url: "/ar/academics/programs/"
 
-  - name: "مواصفات البرامج"
-    parent: "academics"
-    weight: 42
-    url: "/ar/academics/program-specs/"
-
-  - name: "المقررات الدراسية"
-    parent: "academics"
-    weight: 43
-    url: "/ar/academics/courses/"
-
   - name: "دليل أعضاء هيئة التدريس"
     parent: "academics"
     weight: 44
     url: "https://staff.qu.edu.iq"
     params:
       external: true
-
-  - name: "دليل الكليات"
-    parent: "academics"
-    weight: 45
-    url: "/ar/academics/colleges/"
 
   - name: "التقويم الأكاديمي"
     parent: "academics"
@@ -341,7 +326,7 @@ main:
     weight: 4
     url: "/ar/campus/continuing-education/schedule/"
 
-  - name: "الأخبار والفعاليات"
+  - name: "الإعلام والتواصل"
     identifier: "media"
     weight: 80
 

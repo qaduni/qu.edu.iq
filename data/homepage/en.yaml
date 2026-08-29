@@ -6,7 +6,7 @@ hero:
     primary_name: "Apply Now"
     primary_url: "/en/admissions/apply/"
     secondary_name: "Discover the University"
-    secondary_url: "/en/about/history/"
+    secondary_url: "/en/about/identity_and_leadership/history/"
 
 hero_stats:
   - name: "Colleges"

@@ -6,7 +6,7 @@ hero:
     primary_name: "التقديم على الجامعة"
     primary_url: "/ar/admissions/apply/"
     secondary_name: "تعرف على الجامعة"
-    secondary_url: "/ar/about/history/"
+    secondary_url: "/ar/about/identity_and_leadership/history/"
 
 hero_stats:
   - name: "الكليات"

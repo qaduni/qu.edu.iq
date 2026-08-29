@@ -87,27 +87,12 @@ main:
     weight: 41
     url: "/en/academics/programs/"
 
-  - name: "Program Specifications"
-    parent: "academics"
-    weight: 42
-    url: "/en/academics/program-specs/"
-
-  - name: "Courses"
-    parent: "academics"
-    weight: 43
-    url: "/en/academics/courses/"
-
   - name: "Faculty Directory"
     parent: "academics"
     weight: 44
     url: "https://staff.qu.edu.iq"
     params:
       external: true
-
-  - name: "Colleges Directory"
-    parent: "academics"
-    weight: 45
-    url: "/en/academics/colleges/"
 
   - name: "Academic Calendar"
     parent: "academics"
@@ -341,7 +326,7 @@ main:
     weight: 4
     url: "/en/campus/continuing-education/schedule/"
 
-  - name: "News & Events"
+  - name: "Media & Contact"
     identifier: "media"
     weight: 80
 
