@@ -24,7 +24,6 @@
 - [القبول للدراسات العليا](https://test.qu.edu.iq/ar/admissions/postgraduate/): معلومات القبول لطلبة الماجستير والدكتوراه
 - [القبول للدراسة الأولية](https://test.qu.edu.iq/ar/admissions/undergraduate/): معلومات القبول لطلبة البكالوريوس
 - [القيادة الجامعية](https://test.qu.edu.iq/ar/about/identity_and_leadership/leadership/): رئاسة الجامعة والقيادة الإدارية
-- [الكليات والمراكز](https://test.qu.edu.iq/ar/academics/colleges/): كليات ومراكز جامعة القادسية
 - [اللوائح الأكاديمية](https://test.qu.edu.iq/ar/academics/regulations/): اللوائح والأنظمة الأكاديمية
 - [المجلات العلمية](https://test.qu.edu.iq/ar/research_and_innovation/publications_and_repository/journals/): المجلات العلمية المحكّمة الصادرة عن جامعة القادسية - فهرس الإصدارات وروابط النشر
 - [المجلات والنشر](https://test.qu.edu.iq/ar/research_and_innovation/publications_and_repository/publications/): المجلات العلمية والنشر
@@ -39,7 +38,6 @@
 - [خريجون متميزون](https://test.qu.edu.iq/ar/campus/alumni/distinguished/): خريجون متميزون من جامعة القادسية
 - [خطط القبول](https://test.qu.edu.iq/ar/admissions/plans/): خطط القبول السنوية والأرشيف
 - [خطط القبول](https://test.qu.edu.iq/ar/students/admission-plans/): خطط القبول السنوية والأرشيف للسنوات السابقة
-- [دليل المقررات](https://test.qu.edu.iq/ar/academics/courses/): دليل المقررات الدراسية
 - [روابط مهمة](https://test.qu.edu.iq/ar/about/information/links/): روابط للجهات الرسمية والجامعات الشريكة
 - [سياسة الأمان](https://test.qu.edu.iq/ar/policies/security-policy/): سياسة أمن المعلومات وحماية البيانات في جامعة القادسية
 - [سياسة الخصوصية](https://test.qu.edu.iq/ar/policies/privacy-policy/): سياسة الخصوصية وحماية البيانات في جامعة القادسية
@@ -52,7 +50,6 @@
 - [لوحة الشرف](https://test.qu.edu.iq/ar/students/honor-roll/): الطلبة المتفوقون والأوائل في جامعة القادسية
 - [متابعة الخريجين](https://test.qu.edu.iq/ar/campus/alumni/tracer/): نظام متابعة الخريجين
 - [متابعة الخريجين](https://test.qu.edu.iq/ar/students/graduate-tracking/): نظام متابعة الخريجين والتواصل مع سوق العمل
-- [مواصفات البرامج](https://test.qu.edu.iq/ar/academics/program-specs/): مواصفات البرامج الأكاديمية وفق نظام بولونيا
 - [نبذة تاريخية](https://test.qu.edu.iq/ar/about/identity_and_leadership/history/): تاريخ تأسيس جامعة القادسية ومراحل تطورها
 
 ## News

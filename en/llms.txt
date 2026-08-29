@@ -18,8 +18,6 @@
 - [Career Opportunities](https://test.qu.edu.iq/en/campus/alumni/careers/): Job opportunities for graduates
 - [Career Opportunities](https://test.qu.edu.iq/en/students/jobs/): Job announcements and employment opportunities for graduates
 - [Centers & Labs](https://test.qu.edu.iq/en/research_and_innovation/strategy_and_centres/centers/): Research centers and laboratories
-- [Colleges & Centers](https://test.qu.edu.iq/en/academics/colleges/): Colleges and centers at Al-Qadisiyah University
-- [Course Catalog](https://test.qu.edu.iq/en/academics/courses/): Course catalog
 - [Data Protection](https://test.qu.edu.iq/en/policies/data-protection/): Personal data protection policy
 - [Distinguished Alumni](https://test.qu.edu.iq/en/campus/alumni/distinguished/): Distinguished alumni from Al-Qadisiyah University
 - [Employer Feedback](https://test.qu.edu.iq/en/campus/alumni/feedback/): Employer feedback on university graduates
@@ -41,7 +39,6 @@
 - [Postgraduate Admissions](https://test.qu.edu.iq/en/admissions/postgraduate/): Admission information for master's and doctoral students
 - [Privacy Policy](https://test.qu.edu.iq/en/policies/privacy-policy/): Privacy and Data Protection Policy at Al-Qadisiyah University
 - [Professional Certificates](https://test.qu.edu.iq/en/campus/continuing-education/certificates/): Professional certificate programs
-- [Program Specifications](https://test.qu.edu.iq/en/academics/program-specs/): Academic program specifications according to Bologna system
 - [Publications & Journals](https://test.qu.edu.iq/en/research_and_innovation/publications_and_repository/publications/): Scientific journals and publications
 - [Rankings & Accreditations](https://test.qu.edu.iq/en/about/performance_and_strategy/rankings/): Al-Qadisiyah University rankings in international classifications and academic accreditations
 - [Research Statistics](https://test.qu.edu.iq/en/research_and_innovation/insights_and_events/statistics/): Research statistics
