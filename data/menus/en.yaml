@@ -67,13 +67,6 @@ main:
     weight: 2
     url: "/en/about/information/links/"
 
-  - name: "Sustainability (SDGs)"
-    parent: "about"
-    weight: 24
-    url: "https://sust.qu.edu.iq"
-    params:
-      external: true
-
   - name: "Colleges & Centres"
     weight: 30
     url: "/en/colleges_and_centres/"

@@ -67,13 +67,6 @@ main:
     weight: 2
     url: "/ar/about/information/links/"
 
-  - name: "الاستدامة (SDGs)"
-    parent: "about"
-    weight: 24
-    url: "https://sust.qu.edu.iq"
-    params:
-      external: true
-
   - name: "الكليات والمراكز"
     weight: 30
     url: "/ar/colleges_and_centres/"
