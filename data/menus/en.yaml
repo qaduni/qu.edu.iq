@@ -90,7 +90,7 @@ main:
   - name: "Academic Calendar"
     parent: "academics"
     weight: 46
-    url: "/en/academics/calendar/"
+    url: "/en/academics/academic_calendar/"
 
   - name: "Regulations"
     parent: "academics"

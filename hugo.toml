@@ -64,5 +64,16 @@ buildFuture = true
   isPlainText = true
   notAlternative = true
 
+[mediaTypes]
+  [mediaTypes."text/calendar"]
+    suffixes = ["ics"]
+
+[outputFormats]
+  [outputFormats.Calendar]
+    mediaType = "text/calendar"
+    baseName = "calendar"
+    isPlainText = true
+
 [outputs]
+  section = ["HTML", "Calendar"]
   home = ["HTML", "RSS", "WebManifest", "ConfigYML", "Robots", "LLM"]

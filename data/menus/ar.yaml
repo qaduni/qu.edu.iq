@@ -90,7 +90,7 @@ main:
   - name: "التقويم الأكاديمي"
     parent: "academics"
     weight: 46
-    url: "/ar/academics/calendar/"
+    url: "/ar/academics/academic_calendar/"
 
   - name: "الأنظمة والتعليمات"
     parent: "academics"
