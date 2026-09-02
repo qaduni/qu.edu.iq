@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//qu.edu.iq//Academic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academic Calendar
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:1625824fa2fd63b561c7acbdb44e5a8f-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Accessing the Student Portal
+DESCRIPTION:Student Portal (SIS) The Student Portal is the official Student Information System used by Al-Qadisiyah University and all Iraqi universities. It is centrally managed by the Ministry of Higher Education and Scientific Research.\n🔗 Portal URL: sis.mohesr.gov.iq\nWhat You Can Do in the Portal 📊 View your semester and final grades 📅 See your weekly timetable 📝 Check exam results 📈 Track your cumulative academic record (GPA, credit hours) 💳 View tuition fees and payment receipts 📋 Submit re-examination and study-postponement requests 🎓 Apply for graduation forms and ratification First-Time Login Go to sis.mohesr.gov.iq Use your university ID number as the username (provided by your department) Default password: your university ID + year of birth (you will be prompted to change it on first login) Update your personal information and password Forgot Your Password? Use the &ldquo;Forgot password&rdquo; link inside the portal. If you do not receive a verification email, contact your college&rsquo;s Registration Office.\nLogin Issues? Your college&rsquo;s Registration Office — the first point of contact Central Registrar: registrar@qu.edu.iq Ministry technical support: via the form inside the SIS portal Important Notes The portal is centrally hosted by the Ministry, so you will see ministry branding rather than only QU branding — this is expected Availability may be affected during peak times (registration, results announcements) — try again later Do not share your login credentials with anyone Related Academic Calendar Examination Regulations Student Handbook 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d5da0799a7dbac1d13e93bf08ae0b42f-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Admission Plans
+DESCRIPTION:Admission Plan for Academic Year 2025-2026 Capacity by College College Morning Studies Evening Studies Medicine 200 - Dentistry 100 - Pharmacy 150 - Engineering 400 200 Science 350 150 Computer Science 300 150 Law 250 200 Education 500 250 Administration &amp; Economics 400 300 Arts 350 200 Physical Education 200 100 Agriculture 250 - Veterinary Medicine 100 - Nursing 150 - Total Capacity: ~6,000 students\nNew Specializations The following specializations have been introduced for the current academic year:\nArtificial Intelligence Engineering - College of Computer Science Cybersecurity - College of Computer Science Project Management - College of Administration &amp; Economics Admission Plans Archive Previous Years Admission Plan 2024-2025 (PDF) Admission Plan 2023-2024 (PDF) Admission Plan 2022-2023 (PDF) Admission Plan 2021-2022 (PDF) Important Dates Event Expected Date Online Application Start July 2026 Application Deadline August 2026 Results Announcement September 2026 Registration Start October 2026 Academic Year Start November 2026 Notes Notice: The numbers above are indicative and subject to change according to Ministry of Higher Education and Scientific Research guidelines.\nFor inquiries:\nadmission@qu.edu.iq +964 780 000 0000 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:450217b4fb842e908a8d86e097c48349-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Admission Requirements
+DESCRIPTION:Overview Al-Qadisiyah University welcomes all students wishing to join our academic journey. The university follows centralized admission standards approved by the Ministry of Higher Education and Scientific Research.\nGeneral Admission Requirements For Morning Studies Obtain Iraqi Preparatory School Certificate or equivalent Achieve the required average according to college and major Pass medical examination (for health colleges) No disciplinary dismissal from another university For Evening Studies Same requirements as morning studies Required averages differ from morning studies Previous Admission Averages College Scientific Branch Literary Branch Medicine 98+ - Engineering 85+ - Science 70+ - Law - 75+ Education 65+ 65+ Administration &amp; Economics 60+ 60+ Note: Above averages are indicative and change annually based on capacity\nRequired Documents Original graduation certificate with certified copy Civil Status ID National Card Iraqi Nationality Certificate Recent passport photos (6 photos) Centralized admission application form Application Stages flowchart LR A[Online Registration] --&gt; B[Select Preferences] B --&gt; C[Results Announcement] C --&gt; D[Confirm Admission] D --&gt; E[Submit Documents] Online Registration: Through Centralized Admission Department website Select Preferences: Rank colleges by priority Results Announcement: Publication of admission results Confirm Admission: Confirm acceptance Submit Documents: Complete registration file Contact Registration Department Email: admission@qu.edu.iq Phone: +964 780 000 0000 Working Hours: Sunday - Thursday, 8:00 AM - 3:00 PM Important Links Centralized Admission Department (External link) Academic Plan Academic Calendar 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b96298c4ec77671bd53b931647fdd944-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Alumni Affairs
+DESCRIPTION:Alumni Affairs Al-Qadisiyah University maintains communication with its graduates and supports them in their professional journey.\nAlumni Services Alumni Database Graduate data registration Contact information updates Career path tracking Employment Opportunities Job announcements from partner companies Annual job fairs Academic recommendations and references Professional Development Workshops and training courses Career counseling programs Continuing education opportunities Certificates and Documents Certificate copies Document authentication Official transcripts Alumni Network Join the Al-Qadisiyah University alumni network to connect with peers and exchange experiences and opportunities.\nEvents Annual alumni gatherings Conferences and seminars Social and sports activities Groups Groups by college/discipline Groups by graduation year Professional sector groups Network Registration To register in the alumni database and join the network:\nComplete the online registration form Attach graduation certificate copy Activate account via email Contact Email: alumni@qu.edu.iq Phone: +964 780 000 0000 (ext. 5555) 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:db62e0a4090ae409885d2e03f766aa48-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Career Opportunities
+DESCRIPTION:Available Career Opportunities Al-Qadisiyah University aims to connect its graduates with the job market by publishing available employment opportunities.\nCurrent Job Announcements Government Positions Organization Position Required Major Deadline Ministry of Health Resident Physician General Medicine 2026/02/28 Ministry of Education Secondary Teacher Science, Mathematics 2026/03/15 Ministry of Higher Education Teaching Assistant All Majors Open Private Sector Positions Company Position Required Major Deadline Tech Company Software Developer Computer Science 2026/02/15 Private Hospital Pharmacist Pharmacy 2026/02/20 Engineering Firm Civil Engineer Civil Engineering 2026/03/01 Training Programs Summer Training Program The university, in cooperation with the private sector, offers summer training programs for students including:\nTraining in government institutions Training in private companies Professional workshops Career Counseling Program Individual counseling sessions Resume writing workshops Job interview simulations For Companies and Employers Post a Job Announcement Companies and institutions can post job announcements via:\nEmail: jobs@qu.edu.iq Phone: +964 780 000 0000 Employer Satisfaction Survey We welcome your feedback on our graduates to improve our academic programs.\nComplete Employer Survey\nUseful Links Government Employment Portal (External link) Mihanti Platform (External link) Alumni Network 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:73efe8b51dc081bc93218662a2e1073d-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Graduate Tracking
+DESCRIPTION:Graduate Tracking System Al-Qadisiyah University aims to track its graduates and maintain continuous communication to evaluate educational quality and connect them with employment opportunities.\nGraduate Survey All graduates are kindly requested to complete the following survey to help us improve our academic programs and track your career progress.\nStatistics Indicator Percentage Employment within one year 75% Working in field of study 68% Employer satisfaction 85% Pursuing postgraduate studies 22% Contact Email: alumni@qu.edu.iq Phone: +964 780 000 0000 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:185a2ab698700f347e04acb9eff5f6bf-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Honor Roll
+DESCRIPTION:Honor Roll for Academic Year 2024-2025 We are proud of our outstanding students who have achieved academic excellence across various colleges.\nTop Students University-Wide First Stage Rank Name College GPA 1 Ahmed Mohammed Ali College of Medicine 96.5% 2 Fatima Hussein Kareem College of Pharmacy 95.8% 3 Ali Abdullah Hassan College of Engineering 95.2% Final Stage Rank Name College GPA 1 Zainab Ahmed Mohammed College of Medicine 94.7% 2 Mohammed Saeed Jasim College of Dentistry 93.9% 3 Noor Ali Kadhim College of Engineering 93.5% Top Students by College College of Medicine First: Zainab Ahmed Mohammed - 94.7% Second: Ahmed Ali Hussein - 93.2% Third: Sarah Mohammed Abdullah - 92.8% College of Engineering First: Noor Ali Kadhim - 93.5% Second: Hussein Mohammed Ahmed - 92.1% Third: Yasmin Saeed Kareem - 91.7% College of Science First: Maryam Hassan Ali - 92.3% Second: Omar Ahmed Mohammed - 91.5% Third: Ruqaya Ali Hussein - 90.8% College of Computer Science First: Ali Mohammed Kadhim - 94.1% Second: Huda Saeed Ahmed - 93.3% Third: Hussein Ali Jasim - 92.6% Excellence Recognition Program The university offers outstanding students:\n🏆 Certificates of appreciation 💰 Financial rewards 📚 Postgraduate scholarships 🎓 Opportunities to participate in scientific conferences 💼 Employment priority Honor Roll Criteria Achieve 85% or higher GPA No failing grades in any subject Excellent academic conduct Participation in university activities Honor Roll Archive Honor Roll 2023-2024 Honor Roll 2022-2023 Honor Roll 2021-2022 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5e26ebd7acc1bd90625d6ba8dda54116-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Study in Iraq
+DESCRIPTION:Study in Iraq Program Al-Qadisiyah University welcomes international students from around the world to study in its diverse academic programs.\nWhy Al-Qadisiyah University? Quality Education: Accredited and advanced academic programs Affordable Tuition: Compared to regional universities Rich Cultural Environment: Opportunity to learn about Iraq&rsquo;s ancient civilization Strategic Location: In the heart of Iraq with easy access Programs for International Students Bachelor&rsquo;s Programs Human Medicine (6 years) Dentistry (5 years) Pharmacy (5 years) Engineering (4 years) Sciences (4 years) Graduate Programs Master&rsquo;s in various disciplines PhD in various disciplines Admission Requirements High school certificate or equivalent Certificate equivalency from relevant authorities Proof of language proficiency (Arabic or English) Meeting program-specific requirements Application Steps Online Registration: Through Study in Iraq website Upload Documents: Required certificates and documents Pay Application Fee: Through electronic portal Await Admission: Application review and results announcement Visa Issuance: After final admission Costs and Fees Fees vary by program and specialization. For detailed fees:\nVisit Study in Iraq\nContact Email: international@qu.edu.iq Phone: +964 780 000 0000 
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

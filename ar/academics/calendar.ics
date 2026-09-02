@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//qu.edu.iq//Academic Calendar//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academic Calendar
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:57fb7498bba812bb32f596c55903701b-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:البرامج الأكاديمية
+DESCRIPTION:البرامج الأكاديمية برامج البكالوريوس تقدم الجامعة أكثر من 100 برنامج بكالوريوس في مختلف التخصصات.\nبرامج الماجستير برامج ماجستير متاحة في معظم الكليات.\nبرامج الدكتوراه برامج دكتوراه في التخصصات المتقدمة.\nالبرامج حسب المجال المجال البرامج الطب والصحة 15+ الهندسة 12+ العلوم 18+ الإنسانيات 35+ الإدارة 8+ مواصفات البرامج (بولونيا)\n
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2a5c825d7622cb27fd92d0659329e7de-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:التقويم الأكاديمي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:32f9ca5f673f49b56b39460acc9b1811-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:اللوائح الأكاديمية
+DESCRIPTION:اللوائح الأكاديمية لوائح الدراسة الأولية نظام الفصول الدراسية نظام التقييم والدرجات شروط النجاح والرسوب نظام الإنذارات الأكاديمية لوائح الدراسات العليا شروط القبول متطلبات الرسالة/الأطروحة لجان المناقشة النشر العلمي للتحميل لائحة الدراسة الأولية (PDF) لائحة الدراسات العليا (PDF) 
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

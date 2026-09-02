@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//qu.edu.iq//Academic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academic Calendar
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:32f714d034b1be48105a70c2badc0f5e-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Alumni Network
+DESCRIPTION:Alumni Network Join Al-Qadisiyah University alumni network to stay connected.\nalumni@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0a04611557da3bbc475ebc9226565bce-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Career Opportunities
+DESCRIPTION:Career Opportunities Various job opportunities available for university graduates.\ncareers@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5c0812569a6dd0215a96417af4ff9977-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Distinguished Alumni
+DESCRIPTION:Distinguished Alumni We are proud of our distinguished alumni in various fields.\n
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f655d8f756abb258560166a43baf9d96-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Employer Feedback
+DESCRIPTION:Employer Feedback We collect employer feedback to improve our programs.\nfeedback@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd8c9d19ece2067ec6f4a5857b2915d-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Graduate Tracer
+DESCRIPTION:Graduate Tracer Graduate tracking survey available for alumni.\ntracer@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

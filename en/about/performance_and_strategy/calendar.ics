@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//qu.edu.iq//Academic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academic Calendar
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:2e555e943a23dc2998bfac7e1257884b-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Rankings & Accreditations
+DESCRIPTION:International Rankings Webometrics Ranking Al-Qadisiyah University holds advanced positions in the Webometrics World Universities Ranking, which measures the digital presence and impact of universities.\nTimes Higher Education Ranking The university is working to achieve an advanced position in THE ranking, which evaluates universities based on teaching, research, citations, and internationalization.\nQS World Rankings The university is working to improve its indicators to enter the QS World University Rankings.\nAcademic Accreditations National Accreditation Iraqi Ministry of Higher Education and Scientific Research accreditation Scientific Supervision and Evaluation Authority accreditation International Accreditations The university is seeking international accreditations from:\nABET for engineering programs AACSB for business programs WHO for medical and health programs Quality Indicators Indicator Description Student-Faculty Ratio 1:20 Faculty with PhD 85% Annual Published Research 1000+ Patents 50+ Academic Achievements Several academic programs have received local accreditation Active participation in international scientific conferences Academic cooperation with prestigious global universities Graduating researchers and specialists working in global institutions 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d42d93092173fab2717a23735c5276af-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Strategic Plan
+DESCRIPTION:Strategic Plan 2024-2029 Strategic Vision To position Al-Qadisiyah University as a leading institution regionally and internationally in education, scientific research, and community service.\nStrategic Objectives Enhance Education Quality - Improve academic programs according to international standards Strengthen Research - Increase research output published in global databases Community Service - Provide programs and services that meet local community needs Digital Transformation - Develop technical infrastructure and e-services Institutional Excellence - Improve administrative performance and governance Annual Reports Year Report 2024-2025 Download PDF 2023-2024 Download PDF 2022-2023 Download PDF Performance Indicators Indicator Target Achievement Graduate Employment Rate 80% 75% Scopus Publications 600 520 Student Satisfaction 85% 82% Full Strategic Plan Download Complete Strategic Plan (PDF)\n
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2655e5d3b4c2e731d485c0c085abfc04-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:University Statistics
+DESCRIPTION:Overview Al-Qadisiyah University was founded in 1987 and is today one of Iraq&rsquo;s leading public universities. This page presents cumulative and annual statistics, updated yearly.\nKey Figures Indicator Count Colleges 18 Academic Departments ~110 Research Centres 4 main centres Faculty Members ~2,400 (professors, lecturers, assistant lecturers, instructors) Enrolled Students ~35,000 (undergraduate + postgraduate) Administrative Staff ~1,800 Scientific Publications (Scopus, cumulative) Updated annually — see Research Statistics Patents Updated annually — see Patents Editor note: Refresh the numbers above annually from the deanship and statistics office reports. Last updated: TODO.\nCumulative Trend Academic Year Students Faculty Publications 2024–2025 TODO TODO TODO 2023–2024 TODO TODO TODO 2022–2023 TODO TODO TODO Distribution by Programme Level Undergraduate (Bachelor&rsquo;s): ~80% of students Postgraduate (Master&rsquo;s &amp; PhD): ~20% of students Alumni Since founding, more than 100,000 students have graduated from Al-Qadisiyah University and now work across public and private sectors in Iraq and abroad. See the Alumni gateway.\nSee Also Detailed Research Statistics Administrative Statistics Global Rankings 
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

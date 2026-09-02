@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//qu.edu.iq//Academic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academic Calendar
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:203273a5965ed0e74da37fafe0a78cbd-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Lifelong Learning
+DESCRIPTION:Lifelong Learning Continuous educational programs for all ages.\nlifelong@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a830e57ae97fa1cc8b8fd87036cdb35b-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Open Courses
+DESCRIPTION:Open Courses (MOOCs) Free online courses for all learners.\nmoocs@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c2320aee7ece8b9bf35dd26dc2a9ea84-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Professional Certificates
+DESCRIPTION:Professional Certificates Accredited professional certificate programs.\ncertificates@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa21a777817edafc99ee65b07f0e477-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Training Schedule
+DESCRIPTION:Upcoming Training Courses The Continuing Education Centre at Al-Qadisiyah University organises monthly training courses and qualifying workshops for academics, professionals, and the local community.\n⚠️ Editor note: This schedule must be refreshed monthly.\nCurrent Schedule Title Duration Start Date Location Registration TODO TODO TODO TODO Register TODO TODO TODO TODO Register TODO TODO TODO TODO Register Programme Types Professional qualifying programmes — certificates in project management, data analysis, IT Language courses — English, Turkish, French at various levels Pedagogical courses — teaching-skills development for faculty Free qualifying workshops for students — CV and job-interview skills Contact 📧 Email: ce@qu.edu.iq 📞 Phone: TODO 🌐 Centre page: /en/campus/continuing-education/ Related Certificates &amp; Qualification MOOCs Lifelong Learning 
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

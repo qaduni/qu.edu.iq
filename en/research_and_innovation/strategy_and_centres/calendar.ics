@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//qu.edu.iq//Academic Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academic Calendar
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:de94dc33c856c3d338cdf6be3db3b40b-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Centers & Labs
+DESCRIPTION:Research Centers Scientific Research Center Energy Research Center Environmental Research Center Strategic Studies Center Research Laboratories Central Laboratories Spectroscopic Analysis Laboratory Molecular Biology Laboratory Materials Science Laboratory Contact labs@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:269a316b87adddfb93fcb6a5ebffbfdc-en@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:Research Strategy
+DESCRIPTION:Research Strategy Vision To position Al-Qadisiyah University as a distinguished research center regionally and internationally.\nObjectives Increase internationally published research output Strengthen research partnerships Support researchers and fund projects Link research to community service Research Priorities Sustainable energy Public health Information technology Agriculture and food security Environment and water resources Contact research@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

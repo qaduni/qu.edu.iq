@@ -15,7 +15,6 @@
 - [التصنيفات والاعتمادات](https://test.qu.edu.iq/ar/about/performance_and_strategy/rankings/): تصنيفات جامعة القادسية في التصنيفات الدولية والاعتمادات الأكاديمية
 - [التعلم مدى الحياة](https://test.qu.edu.iq/ar/campus/continuing-education/lifelong/): برامج التعلم المستمر
 - [التقديم الإلكتروني](https://test.qu.edu.iq/ar/admissions/apply/): نظام التقديم الإلكتروني للقبول
-- [التقويم الأكاديمي](https://test.qu.edu.iq/ar/academics/calendar/): التقويم الأكاديمي للعام الدراسي
 - [الخطة الاستراتيجية](https://test.qu.edu.iq/ar/about/performance_and_strategy/strategic-plan/): الخطة الاستراتيجية والتقارير السنوية لجامعة القادسية
 - [الدورات المفتوحة](https://test.qu.edu.iq/ar/campus/continuing-education/moocs/): دورات مفتوحة عبر الإنترنت
 - [الرؤية والرسالة والأهداف](https://test.qu.edu.iq/ar/about/identity_and_leadership/vision-mission/): رؤية جامعة القادسية ورسالتها وأهدافها الاستراتيجية

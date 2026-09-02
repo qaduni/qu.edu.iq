@@ -2,7 +2,6 @@
 
 ## Overview & Core Pages
 
-- [Academic Calendar](https://test.qu.edu.iq/en/academics/calendar/): Academic calendar for the academic year
 - [Academic Programs](https://test.qu.edu.iq/en/academics/programs/): Academic programs at Al-Qadisiyah University
 - [Academic Regulations](https://test.qu.edu.iq/en/academics/regulations/): Academic rules and regulations
 - [Accessibility](https://test.qu.edu.iq/en/policies/accessibility/): Accessibility statement for users with special needs

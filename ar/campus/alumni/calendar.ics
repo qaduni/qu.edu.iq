@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//qu.edu.iq//Academic Calendar//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Academic Calendar
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:27a5e4356753ad6a8f50ff9271355e19-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:آراء أصحاب العمل
+DESCRIPTION:آراء أصحاب العمل نجمع آراء أصحاب العمل لتحسين برامجنا.\nfeedback@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:87a23ab3b488d81ee434c055bcf0bfc3-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:خريجون متميزون
+DESCRIPTION:خريجون متميزون نفتخر بخريجينا المتميزين في مختلف المجالات.\n
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c17685a5655bbf227dad191f92f4dde7-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:شبكة الخريجين
+DESCRIPTION:شبكة الخريجين انضم لشبكة خريجي جامعة القادسية للبقاء على تواصل.\nalumni@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0bf47a8b04d7a8bb6010d6ee902ebe17-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:فرص العمل
+DESCRIPTION:فرص العمل تتوفر فرص عمل متنوعة لخريجي الجامعة.\ncareers@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:387cacf426668c0cac2f0ef9fd79cc01-ar@qu.edu.iq
+DTSTAMP:20260902T085317Z
+DTSTART:00010101T000000Z
+SUMMARY:متابعة الخريجين
+DESCRIPTION:متابعة الخريجين ⟨استبيان متابعة الخريجين متوفر للخريجين⟩\ntracer@qu.edu.iq 
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
