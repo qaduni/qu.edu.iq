@@ -7,7 +7,7 @@ X-WR-CALNAME:Academic Calendar
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:d772a630af13e8ddf6a7178c55c431f9-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Announcements
 DESCRIPTION:Announcements and Circulars Follow the latest official announcements and circulars issued by Al-Qadisiyah University.\n
@@ -15,7 +15,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5d12cc9deef15abe9243cceaf3f7ed46-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Contact Us
 DESCRIPTION:Contact Information Address Al-Qadisiyah University\nAl-Diwaniyah, Al-Qadisiyah Province\nIraq\nPhone Main Line: +964 780 000 0000 Fax: +964 36 224 1400 Email General Inquiries: info@qu.edu.iq Admissions: admission@qu.edu.iq Student Affairs: students@qu.edu.iq Technical Support: support@qu.edu.iq Working Hours Sunday - Thursday: 8:00 AM - 3:00 PM Friday &amp; Saturday: Closed Contact Form To contact us, please fill out the form below and we will respond as soon as possible.\nLocation 
@@ -23,7 +23,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d4eb360074214dc635b360e1e63f7e92-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Multimedia
 DESCRIPTION:Photo &amp; Video Gallery Photo Albums Graduation Ceremony 2024 Photos from the 35th batch graduation ceremony.\nInternational Scientific Conference Documentation of the 12th international conference events.\nCampus Tour Photos of modern university buildings and facilities.\nStudent Activities Sports, cultural, and artistic activities snapshots.\nVideos University Introduction Comprehensive overview of Al-Qadisiyah University.\nVirtual Tour Virtually explore the university campus.\nAlumni Testimonials Graduates sharing their university experience.\nResearch Achievements Video reports on major scientific achievements.\nFollow Us Follow us on our official channels:\nYouTube Facebook Instagram 
@@ -31,7 +31,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a26ff0be09c5b856e4a521a4c143bf1f-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:News & Announcements
 DESCRIPTION:Latest News Follow the latest activities, events, and achievements at Al-Qadisiyah University.\n
@@ -39,7 +39,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d2b4ebd6631ee1597dbf9820e763f01d-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Photo Gallery
 DESCRIPTION:Al-Qadisiyah University Photo Gallery Explore the university campus and facilities through our photo gallery.\nUniversity Buildings Main Gate Photo of Al-Qadisiyah University&rsquo;s main gate welcoming visitors and students.\nAdministrative Building Main building housing university administration and presidency.\nCentral Library Central library containing thousands of books and scientific references.\nScientific Laboratories College of Medicine Labs Modern laboratories equipped for medical student training.\nCollege of Engineering Labs Advanced engineering workshops and laboratories.\nCollege of Science Labs Chemistry, physics, and biology laboratories.\nLecture Halls Modern Lecture Halls Halls equipped with the latest presentation and educational technology.\nConference Halls Large halls for hosting conferences and scientific seminars.\nSports Facilities Sports Fields Football, basketball, and volleyball fields.\nIndoor Gyms Indoor facilities for various sports activities.\nEvents and Activities Graduation Ceremonies Photos from annual graduation ceremonies.\nScientific Conferences Snapshots from conferences and scientific seminars.\nStudent Activities Cultural, sports, and artistic student activities.\nGreen Spaces University Gardens Green spaces and gardens within the university campus.\nNote: The gallery will be updated with high-quality photos soon.\nTo contribute photos or request official photos:\nmedia@qu.edu.iq 
@@ -47,7 +47,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:adfaea7430be37db01c06387f12f9575-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Publications
 DESCRIPTION:Publications &amp; Newsletters Download Publications\n

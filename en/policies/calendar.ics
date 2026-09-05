@@ -7,7 +7,7 @@ X-WR-CALNAME:Academic Calendar
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:70c5ee623c690e99412063a2bcca3b18-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Accessibility
 DESCRIPTION:Accessibility Statement Al-Qadisiyah University is committed to making its website accessible to all users.\nOur Commitments Design compliant with WCAG 2.1 standards Screen reader support Appropriate color contrast Alternative text for images Keyboard navigation Assistance If you encounter any accessibility difficulties:\nEmail: accessibility@qu.edu.iq Phone: +964 780 000 0000 Report an Issue We welcome your feedback to improve accessibility.\n
@@ -15,7 +15,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:9e730dc6384a13c328cbf8881f22dd55-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Data Protection
 DESCRIPTION:Data Protection Policy Al-Qadisiyah University is committed to protecting personal data of all users according to international standards.\nData Protection Principles Transparency - Informing users how their data is used Minimization - Collecting only necessary data Accuracy - Maintaining data accuracy and updates Security - Protecting data from unauthorized access Data Subject Rights Right to access data Right to rectification Right to erasure Right to restrict processing Right to data portability Contact Data Protection Officer: dpo@qu.edu.iq 
@@ -23,7 +23,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8cf760c0ba8b3c561b797fa536d1dda4-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Privacy Policy
 DESCRIPTION:Introduction Al-Qadisiyah University is committed to protecting the privacy of its website visitors and users. This policy explains how we collect, use, and protect personal information.\nInformation We Collect Information You Provide Name and contact details when filling out contact forms Email address when subscribing to newsletters Academic information when applying for admission Automatically Collected Information IP address and browser type Pages visited on the website Date and time of visit Cookies How We Use Information We use collected information for the following purposes:\nService Delivery: Processing admission and registration applications Communication: Responding to inquiries and sending important notifications Website Improvement: Analyzing usage patterns to enhance user experience Security: Protecting the website from unauthorized use Data Protection We implement the following measures to protect your data:\nUse of encrypted HTTPS protocol Storage of data on secure servers Restricted access to authorized personnel only Regular updates to security systems Cookies Our website uses cookies to:\nRemember language preferences Improve website performance Analyze traffic You can manage cookies through your browser settings.\nYour Rights You have the right to:\nAccess your personal data Request correction of inaccurate data Request deletion of data Object to data processing Data Sharing We do not sell or share your data with third parties except in the following cases:\nWith your explicit consent To comply with legal requirements To protect the university&rsquo;s rights Contact Us For any inquiries regarding the privacy policy:\nEmail: privacy@qu.edu.iq Phone: +964 780 000 0000 Policy Updates We may update this policy from time to time. Any changes will be posted on this page.\nLast Updated: January 2026\n
@@ -31,7 +31,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:4450a5cd03425840314b8c6e26220794-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Security Policy
 DESCRIPTION:Introduction Al-Qadisiyah University is committed to providing a secure digital environment for all users. This policy outlines the security procedures and measures implemented to protect the website and data.\nSSL Certificate and Encryption Our website uses a valid SSL certificate to encrypt all communications All transmitted data is protected with HTTPS encryption HSTS policy is implemented to ensure secure connections Attack Protection DDoS Protection Advanced protection system against denial-of-service attacks Continuous monitoring of abnormal traffic SQL Injection Protection Inspection and filtering of all inputs Use of parameterized queries XSS Protection Sanitization of user-submitted content Content Security Policies (CSP) Firewall Web Application Firewall (WAF) Blocklists for suspicious addresses Monitoring and logging of intrusion attempts Security Testing We conduct regular security tests including:\nPenetration testing Vulnerability scanning Code review System and library updates Access Management Principle of least privilege Multi-factor authentication for administrators Regular review of access permissions Logging of all login activities Backup Daily data backups Storage in multiple geographic locations Regular testing of data recovery Incident Response We have a security incident response plan that includes:\nRapid detection and identification Containment and isolation Threat elimination Service restoration Documentation and review Vulnerability Reporting We encourage security researchers to responsibly report any vulnerabilities:\nEmail: security@qu.edu.iq Phone: +964 780 000 0000 Security Updates We commit to:\nRegular software updates Applying security patches upon release Annual review of security policies Last Updated: January 2026\n

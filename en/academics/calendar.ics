@@ -7,14 +7,14 @@ X-WR-CALNAME:Academic Calendar
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:9fbe0b2e974ace2619783c7d5a9a89f9-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Academic Calendar
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:dfdc7bf6cacf2eb35707ec166e58f8c4-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Academic Programs
 DESCRIPTION:Academic Programs Bachelor&rsquo;s Programs The university offers over 100 bachelor&rsquo;s programs in various specializations.\nMaster&rsquo;s Programs Master&rsquo;s programs available in most colleges.\nDoctoral Programs Doctoral programs in advanced specializations.\nPrograms by Field Field Programs Medicine &amp; Health 15+ Engineering 12+ Sciences 18+ Humanities 35+ Management 8+ Program Specifications (Bologna)\n
@@ -22,7 +22,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a33fa69b37a89fa0a8e264f0aa088bab-en@qu.edu.iq
-DTSTAMP:20260902T085317Z
+DTSTAMP:20260905T091708Z
 DTSTART:00010101T000000Z
 SUMMARY:Academic Regulations
 DESCRIPTION:Academic Regulations Undergraduate Regulations Semester system Grading system Pass/fail requirements Academic warning system Postgraduate Regulations Admission requirements Thesis/dissertation requirements Examination committees Scientific publication Downloads Undergraduate Regulations (PDF) Postgraduate Regulations (PDF) 
